@@ -1,0 +1,14 @@
+{
+  "name": "croveli",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "dev": "node scripts/serve.cjs",
+    "test": "node scripts/verify.cjs"
+  },
+  "devDependencies": {
+    "sharp": "0.35.5",
+    "playwright": "1.62.1"
+  }
+}

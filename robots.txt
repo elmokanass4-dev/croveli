@@ -1,0 +1,4 @@
+# GitHub project-path copy; effective robots.txt must be at the origin root.
+User-agent: *
+Allow: /croveli/
+Sitemap: https://elmokanass4-dev.github.io/croveli/sitemap.xml
