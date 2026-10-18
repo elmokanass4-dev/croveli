@@ -8,3 +8,15 @@ body{overflow-wrap:break-word}img{max-width:100%}.hero-photo img{aspect-ratio:1;
 @media(max-width:480px){.grid{grid-template-columns:1fr;gap:30px}.card-img{height:auto;aspect-ratio:1}.card h3{margin-top:12px}.hero-photo{min-height:330px}.hero-copy{padding:28px 23px}.hero-bottom span{width:100%;text-align:center}.hero-bottom{gap:5px;padding:15px}.newsletter h2{font-size:36px}.section{margin-top:42px}.article-layout aside .toc{grid-template-columns:1fr}.page-head h1 br{display:none}.facts{flex-wrap:wrap}.page-head{margin-top:28px}.guide h1{font-size:36px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
 
+/* Stable vector symbols and the bright green hero action. */
+.ui-symbol{display:inline-block;vertical-align:-.16em;width:1em;height:1em;min-width:14px;flex-shrink:0;letter-spacing:normal;pointer-events:none}
+.symbol-arrow{width:16px;height:16px}
+.brand-mark{font-size:inherit;line-height:0;vertical-align:middle;transform:none}
+.brand .symbol-spark{width:34px;height:34px;min-width:34px;vertical-align:-2px;color:var(--green)}
+footer .brand>.symbol-spark{margin-right:5px}
+.hero-bottom .symbol-spark{color:#9d7556;width:13px;height:13px;vertical-align:-2px}
+.button>span:has(>.symbol-arrow){display:inline-flex;align-items:center;line-height:1}
+.hero-copy>.button{background:#69e33d;border-color:#69e33d;color:#17300e}
+.hero-copy>.button:hover{background:#58d32c;border-color:#58d32c;color:#17300e}
+.hero-copy>.button:active{background:#4bc21f;border-color:#4bc21f}
+@media(max-width:760px){.brand .symbol-spark{width:28px;height:28px;min-width:28px}.hero-copy>.button .symbol-arrow{width:18px;height:18px}}
