@@ -20,3 +20,6 @@ GitHub Pages publishes the root of the `main` branch automatically after each pu
 Pattern instructions are illustrative drafts. Replace with tested patterns before launch. Newsletter and contact forms are demos; saved patterns, comments, and round progress stay in the visitor's browser.
 
 See [SEO.md](SEO.md) for implementation, validation, and Search Console setup.
+
+
+Layout refinements live in `refinement.css`. Each project in `src/templates.js` has a `focal` value (CSS object-position) for card and introduction crops. Responsive source images preserve the full photograph. Category links and difficulty buttons are separate; difficulty filters keep the selected project category.

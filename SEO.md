@@ -7,7 +7,7 @@
 - Organization, WebSite, WebPage/CollectionPage/Article, and BreadcrumbList JSON-LD that describes visible content. No invented ratings, authors, publication dates, or tested-pattern claims.
 - Eight draft pattern previews are `noindex,follow` until real, tested patterns replace them. Saved projects, demo legal/contact pages, and the real GitHub Pages 404 response are also noindex.
 - Real internal links replace hash navigation. Old shared hash links redirect in the browser to their corresponding pages.
-- Seven source images have 400/800/1200-pixel WebP variants, responsive source sets, image dimensions, lazy loading below the fold, and prioritized lead images. Combined 800px images are 388,970 bytes versus 19,418,383 original JPEG bytes, about 98% less. This is an asset-size comparison, not a measured Core Web Vitals score.
+- Seven source images have 400/800/1200-pixel WebP variants, responsive source sets, image dimensions, lazy loading below the fold, and prioritized lead images. Combined 800px images are 626,392 bytes versus 19,418,383 original JPEG bytes, about 97% less. This is an asset-size comparison, not a measured Core Web Vitals score.
 - No external font request. Phone cards use one column, controls have larger touch areas, inputs use 16px text, tutorial navigation stays visible, and reduced-motion preferences are supported.
 
 ## Verification
