@@ -1,0 +1,34 @@
+{
+  "result": "PASS",
+  "pages": 32,
+  "viewports": [
+    {
+      "width": 320,
+      "cls": 0
+    },
+    {
+      "width": 390,
+      "cls": 0
+    },
+    {
+      "width": 656,
+      "cls": 0
+    },
+    {
+      "width": 768,
+      "cls": 0
+    },
+    {
+      "width": 1024,
+      "cls": 0
+    },
+    {
+      "width": 1440,
+      "cls": 0
+    }
+  ],
+  "keyboard": "skip link, disclosure menu, Escape, search focus, instruction focus",
+  "flows": "filters, reload, related projects, saved patterns, material and round persistence, storage failures",
+  "seo": "unique titles, descriptions, canonical path, full breadcrumbs, no-JS content, pattern indexing metadata",
+  "advertising": "no scripts or ad units"
+}

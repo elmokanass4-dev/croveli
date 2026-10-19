@@ -1,0 +1,62 @@
+{
+  "choosing-yarn-for-crochet": {
+    "heading": "Compare yarn choices in real projects",
+    "introduction": "Use each pattern’s own materials list alongside the guide. These projects show how yarn texture and thickness can differ; they are not interchangeable yarn recommendations.",
+    "projects": [
+      {
+        "id": "long-eared-bunny",
+        "reason": "Compare the bunny’s plush chenille requirements with the guide’s advice on texture and stitch visibility."
+      },
+      {
+        "id": "sitting-calico-kitten",
+        "reason": "Look at the kitten’s fine cotton thread and 1.5 mm hook before considering a yarn substitution."
+      },
+      {
+        "id": "pumpkin-cat",
+        "reason": "Check the cotton yarn and different hook sizes listed for the cat, hat, and pumpkin pieces."
+      }
+    ]
+  },
+  "crochet-loops-front-back": {
+    "heading": "See front and back loops in a pattern",
+    "introduction": "These projects use loop-specific instructions. Read the linked component and follow that pattern’s stitch counts; the guide explains loop placement rather than replacing the instructions.",
+    "projects": [
+      {
+        "id": "luna-witchy-cat",
+        "reason": "Luna’s sleeves and body use BLO, while her cuffs, skirt, and hat brim use FLO.",
+        "section": "arms"
+      },
+      {
+        "id": "sitting-calico-kitten",
+        "reason": "The kitten pattern introduces BLO and FLO in its abbreviation list and uses loop-specific shaping.",
+        "section": "head"
+      },
+      {
+        "id": "pumpkin-cat",
+        "reason": "See how the pumpkin’s BLO stitches mark its shaping lines across repeated rounds.",
+        "section": "pumpkin"
+      }
+    ]
+  },
+  "how-to-read-crochet-patterns": {
+    "heading": "Read the notation in a real pattern",
+    "introduction": "Explore how the supplied patterns present repeats, color changes, rows, and rounds. These are examples to read alongside the guide; check each project’s own materials and skill information before starting.",
+    "projects": [
+      {
+        "id": "long-eared-bunny",
+        "reason": "See grouped repeat rounds and numbered steps in the bunny’s leg instructions.",
+        "section": "legs"
+      },
+      {
+        "id": "sitting-calico-kitten",
+        "reason": "Use the abbreviation table to follow the kitten’s color labels and repeat notation.",
+        "anchor": "abbreviations"
+      },
+      {
+        "id": "luna-witchy-cat",
+        "reason": "Compare rounds in the cat pieces with the turned rows used for Luna’s cloak.",
+        "section": "cloak"
+      }
+    ]
+  }
+}

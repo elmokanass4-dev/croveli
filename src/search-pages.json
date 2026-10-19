@@ -1,0 +1,85 @@
+{
+  "home": {
+    "focus": "free crochet patterns and amigurumi guides",
+    "title": "Free Crochet Patterns & Amigurumi Guides | Croveli",
+    "description": "Discover free crochet patterns for a long-eared bunny and characterful cats. Find project photos, materials, amigurumi instructions, and crochet guides."
+  },
+  "collections": {
+    "All patterns": {
+      "focus": "browse free crochet patterns",
+      "title": "Free Crochet Patterns: Cats & Bunnies | Croveli",
+      "heading": "Browse free crochet patterns.",
+      "description": "Browse Croveli’s free crochet patterns for cats, a long-eared bunny, and Halloween projects. Filter by theme and listed difficulty to choose your next make.",
+      "introduction": "Choose your next project from our free crochet pattern collection. Explore cats, a long-eared bunny, and Halloween companions, with theme filters to help you find a favorite. Each pattern brings together materials, photographs, and component instructions.",
+      "status": "published",
+      "minProjects": 1,
+      "match": {}
+    },
+    "Amigurumi": {
+      "focus": "free amigurumi crochet patterns",
+      "title": "Free Amigurumi Crochet Patterns: Animals | Croveli",
+      "heading": "Free amigurumi crochet patterns.",
+      "description": "Explore free amigurumi crochet patterns for bunny and cat projects, with materials, shaping instructions, assembly details, and reference photographs.",
+      "introduction": "Explore amigurumi: small crocheted characters shaped, stuffed, and assembled piece by piece. These free animal patterns include a plush bunny and three cats, with project-specific notes on shaping, joining, and facial details.",
+      "editorialHeading": "Choose an amigurumi project by construction",
+      "editorial": [
+        "For a plush texture, explore the long-eared bunny: the legs and arms are joined into the body as it is worked, and the face uses sculpting and embroidery. Its styled jacket is shown in the photograph; jacket instructions are not included.",
+        "For smaller cotton-thread details, look through the calico kitten’s color changes and shaping photographs. For loop-specific stitches and clothing components, explore Luna’s sleeves, skirt, hat, and cloak. Read each pattern’s notes before choosing your project."
+      ],
+      "guides": [
+        "choosing-yarn-for-crochet",
+        "crochet-loops-front-back",
+        "how-to-read-crochet-patterns"
+      ],
+      "status": "published",
+      "minProjects": 2,
+      "match": {
+        "category": "Amigurumi"
+      }
+    },
+    "Cats": {
+      "focus": "free cat crochet patterns",
+      "title": "Free Cat Crochet Patterns: Calico & Witch Cats | Croveli",
+      "heading": "Free cat crochet patterns.",
+      "description": "Choose from free cat crochet patterns: a sitting calico kitten, a pumpkin cat, and Luna the witch cat. Compare hooks, sizes, and project details.",
+      "introduction": "Find a crochet cat with a personality you love. Choose the patchwork coat of a sitting calico kitten, the pumpkin perch of a little black cat, or Luna’s pointed hat and ruffled skirt. Compare the project details below before gathering your yarn.",
+      "comparisonHeading": "Compare cat crochet projects",
+      "editorialHeading": "Choose the details you want to make",
+      "editorial": [
+        "The calico kitten uses fine cotton thread and a 1.5 mm hook. Its color changes and facial photo sequence are useful details to look through before starting.",
+        "For a seasonal scene, compare the two witch cats. Pumpkin Cat pairs the cat with a pumpkin perch and uses different hooks for its components. Luna combines a shaped cat with clothing details and is listed as intermediate in the supplied pattern."
+      ],
+      "guides": [
+        "choosing-yarn-for-crochet",
+        "how-to-read-crochet-patterns"
+      ],
+      "status": "published",
+      "minProjects": 2,
+      "match": {
+        "tag": "Cats"
+      }
+    },
+    "Halloween": {
+      "focus": "free Halloween crochet patterns",
+      "title": "Free Halloween Crochet Patterns: Pumpkin & Witch Cats | Croveli",
+      "heading": "Free Halloween crochet patterns.",
+      "description": "Explore free Halloween crochet patterns: Pumpkin Cat and Luna the Witchy Cat. Compare their components, hook sizes, materials, and listed difficulty.",
+      "introduction": "Make a little seasonal character for your shelf with these Halloween cat projects. Pumpkin Cat combines an orange pumpkin with a tiny black witch cat; Luna brings together a grey cat, mauve hat, ruffled skirt, and plum cloak.",
+      "comparisonHeading": "Compare Halloween crochet projects",
+      "editorialHeading": "A pumpkin scene or a dressed-up companion?",
+      "editorial": [
+        "Choose Pumpkin Cat if you want the pumpkin and leaf details to be part of the project. Check the separate hook sizes for the cat pieces, hat, pumpkin, and leaves before gathering your materials.",
+        "Choose Luna if you want to explore small clothing details. Her pattern combines continuous rounds, front- and back-loop work, and turned rows for the cloak. The supplied pattern lists an intermediate difficulty."
+      ],
+      "guides": [
+        "crochet-loops-front-back",
+        "how-to-read-crochet-patterns"
+      ],
+      "status": "published",
+      "minProjects": 2,
+      "match": {
+        "tag": "Halloween"
+      }
+    }
+  }
+}

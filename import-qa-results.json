@@ -1,0 +1,22 @@
+{
+  "result": "PASS",
+  "patterns": 4,
+  "componentSections": 32,
+  "instructionRows": 317,
+  "layouts": 16,
+  "viewports": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "checks": [
+    "all instructions rendered from source data",
+    "all materials rendered",
+    "all images decoded",
+    "no horizontal overflow",
+    "four current cards",
+    "source attribution",
+    "no browser errors"
+  ]
+}

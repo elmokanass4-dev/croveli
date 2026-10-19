@@ -5,10 +5,13 @@
   "scripts": {
     "build": "node scripts/build.cjs",
     "dev": "node scripts/serve.cjs",
-    "test": "node scripts/verify.cjs"
+    "test": "node scripts/verify.cjs",
+    "check:launch": "node scripts/verify-launch.cjs",
+    "check:performance": "node scripts/verify-performance.cjs"
   },
   "devDependencies": {
-    "sharp": "0.35.5",
-    "playwright": "1.62.1"
+    "@axe-core/playwright": "^4.14.0",
+    "playwright": "1.62.1",
+    "sharp": "0.35.5"
   }
 }

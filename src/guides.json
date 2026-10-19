@@ -1,5 +1,110 @@
 [
-{"slug":"choosing-yarn-for-crochet","title":"How to choose yarn for crochet","description":"Learn how yarn fiber, weight, texture, and care instructions affect your crochet project, from amigurumi to home decor.","sections":[["Start with the project, then choose the yarn","A coaster, a soft toy, and a drapey scarf need different things from their yarn. Before shopping, check the pattern’s recommended fiber, yarn weight, hook size, and yardage. If you substitute a yarn, match more than its color: thickness and fiber change how the finished piece feels and behaves."],["Cotton, acrylic, and wool: what changes?","Cotton has clear stitch definition and relatively little stretch, making it useful for many home accessories. Acrylic can be an approachable option for practice and soft decorative projects; check its care label. Wool is elastic and warm, but its washing requirements vary. No fiber is right for every project. For anything exposed to heat, follow the pattern’s material requirements and the yarn manufacturer’s guidance."],["Understand yarn weight","Yarn weight describes thickness, not the weight of the ball. Names such as DK, worsted, and bulky help you compare options, but two yarns in the same category can still differ. Compare the recommended gauge and the length per ball. Keep the ball band so you can check fiber content and dye lot later."],["Choose a yarn that makes stitches visible","For your first crochet projects, a smooth, light-colored yarn makes it easier to see the V-shaped tops of stitches. Very fluffy, dark, or highly textured yarn can hide the loops you need to work into. Try a small practice square before committing to a large project."],["Swatch before substituting","Make a swatch with the suggested hook and compare it with the pattern’s gauge instructions. Measure without stretching it; wash and dry it as directed if the final item will be washed. A larger or smaller hook changes stitch size, while fiber can change drape even when gauge matches."],["Plan the amount and care","Estimate yardage from the pattern, rather than assuming every ball contains the same length. Buy enough in the same dye lot when consistent color matters. Save the washing instructions and include them with a handmade gift."]]},
-{"slug":"crochet-loops-front-back","title":"Crochet loops explained: front loop, back loop, and both loops","description":"Identify the front and back loops of a crochet stitch, understand FLO and BLO, and learn how loop placement changes texture.","sections":[["Find the V at the top of your stitch","Look at the top edge of a row of single crochet. Each stitch has a V-shaped top with two strands. With the work held in its current working position, the strand closest to you is the front loop and the strand farther away is the back loop. Turned work can change which side of the fabric faces you, so follow the pattern’s instructions about right and wrong sides."],["Working through both loops","Unless the pattern specifies otherwise, many basic stitches are worked under both strands of that V. Insert the hook under both top loops of the next stitch, then complete the stitch as directed. This gives you a useful baseline for comparing other loop placements."],["Back loop only: BLO","For BLO, insert the hook under only the back strand of the V and complete the stitch. The unworked front loops create a visible line. Repeated rows of back-loop stitches can produce a ribbed texture, but the result depends on the stitch, yarn, and construction."],["Front loop only: FLO","For FLO, insert the hook under only the strand nearest you. The unused back loops remain available and can form a line on the other side of the work. Some patterns use these spare loops to attach a later detail. Follow the pattern rather than switching between FLO and BLO accidentally."],["The loop on your hook is different","The active loop sitting on the hook is not the front or back loop of the next stitch. Patterns may also refer to a third loop in certain stitches, such as half double crochet. That is a separate placement; check the pattern’s diagram before starting."],["Try a small comparison swatch","Make three small samples using the same yarn, hook, and stitch count. Work one through both loops, one in BLO, and one in FLO. Label each sample and compare the raised lines and stretch. Count your stitches at the end of every row so a missed loop does not become a missed stitch."]]},
-{"slug":"how-to-read-crochet-patterns","title":"How to read crochet patterns: a beginner’s guide","description":"Learn crochet abbreviations, repeat instructions, stitch counts, and the difference between rows and rounds before starting a pattern.","sections":[["Read the whole pattern first","Look for the skill level, finished measurements, yarn requirements, hook size, gauge, and terminology. Check whether the pattern uses US or UK terms: the same abbreviation can describe a different stitch. The pattern’s own abbreviation list is your first reference."],["Common US crochet abbreviations","In US terminology, ch means chain, sc means single crochet, hdc means half double crochet, dc means double crochet, and sl st means slip stitch. An increase adds stitches; a decrease combines stitches. Their exact method should be specified by the designer. MR commonly means magic ring."],["Read repeats one group at a time","An instruction such as (sc, inc) × 6 asks you to work one single crochet followed by an increase, then repeat that two-action group six times in total. Markers, parentheses, brackets, and asterisks can mean different things between designers, so check the key at the beginning."],["Check the stitch counts","A number in brackets often tells you the expected count at the end of the row or round. For example, starting with 6 stitches and increasing in each stitch produces 12 stitches. Count before continuing. Catching a missed increase early is easier than repairing several rounds later."],["Rows and rounds use different construction","Rows often turn the work at the end, while rounds travel around a shape. Rounds may be joined with a slip stitch or worked continuously in a spiral. Do not assume the turning chain counts as a stitch: the pattern should tell you. Place a marker in the first stitch when working continuous rounds."],["Keep your place and ask precise questions","Tick completed rows and write down color changes or adjustments. If an instruction seems inconsistent, note the row number, the starting stitch count, and the count you reached. Check for published corrections before changing the pattern. A practice swatch is a good place to learn a new technique."]]}
+  {
+    "slug": "choosing-yarn-for-crochet",
+    "title": "How to choose yarn for crochet",
+    "description": "Learn how yarn fiber, weight, texture, and care instructions affect your crochet project, from amigurumi to home decor.",
+    "sections": [
+      [
+        "Start with the project, then choose the yarn",
+        "A coaster, a soft toy, and a drapey scarf need different things from their yarn. Before shopping, check the pattern’s recommended fiber, yarn weight, hook size, and yardage. If you substitute a yarn, match more than its color: thickness and fiber change how the finished piece feels and behaves."
+      ],
+      [
+        "Cotton, acrylic, and wool: what changes?",
+        "Cotton has clear stitch definition and relatively little stretch, making it useful for many home accessories. Acrylic can be an approachable option for practice and soft decorative projects; check its care label. Wool is elastic and warm, but its washing requirements vary. No fiber is right for every project. For anything exposed to heat, follow the pattern’s material requirements and the yarn manufacturer’s guidance."
+      ],
+      [
+        "Understand yarn weight",
+        "Yarn weight describes thickness, not the weight of the ball. Names such as DK, worsted, and bulky help you compare options, but two yarns in the same category can still differ. Compare the recommended gauge and the length per ball. Keep the ball band so you can check fiber content and dye lot later."
+      ],
+      [
+        "Choose a yarn that makes stitches visible",
+        "For your first crochet projects, a smooth, light-colored yarn makes it easier to see the V-shaped tops of stitches. Very fluffy, dark, or highly textured yarn can hide the loops you need to work into. Try a small practice square before committing to a large project."
+      ],
+      [
+        "Swatch before substituting",
+        "Make a swatch with the suggested hook and compare it with the pattern’s gauge instructions. Measure without stretching it; wash and dry it as directed if the final item will be washed. A larger or smaller hook changes stitch size, while fiber can change drape even when gauge matches."
+      ],
+      [
+        "Plan the amount and care",
+        "Estimate yardage from the pattern, rather than assuming every ball contains the same length. Buy enough in the same dye lot when consistent color matters. Save the washing instructions and include them with a handmade gift."
+      ]
+    ],
+    "seo": {
+      "focus": "how to choose yarn for crochet",
+      "title": "How to Choose Yarn for Crochet: Fiber & Weight | Croveli",
+      "description": "Choose yarn for your next crochet project. Understand fiber, yarn weight, stitch visibility, substitution, yardage, and care labels before you begin."
+    }
+  },
+  {
+    "slug": "crochet-loops-front-back",
+    "title": "Crochet loops explained: front loop, back loop, and both loops",
+    "description": "Identify the front and back loops of a crochet stitch, understand FLO and BLO, and learn how loop placement changes texture.",
+    "sections": [
+      [
+        "Find the V at the top of your stitch",
+        "Look at the top edge of a row of single crochet. Each stitch has a V-shaped top with two strands. With the work held in its current working position, the strand closest to you is the front loop and the strand farther away is the back loop. Turned work can change which side of the fabric faces you, so follow the pattern’s instructions about right and wrong sides."
+      ],
+      [
+        "Working through both loops",
+        "Unless the pattern specifies otherwise, many basic stitches are worked under both strands of that V. Insert the hook under both top loops of the next stitch, then complete the stitch as directed. This gives you a useful baseline for comparing other loop placements."
+      ],
+      [
+        "Back loop only: BLO",
+        "For BLO, insert the hook under only the back strand of the V and complete the stitch. The unworked front loops create a visible line. Repeated rows of back-loop stitches can produce a ribbed texture, but the result depends on the stitch, yarn, and construction."
+      ],
+      [
+        "Front loop only: FLO",
+        "For FLO, insert the hook under only the strand nearest you. The unused back loops remain available and can form a line on the other side of the work. Some patterns use these spare loops to attach a later detail. Follow the pattern rather than switching between FLO and BLO accidentally."
+      ],
+      [
+        "The loop on your hook is different",
+        "The active loop sitting on the hook is not the front or back loop of the next stitch. Patterns may also refer to a third loop in certain stitches, such as half double crochet. That is a separate placement; check the pattern’s diagram before starting."
+      ],
+      [
+        "Try a small comparison swatch",
+        "Make three small samples using the same yarn, hook, and stitch count. Work one through both loops, one in BLO, and one in FLO. Label each sample and compare the raised lines and stretch. Count your stitches at the end of every row so a missed loop does not become a missed stitch."
+      ]
+    ],
+    "seo": {
+      "focus": "crochet front loop and back loop explained",
+      "title": "Crochet Loops Explained: FLO, BLO & Both Loops | Croveli",
+      "description": "Learn to identify crochet front and back loops, read FLO and BLO instructions, and compare how working through different loops changes your stitches."
+    }
+  },
+  {
+    "slug": "how-to-read-crochet-patterns",
+    "title": "How to read crochet patterns: a beginner’s guide",
+    "description": "Learn crochet abbreviations, repeat instructions, stitch counts, and the difference between rows and rounds before starting a pattern.",
+    "sections": [
+      [
+        "Read the whole pattern first",
+        "Look for the skill level, finished measurements, yarn requirements, hook size, gauge, and terminology. Check whether the pattern uses US or UK terms: the same abbreviation can describe a different stitch. The pattern’s own abbreviation list is your first reference."
+      ],
+      [
+        "Common US crochet abbreviations",
+        "In US terminology, ch means chain, sc means single crochet, hdc means half double crochet, dc means double crochet, and sl st means slip stitch. An increase adds stitches; a decrease combines stitches. Their exact method should be specified by the designer. MR commonly means magic ring."
+      ],
+      [
+        "Read repeats one group at a time",
+        "An instruction such as (sc, inc) × 6 asks you to work one single crochet followed by an increase, then repeat that two-action group six times in total. Markers, parentheses, brackets, and asterisks can mean different things between designers, so check the key at the beginning."
+      ],
+      [
+        "Check the stitch counts",
+        "A number in brackets often tells you the expected count at the end of the row or round. For example, starting with 6 stitches and increasing in each stitch produces 12 stitches. Count before continuing. Catching a missed increase early is easier than repairing several rounds later."
+      ],
+      [
+        "Rows and rounds use different construction",
+        "Rows often turn the work at the end, while rounds travel around a shape. Rounds may be joined with a slip stitch or worked continuously in a spiral. Do not assume the turning chain counts as a stitch: the pattern should tell you. Place a marker in the first stitch when working continuous rounds."
+      ],
+      [
+        "Keep your place and ask precise questions",
+        "Tick completed rows and write down color changes or adjustments. If an instruction seems inconsistent, note the row number, the starting stitch count, and the count you reached. Check for published corrections before changing the pattern. A practice swatch is a good place to learn a new technique."
+      ]
+    ],
+    "seo": {
+      "focus": "how to read crochet patterns",
+      "title": "How to Read Crochet Patterns: Beginner Guide | Croveli",
+      "description": "Learn how to read crochet patterns, from US stitch abbreviations and repeat symbols to stitch counts, rows, and rounds. Build confidence before your next project."
+    }
+  }
 ]

@@ -1,0 +1,275 @@
+{
+  "engine": "axe-core via Microsoft Edge",
+  "result": "PASS",
+  "checks": 30,
+  "results": [
+    {
+      "route": "",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/cats/",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/halloween/",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/long-eared-bunny/",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/sitting-calico-kitten/",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/pumpkin-cat/",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/luna-witchy-cat/",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "learn/crochet-loops-front-back/",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "about/",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "contact/",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "privacy/",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "terms/",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "saved/",
+      "width": 390,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/cats/",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/halloween/",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/long-eared-bunny/",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/sitting-calico-kitten/",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/pumpkin-cat/",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/luna-witchy-cat/",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "learn/crochet-loops-front-back/",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "about/",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "contact/",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "privacy/",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "terms/",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "saved/",
+      "width": 1440,
+      "state": "page",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/sitting-calico-kitten/",
+      "width": 390,
+      "state": "search dialog",
+      "violations": [],
+      "manualReviewRules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "patterns/sitting-calico-kitten/",
+      "width": 390,
+      "state": "photo dialog",
+      "violations": [],
+      "manualReviewRules": []
+    }
+  ]
+}

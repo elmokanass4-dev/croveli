@@ -1,0 +1,32 @@
+const assert=require('assert/strict'),fs=require('fs'),path=require('path'),os=require('os'),vm=require('vm'),{execFileSync}=require('child_process');
+const {prepareCatalog}=require('./catalog.cjs');
+const root=path.resolve(__dirname,'..');
+const input=()=>({patterns:structuredClone(require('../src/patterns.json')),collections:structuredClone(require('../src/search-pages.json').collections),guides:structuredClone(require('../src/guides.json')),learningLinks:structuredClone(require('../src/learning-links.json')),root});
+const valid=prepareCatalog(input());const baseline=valid.patterns.length;assert(baseline>0);
+for(const [mutate,expected]of [
+ [x=>x.patterns.push(structuredClone(x.patterns[0])),/duplicate pattern id/],
+ [x=>x.patterns[0].id='cats',/reserved pattern id/],
+ [x=>delete x.patterns[0].status,/requires status/],
+ [x=>x.patterns[0].materials=[],/needs materials/],
+ [x=>x.patterns[0].image='missing-image.jpg',/missing image/],
+ [x=>x.patterns[0].sections.push(structuredClone(x.patterns[0].sections[0])),/duplicate .*section id/],
+ [x=>x.patterns[0].seo.title=x.patterns[1].seo.title,/duplicate pattern title/],
+ [x=>x.patterns[0].alt='<script>bad</script>',/plain text/],
+ [x=>x.collections.Cats.editorial=[],/curated collection advice/],
+ [x=>x.learningLinks['crochet-loops-front-back'].projects[0].section='missing',/unknown learning section/]
+]){const x=input();mutate(x);assert.throws(()=>prepareCatalog(x),expected);}
+const draft=input();draft.patterns.push({id:'future-draft',name:'Future draft',status:'draft'});assert.equal(prepareCatalog(draft).patterns.length,baseline);
+const threshold=input();threshold.collections.Cats.minProjects=valid.patterns.filter(p=>p.tags.includes('Cats')).length+1;assert(!prepareCatalog(threshold).cats.includes('Cats'));threshold.collections.Cats.status='draft';assert(!prepareCatalog(threshold).cats.includes('Cats'));
+const grown=input(),fixture=structuredClone(grown.patterns[1]);fixture.id='catalog-growth-fixture';fixture.name='Catalog growth fixture';fixture.description='A test-only catalog entry used to verify automatic growth in an isolated temporary build.';delete fixture.seo;grown.patterns.push(fixture);grown.patterns.push({id:'future-draft',name:'Future draft',status:'draft'});const ready=prepareCatalog(grown);assert.equal(ready.patterns.length,baseline+1);assert.equal(ready.patterns.at(-1).seo.title,'Catalog growth fixture Crochet Pattern | Croveli');assert(ready.patterns.at(-1).seo.description.includes('test-only'));
+const context=vm.createContext({});vm.runInContext('const patterns='+JSON.stringify(ready.patterns)+';const cats='+JSON.stringify(ready.cats)+';const collectionRules='+JSON.stringify(Object.fromEntries(Object.entries(ready.collections).map(([n,c])=>[n,c.match])))+';'+fs.readFileSync(path.join(root,'src/templates.js'),'utf8'),context);assert.equal(vm.runInContext('relatedPatterns(patterns[1]).length',context),3);assert(vm.runInContext('relatedPatterns(patterns[1]).some(p=>p.id==="catalog-growth-fixture")',context));
+// Build a separate copy: fixture content never enters the working website.
+const scratch=fs.mkdtempSync(path.join(os.tmpdir(),'croveli-catalog-qa-'));for(const dir of ['src','scripts','assets'])fs.mkdirSync(path.join(scratch,dir));for(const name of fs.readdirSync(path.join(root,'src')))fs.copyFileSync(path.join(root,'src',name),path.join(scratch,'src',name));for(const name of ['build.cjs','catalog.cjs','collection-details.cjs','icons.cjs','visitor-pages.cjs'])fs.copyFileSync(path.join(root,'scripts',name),path.join(scratch,'scripts',name));for(const name of fs.readdirSync(path.join(root,'assets')).filter(n=>n.endsWith('.jpg')))fs.copyFileSync(path.join(root,'assets',name),path.join(scratch,'assets',name));fs.writeFileSync(path.join(scratch,'src/patterns.json'),JSON.stringify(grown.patterns));
+for(const name of ['style.css','refinement.css'])fs.copyFileSync(path.join(root,name),path.join(scratch,name));
+const env={...process.env,NODE_PATH:path.dirname(path.dirname(path.dirname(require.resolve('sharp'))))};
+execFileSync(process.execPath,['scripts/build.cjs'],{cwd:scratch,env,stdio:'pipe'});
+const read=p=>fs.readFileSync(path.join(scratch,p),'utf8');assert(read('patterns/catalog-growth-fixture/index.html').includes('<title>Catalog growth fixture Crochet Pattern | Croveli</title>'));assert(read('sitemap.xml').includes('/patterns/catalog-growth-fixture/'));assert(!read('sitemap.xml').includes('future-draft'));assert(!read('app.js').includes('Future draft'));assert(!fs.existsSync(path.join(scratch,'patterns/future-draft/index.html')));assert.equal((read('patterns/cats/index.html').match(/<tr><th scope="row">/g)||[]).length,valid.patterns.filter(p=>p.tags.includes('Cats')).length+1);
+// Previously generated pages must not leak old content when moved back to draft.
+grown.patterns.find(p=>p.id===fixture.id).status='draft';fs.writeFileSync(path.join(scratch,'src/patterns.json'),JSON.stringify(grown.patterns));execFileSync(process.execPath,['scripts/build.cjs'],{cwd:scratch,env,stdio:'pipe'});assert(!read('sitemap.xml').includes('/patterns/catalog-growth-fixture/'));assert(read('patterns/catalog-growth-fixture/index.html').includes('noindex,follow'));assert(!read('patterns/catalog-growth-fixture/index.html').includes('data-round='));
+const scratchSearch=JSON.parse(read('src/search-pages.json'));scratchSearch.collections.Cats.minProjects=99;fs.writeFileSync(path.join(scratch,'src/search-pages.json'),JSON.stringify(scratchSearch));execFileSync(process.execPath,['scripts/build.cjs'],{cwd:scratch,env,stdio:'pipe'});assert(!read('sitemap.xml').includes('/patterns/cats/'));assert(read('patterns/cats/index.html').includes('noindex,follow'));assert(!read('patterns/halloween/index.html').includes('href="/croveli/patterns/cats/"'));
+const resolved=path.resolve(scratch);if(path.dirname(resolved)!==path.resolve(os.tmpdir())||!path.basename(resolved).startsWith('croveli-catalog-qa-'))throw Error('Unexpected QA cleanup path');fs.rmSync(resolved,{recursive:true,force:true});
+console.log(JSON.stringify({result:'PASS',invalidCases:10,checks:['explicit draft exclusion','unique ids and metadata','required content and assets','curated collection thresholds','automatic SEO defaults','ranked related projects capped at three','isolated new-page build','automatic comparison growth','drafts absent from browser and sitemap','stale public page retirement','ineligible collection retirement and link removal']}));

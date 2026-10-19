@@ -1,4 +1,5 @@
-# GitHub project-path copy; effective robots.txt must be at the origin root.
+# Project-path reference only: crawlers read /robots.txt at the origin root.
+# See HOSTING.md; page-level robots metadata controls draft indexing.
 User-agent: *
 Allow: /croveli/
 Sitemap: https://elmokanass4-dev.github.io/croveli/sitemap.xml

@@ -1,0 +1,147 @@
+{
+  "kind": "single-run local laboratory check; not Lighthouse, field Core Web Vitals, or an INP assessment",
+  "profile": {
+    "viewport": "390x844",
+    "deviceScaleFactor": 2,
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000,
+    "cpuSlowdown": 4
+  },
+  "assets": [
+    {
+      "name": "app.js",
+      "bytes": 37101,
+      "gzipEstimateBytes": 10524
+    },
+    {
+      "name": "style.css",
+      "bytes": 18426,
+      "gzipEstimateBytes": 4726
+    },
+    {
+      "name": "refinement.css",
+      "bytes": 36321,
+      "gzipEstimateBytes": 7617
+    }
+  ],
+  "results": [
+    {
+      "route": "home",
+      "lcpMs": 3284,
+      "cls": 0,
+      "lcpElement": "IMG.",
+      "resources": [
+        {
+          "name": "style.css?v=polish-1",
+          "decodedBytes": 18426,
+          "encodedBytes": 4726
+        },
+        {
+          "name": "refinement.css?v=polish-1",
+          "decodedBytes": 36321,
+          "encodedBytes": 7617
+        },
+        {
+          "name": "assets/long-eared-bunny-800.avif",
+          "decodedBytes": 54592,
+          "encodedBytes": 54592
+        },
+        {
+          "name": "app.js?v=polish-1",
+          "decodedBytes": 37101,
+          "encodedBytes": 10524
+        },
+        {
+          "name": "favicon.svg",
+          "decodedBytes": 239,
+          "encodedBytes": 191
+        }
+      ],
+      "domNodes": 269,
+      "observedInteractionMaxMs": null,
+      "failedRequests": []
+    },
+    {
+      "route": "patterns/cats/",
+      "lcpMs": 2244,
+      "cls": 0,
+      "lcpElement": "P.collection-intro",
+      "resources": [
+        {
+          "name": "style.css?v=polish-1",
+          "decodedBytes": 18426,
+          "encodedBytes": 4726
+        },
+        {
+          "name": "refinement.css?v=polish-1",
+          "decodedBytes": 36321,
+          "encodedBytes": 7617
+        },
+        {
+          "name": "app.js?v=polish-1",
+          "decodedBytes": 37101,
+          "encodedBytes": 10524
+        },
+        {
+          "name": "assets/sitting-calico-kitten-800.avif",
+          "decodedBytes": 21508,
+          "encodedBytes": 21508
+        },
+        {
+          "name": "assets/pumpkin-cat-800.avif",
+          "decodedBytes": 34743,
+          "encodedBytes": 34743
+        },
+        {
+          "name": "assets/luna-witchy-cat-800.avif",
+          "decodedBytes": 46386,
+          "encodedBytes": 46386
+        },
+        {
+          "name": "favicon.svg",
+          "decodedBytes": 239,
+          "encodedBytes": 191
+        }
+      ],
+      "domNodes": 239,
+      "observedInteractionMaxMs": 80,
+      "failedRequests": []
+    },
+    {
+      "route": "patterns/long-eared-bunny/",
+      "lcpMs": 3048,
+      "cls": 0,
+      "lcpElement": "IMG.",
+      "resources": [
+        {
+          "name": "style.css?v=polish-1",
+          "decodedBytes": 18426,
+          "encodedBytes": 4726
+        },
+        {
+          "name": "refinement.css?v=polish-1",
+          "decodedBytes": 36321,
+          "encodedBytes": 7617
+        },
+        {
+          "name": "assets/long-eared-bunny-800.avif",
+          "decodedBytes": 54592,
+          "encodedBytes": 54592
+        },
+        {
+          "name": "app.js?v=polish-1",
+          "decodedBytes": 37101,
+          "encodedBytes": 10524
+        },
+        {
+          "name": "favicon.svg",
+          "decodedBytes": 239,
+          "encodedBytes": 191
+        }
+      ],
+      "domNodes": 761,
+      "observedInteractionMaxMs": 88,
+      "failedRequests": []
+    }
+  ]
+}

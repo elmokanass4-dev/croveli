@@ -1,0 +1,17 @@
+{
+  "origin": "https://elmokanass4-dev.github.io",
+  "basePath": "/croveli/",
+  "features": {
+    "freePatternsOnly": true,
+    "shop": false,
+    "paidPatterns": false,
+    "etsy": false,
+    "pdfSales": false
+  },
+  "advertising": {
+    "provider": "adsense",
+    "enabled": false,
+    "clientId": null,
+    "placements": []
+  }
+}

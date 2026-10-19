@@ -1,0 +1,30 @@
+const fs=require('fs'),path=require('path');
+const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const matches=(p,c)=>!c.match||(!c.match.category&&!c.match.tag)||(c.match.category===p.category)||(p.tags||[]).includes(c.match.tag);
+function prepareCatalog({patterns,collections,guides,learningLinks,root}){
+ const fail=m=>{throw Error('Catalog: '+m)};
+ const text=(v,label)=>{if(typeof v!=='string'||!v.trim()||/<\/?[a-z][^>]*>/i.test(v))fail(label+' must be nonempty plain text');};
+ const ids=new Set(),names=new Set(),titles=new Set(),descriptions=new Set();
+ const unique=(set,v,label)=>{if(set.has(v))fail('duplicate '+label+': '+v);set.add(v)};
+ const prepared=[];
+ const reserved=new Set(['index','assets','saved','learn','about','privacy','terms','contact','accessories','apple-duck','beginners','crochet-food','flowers','home-decor','little-bookish-duck','maple-leaf-coaster','pocket-bear','pumpkin-coaster','sleepy-bunny','spring-leaves','woodland-frog',...Object.keys(collections).filter(c=>c!=='All patterns').map(slug)]);
+ for(const source of patterns){const p=structuredClone(source);if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(p.id||'')||reserved.has(p.id))fail('invalid or reserved pattern id: '+p.id);unique(ids,p.id,'pattern id');text(p.name,p.id+' name');if(!['draft','published'].includes(p.status))fail(p.id+' requires status draft or published');if(p.status==='draft')continue;
+ unique(names,p.name.trim().toLowerCase(),'published pattern name');
+ for(const key of ['category','level','size','hook','alt','credit','description','closing'])text(p[key],p.id+' '+key);
+ if(p.focal&&!/^\d{1,3}% \d{1,3}%$/.test(p.focal))fail(p.id+' invalid image focal point');
+ if(!Array.isArray(p.tags)||!p.tags.length||p.tags.some(t=>typeof t!=='string'||!t.trim()))fail(p.id+' needs theme tags');
+ if(!/^[a-z0-9-]+\.jpg$/.test(p.image||''))fail(p.id+' needs a safe .jpg image filename');
+ const asset=n=>{if(!fs.existsSync(path.join(root,'assets',n)))fail(p.id+' missing image '+n)};asset(p.image);
+ for(const key of ['materials','presentation','highlights','notes','assembly']){if(!Array.isArray(p[key])||!p[key].length)fail(p.id+' needs '+key);p[key].forEach(v=>text(v,p.id+' '+key));}
+ if(!Array.isArray(p.abbreviations)||!p.abbreviations.length)fail(p.id+' needs abbreviations');p.abbreviations.forEach(row=>{if(!Array.isArray(row)||row.length!==2)fail(p.id+' invalid abbreviation');row.forEach(v=>text(v,p.id+' abbreviation'));});
+ if(!Array.isArray(p.sections)||!p.sections.length)fail(p.id+' needs instruction sections');const sectionIds=new Set();
+ for(const s of p.sections){if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(s.id||''))fail(p.id+' invalid section id');unique(sectionIds,s.id,p.id+' section id');text(s.title,p.id+' section title');if(s.intro)text(s.intro,p.id+' section introduction');if(s.after){if(!Array.isArray(s.after))fail(p.id+' after-instructions must be an array');s.after.forEach(v=>text(v,p.id+' after-instructions'));}if(!Array.isArray(s.rows)||!s.rows.length)fail(p.id+' '+s.id+' needs instruction rows');s.rows.forEach(row=>{if(!Array.isArray(row)||row.length!==2)fail(p.id+' invalid instruction row');row.forEach(v=>text(v,p.id+' instruction'));});for(const f of s.figures||[]){if(!/^[a-z0-9-]+$/.test(f.image||''))fail(p.id+' invalid figure filename');asset(f.image+'.jpg');text(f.alt,p.id+' figure alt');text(f.caption,p.id+' figure caption');}}
+ p.seo={focus:p.seo?.focus||p.name.toLowerCase()+' crochet pattern',title:p.seo?.title||p.name+' Crochet Pattern | Croveli',heading:p.seo?.heading||p.name+' Crochet Pattern',description:p.seo?.description||p.description};for(const [k,v]of Object.entries(p.seo))text(v,p.id+' seo '+k);unique(titles,p.seo.title,'pattern title');unique(descriptions,p.seo.description,'pattern description');prepared.push(p);
+ }
+ if(!prepared.length)fail('at least one published pattern is required');
+ const active={},routes=new Set();for(const [name,c]of Object.entries(collections)){text(name,'collection name');unique(routes,slug(name),'collection route');if(!['draft','published'].includes(c.status))fail(name+' collection requires status');if(c.status==='draft')continue;if(!Number.isInteger(c.minProjects)||c.minProjects<1)fail(name+' needs a positive minProjects');if(!c.match||Object.keys(c.match).some(k=>!['category','tag'].includes(k))||Object.keys(c.match).length>(name==='All patterns'?0:1)||name!=='All patterns'&&Object.keys(c.match).length!==1)fail(name+' needs one explicit category or tag match');for(const k of ['title','heading','description','introduction'])text(c[k],name+' '+k);if(prepared.filter(p=>matches(p,c)).length>=c.minProjects){if(name!=='All patterns'){text(c.editorialHeading,name+' editorial heading');if(!Array.isArray(c.editorial)||!c.editorial.length)fail(name+' needs curated collection advice');c.editorial.forEach(v=>text(v,name+' advice'));for(const g of c.guides||[])if(!guides.some(x=>x.slug===g))fail(name+' unknown guide '+g);}unique(titles,c.title,'page title');unique(descriptions,c.description,'page description');active[name]=c;}}
+ if(!active['All patterns'])fail('All patterns directory must be active');
+ for(const [guideSlug,l]of Object.entries(learningLinks)){if(!guides.some(g=>g.slug===guideSlug))fail('unknown guide '+guideSlug);text(l.heading,guideSlug+' recommendation heading');text(l.introduction,guideSlug+' recommendation introduction');if(!Array.isArray(l.projects))fail(guideSlug+' needs a recommendation list');for(const e of l.projects){const p=prepared.find(p=>p.id===e.id);if(!p)fail('learning reference needs a published pattern: '+e.id);text(e.reason,guideSlug+' recommendation reason');if(e.section&&!p.sections.some(s=>s.id===e.section))fail('unknown learning section '+e.section);if(e.anchor&&!['materials','abbreviations','notes','instructions','love','finishing','comments'].includes(e.anchor))fail('unknown learning anchor '+e.anchor);}}
+ return {patterns:prepared,collections:active,cats:Object.keys(active),draftCount:patterns.length-prepared.length};
+}
+module.exports={prepareCatalog,matches,slug};
