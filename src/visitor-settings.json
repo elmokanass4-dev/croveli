@@ -1,7 +1,7 @@
 {
   "contactEmail": "elmokanass4@gmail.com",
-  "newsletterSignupUrl": null,
-  "newsletterServiceName": null,
+  "newsletterSignupUrl": "https://croveli-yarn-letter.subscribepage.io/",
+  "newsletterServiceName": "MailerLite",
   "operatorName": "Croveli",
   "operatorCountry": null
 }

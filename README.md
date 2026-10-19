@@ -46,3 +46,5 @@ Step 7: see ADDING-PATTERNS.md for the draft-to-published content workflow. scri
 Visitor settings live in src/visitor-settings.json. scripts/visitor-pages.cjs renders About, contact, privacy, terms, and the configured/coming-soon newsletter state. A public hosted newsletter signup URL and service name enable the newsletter link without exposing credentials. Run node scripts/verify-visitor.cjs for contact, storage controls, and responsive checks.
 
 Step 9 launch review: see LAUNCH-REVIEW.md. With the local preview running, npm run check:launch combines the functional, accessibility, catalog, and HTTP checks. npm run check:performance records a separate throttled local measurement. Primary images offer AVIF with WebP fallback; CSS/JS URLs use content-derived versions. Final-handoff reminder: connect the newsletter signup service after the remaining steps.
+
+Newsletter connected on 19 October 2026: https://croveli-yarn-letter.subscribepage.io/ (MailerLite, double opt-in enabled). The shared signup link and privacy text are generated from src/visitor-settings.json. Delivery and a complete confirmed signup still need an owner inbox test.
