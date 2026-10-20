@@ -1,0 +1,83 @@
+{
+  "result": "PASS",
+  "results": [
+    {
+      "run": 1,
+      "complete": true,
+      "source": "http://localhost:4174/croveli/assets/long-eared-bunny-800.avif",
+      "opacity": "1",
+      "visibility": "visible",
+      "loading": "auto",
+      "priority": "high",
+      "downloads": [
+        {
+          "url": "http://localhost:4174/croveli/assets/long-eared-bunny-800.avif",
+          "duration": 567
+        }
+      ],
+      "naturalWidth": 349,
+      "viewportWidth": 390
+    },
+    {
+      "run": 2,
+      "complete": true,
+      "source": "http://localhost:4174/croveli/assets/long-eared-bunny-800.avif",
+      "opacity": "1",
+      "visibility": "visible",
+      "loading": "auto",
+      "priority": "high",
+      "downloads": [
+        {
+          "url": "http://localhost:4174/croveli/assets/long-eared-bunny-800.avif",
+          "duration": 605
+        }
+      ],
+      "naturalWidth": 349,
+      "viewportWidth": 390
+    },
+    {
+      "run": 1,
+      "complete": true,
+      "source": "http://localhost:4174/croveli/assets/long-eared-bunny-800.avif",
+      "opacity": "1",
+      "visibility": "visible",
+      "loading": "auto",
+      "priority": "high",
+      "downloads": [
+        {
+          "url": "http://localhost:4174/croveli/assets/long-eared-bunny-800.avif",
+          "duration": 626
+        }
+      ],
+      "naturalWidth": 560,
+      "viewportWidth": 1440
+    },
+    {
+      "run": 2,
+      "complete": true,
+      "source": "http://localhost:4174/croveli/assets/long-eared-bunny-800.avif",
+      "opacity": "1",
+      "visibility": "visible",
+      "loading": "auto",
+      "priority": "high",
+      "downloads": [
+        {
+          "url": "http://localhost:4174/croveli/assets/long-eared-bunny-800.avif",
+          "duration": 730
+        }
+      ],
+      "naturalWidth": 560,
+      "viewportWidth": 1440
+    }
+  ],
+  "checks": [
+    "cold-cache mobile and desktop",
+    "slow connection and CPU",
+    "preload and image select the same variant",
+    "no opacity/visibility gate",
+    "stable box during delayed response",
+    "works without JavaScript",
+    "works with client and newsletter scripts blocked"
+  ],
+  "finding": "No persistent blank image reproduced; empty image area before the download completes is expected."
+}

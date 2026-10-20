@@ -1,0 +1,149 @@
+{
+  "kind": "single-run live-site laboratory check; not Lighthouse, field Core Web Vitals, or an INP assessment",
+  "base": "https://elmokanass4-dev.github.io/croveli/",
+  "measuredAt": "2026-10-19T18:22:19.587Z",
+  "profile": {
+    "viewport": "390x844",
+    "deviceScaleFactor": 2,
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000,
+    "cpuSlowdown": 4
+  },
+  "assets": [
+    {
+      "name": "app.js",
+      "bytes": 37101,
+      "gzipEstimateBytes": 10524
+    },
+    {
+      "name": "style.css",
+      "bytes": 18426,
+      "gzipEstimateBytes": 4726
+    },
+    {
+      "name": "refinement.css",
+      "bytes": 36557,
+      "gzipEstimateBytes": 7692
+    }
+  ],
+  "results": [
+    {
+      "route": "home",
+      "lcpMs": 2708,
+      "cls": 0,
+      "lcpElement": "IMG.",
+      "resources": [
+        {
+          "name": "style.css?v=0692b545121a",
+          "decodedBytes": 18424,
+          "encodedBytes": 4792
+        },
+        {
+          "name": "refinement.css?v=0692b545121a",
+          "decodedBytes": 36483,
+          "encodedBytes": 7792
+        },
+        {
+          "name": "assets/long-eared-bunny-800.avif",
+          "decodedBytes": 54592,
+          "encodedBytes": 54592
+        },
+        {
+          "name": "app.js?v=0692b545121a",
+          "decodedBytes": 36841,
+          "encodedBytes": 10455
+        },
+        {
+          "name": "favicon.svg",
+          "decodedBytes": 239,
+          "encodedBytes": 239
+        }
+      ],
+      "domNodes": 269,
+      "observedInteractionMaxMs": 288,
+      "failedRequests": []
+    },
+    {
+      "route": "patterns/cats/",
+      "lcpMs": 1928,
+      "cls": 0,
+      "lcpElement": "P.collection-intro",
+      "resources": [
+        {
+          "name": "style.css?v=0692b545121a",
+          "decodedBytes": 18424,
+          "encodedBytes": 4792
+        },
+        {
+          "name": "refinement.css?v=0692b545121a",
+          "decodedBytes": 36483,
+          "encodedBytes": 7792
+        },
+        {
+          "name": "app.js?v=0692b545121a",
+          "decodedBytes": 36841,
+          "encodedBytes": 10455
+        },
+        {
+          "name": "assets/sitting-calico-kitten-800.avif",
+          "decodedBytes": 21508,
+          "encodedBytes": 21508
+        },
+        {
+          "name": "assets/pumpkin-cat-800.avif",
+          "decodedBytes": 34743,
+          "encodedBytes": 34743
+        },
+        {
+          "name": "assets/luna-witchy-cat-800.avif",
+          "decodedBytes": 46386,
+          "encodedBytes": 46386
+        },
+        {
+          "name": "favicon.svg",
+          "decodedBytes": 239,
+          "encodedBytes": 239
+        }
+      ],
+      "domNodes": 239,
+      "observedInteractionMaxMs": 88,
+      "failedRequests": []
+    },
+    {
+      "route": "patterns/long-eared-bunny/",
+      "lcpMs": 2652,
+      "cls": 0,
+      "lcpElement": "IMG.",
+      "resources": [
+        {
+          "name": "style.css?v=0692b545121a",
+          "decodedBytes": 18424,
+          "encodedBytes": 4792
+        },
+        {
+          "name": "refinement.css?v=0692b545121a",
+          "decodedBytes": 36483,
+          "encodedBytes": 7792
+        },
+        {
+          "name": "assets/long-eared-bunny-800.avif",
+          "decodedBytes": 54592,
+          "encodedBytes": 54592
+        },
+        {
+          "name": "app.js?v=0692b545121a",
+          "decodedBytes": 36841,
+          "encodedBytes": 10455
+        },
+        {
+          "name": "favicon.svg",
+          "decodedBytes": 239,
+          "encodedBytes": 239
+        }
+      ],
+      "domNodes": 761,
+      "observedInteractionMaxMs": 104,
+      "failedRequests": []
+    }
+  ]
+}

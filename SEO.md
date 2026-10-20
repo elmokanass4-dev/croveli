@@ -1,6 +1,6 @@
 # SEO and mobile implementation
 
-Latest local review: see [AUDIT.md](AUDIT.md) and [HOSTING.md](HOSTING.md). The October 19 polish is not deployed. Canonical origin/path and disabled monetization policy now live in `src/site-config.json`, with browser enhancements in `src/client.js`.
+Latest local review: see [AUDIT.md](AUDIT.md) and [HOSTING.md](HOSTING.md). The October 19 polish was deployed to GitHub Pages (release 2890960); Search Console verification was deployed in bd61786. Canonical origin/path and disabled monetization policy now live in `src/site-config.json`, with browser enhancements in `src/client.js`.
 
 ## Shipped
 
@@ -20,8 +20,8 @@ Run `node scripts/serve.cjs`, then `node scripts/verify.cjs`. Dependencies are N
 
 ## Owner follow-up
 
-1. Add `https://elmokanass4-dev.github.io/croveli/` as a URL-prefix property in Google Search Console, complete ownership verification and submit `sitemap.xml`. Verification needs your account or Google's verification token; it has not been completed here. Inspect the home page and guide URLs after submission.
-2. Review the supplied patterns and publication permissions before launch. The four current pages already have unique metadata, canonical URLs, and sitemap entries. Missing source information is not replaced with invented stitch counts, timings, or testing claims.
+1. Add `https://elmokanass4-dev.github.io/croveli/` as a URL-prefix property in Google Search Console, complete ownership verification and submit `sitemap.xml`. Ownership is now verified and the sitemap submitted. Google's initial sitemap fetch failed despite a public 200 XML response. Homepage live inspection passed and its indexing request was accepted. See MEASUREMENT.md for the current status and baseline.
+2. Review pattern accuracy as the collection grows; the owner has already confirmed publication permission. The four current pages already have unique metadata, canonical URLs, and sitemap entries. Missing source information is not replaced with invented stitch counts, timings, or testing claims.
 3. Connect an owner-controlled newsletter signup service. Contact already opens the owner-supplied email address; privacy and terms describe current site behavior.
 4. Use Search Console queries and real-user performance data to choose future pattern topics. Focus on useful specific terms such as beginner amigurumi or the exact project, rather than repeating broad words such as yarn or loop throughout the site.
 

@@ -3,5 +3,6 @@
   "newsletterSignupUrl": "https://croveli-yarn-letter.subscribepage.io/",
   "newsletterServiceName": "MailerLite",
   "operatorName": "Croveli",
-  "operatorCountry": null
+  "operatorCountry": null,
+  "newsletterEmbedEnabled": true
 }

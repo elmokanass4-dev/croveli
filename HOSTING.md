@@ -18,7 +18,7 @@ Allow: /croveli/
 Sitemap: https://elmokanass4-dev.github.io/croveli/sitemap.xml
 ```
 
-Google Search Console should use the URL-prefix property `https://elmokanass4-dev.github.io/croveli/`. Verify ownership and submit the absolute sitemap URL there. No verification token or account action was provided; none was submitted. A future custom domain requires updating the central origin/base path and rebuilding before deployment.
+Google Search Console should use the URL-prefix property `https://elmokanass4-dev.github.io/croveli/`. Verify ownership and submit the absolute sitemap URL there. Search Console ownership was verified on 19 October 2026 and the sitemap was submitted with owner approval. Its current fetch error and the accepted homepage indexing request are recorded in MEASUREMENT.md. A future custom domain requires updating the central origin/base path and rebuilding before deployment.
 
 ## Free patterns only
 

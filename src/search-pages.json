@@ -2,7 +2,13 @@
   "home": {
     "focus": "free crochet patterns and amigurumi guides",
     "title": "Free Crochet Patterns & Amigurumi Guides | Croveli",
-    "description": "Discover free crochet patterns for a long-eared bunny and characterful cats. Find project photos, materials, amigurumi instructions, and crochet guides."
+    "description": "Discover free crochet patterns for a long-eared bunny and characterful cats. Find project photos, materials, amigurumi instructions, and crochet guides.",
+    "featuredPatternIds": [
+      "long-eared-bunny",
+      "sitting-calico-kitten",
+      "pumpkin-cat",
+      "luna-witchy-cat"
+    ]
   },
   "collections": {
     "All patterns": {

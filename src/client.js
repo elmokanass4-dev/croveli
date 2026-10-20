@@ -22,10 +22,10 @@ function normalizeLinks(scope = document) {
     const name = img.getAttribute('src').slice(7).replace('.jpg', '');
     const small = img.closest('.search-item');
     if(!small&&imageVariants[name]?.avif&&!img.closest('picture')){
-      const picture=document.createElement('picture'),source=document.createElement('source');picture.className='responsive-picture';source.type='image/avif';source.srcset=imageVariants[name].variants.map(v=>`${BASE}assets/${name}-${v.file}.avif ${v.width}w`).join(', ');source.sizes='(max-width:480px) calc(100vw - 40px), (max-width:1000px) calc((100vw - 72px)/2), 366px';picture.append(source);img.replaceWith(picture);picture.append(img);
+      const picture=document.createElement('picture'),source=document.createElement('source');picture.className='responsive-picture';source.type='image/avif';source.srcset=imageVariants[name].variants.map(v=>`${BASE}assets/${name}-${v.file}.avif ${v.width}w`).join(', ');source.sizes='(max-width:600px) calc(100vw - 40px), (max-width:1000px) calc((100vw - 72px)/2), 560px';picture.append(source);img.replaceWith(picture);picture.append(img);
     }
     img.src = BASE + 'assets/' + name + (small ? '-160.webp' : '-400.webp');
-    if (!small) { img.srcset = imageVariants[name].variants.map(v => `${BASE}assets/${name}-${v.file}.webp ${v.width}w`).join(', '); img.sizes = '(max-width:480px) calc(100vw - 40px), (max-width:1000px) calc((100vw - 72px)/2), 366px'; }
+    if (!small) { img.srcset = imageVariants[name].variants.map(v => `${BASE}assets/${name}-${v.file}.webp ${v.width}w`).join(', '); img.sizes = '(max-width:600px) calc(100vw - 40px), (max-width:1000px) calc((100vw - 72px)/2), 560px'; }
     img.width = small ? 64 : 400; img.height = small ? 64 : imageDimensions[name]; img.decoding = 'async';
   });
 }
@@ -89,7 +89,7 @@ if (filterSection) {
   filterSection.querySelector('.difficulty-group').hidden=false;
   const params=new URLSearchParams(location.search);
   discoveryState.tag=[...filterSection.querySelectorAll('[data-tag]')].map(b=>b.dataset.tag).find(t=>t.toLowerCase()===params.get('tag')&&pool.some(p=>!p.tags?.includes(t)))||'All projects';
-  discoveryState.level=[...new Set(patterns.map(p=>p.level))].find(l=>l.toLowerCase()===params.get('difficulty'))||'All levels';
+  discoveryState.level=[...new Set(patterns.map(p=>p.level).filter(hasProjectDetail))].find(l=>l.toLowerCase()===params.get('difficulty'))||'All levels';
   applyDiscovery(false);
 }
 
@@ -227,7 +227,7 @@ if (tutorialPhotos.length && typeof HTMLDialogElement !== 'undefined') {
     const caption = link.closest('figure').querySelector('figcaption').cloneNode(true);
     caption.querySelector('.photo-number')?.remove();
     viewer.querySelector('.photo-viewer-caption').textContent = caption.textContent;
-    viewer.querySelector('.photo-viewer-status').textContent = `Photo ${index+1} of ${group.length}`;
+    viewer.querySelector('.photo-viewer-status').textContent = link.closest('figure').querySelector('.photo-number').textContent;
     // Keep controls focusable at either end; aria-disabled preserves keyboard focus.
     previous.setAttribute('aria-disabled', String(index === 0)); next.setAttribute('aria-disabled', String(index === group.length-1));
   }
@@ -258,3 +258,7 @@ if (tocLinks.length && 'IntersectionObserver' in window) {
 }
 document.querySelectorAll('a[href^="#"]').forEach(a => a.addEventListener('click', () => { const target = document.getElementById(a.hash.slice(1)); if (target && !target.matches('input,button,a,textarea')) { target.setAttribute('tabindex','-1'); target.focus({preventScroll:true}); } }));
 if (/^#(pattern=|category=|home$|patterns$|saved$|about$|privacy$|terms$|contact$)/.test(location.hash)) location.replace(route(location.hash));
+
+// If a provider response stalls, keep a clear recovery path without claiming signup.
+const newsletterForm=document.querySelector('.newsletter-inline .ml-block-form');
+if(newsletterForm){newsletterForm.addEventListener('submit',()=>{if(!newsletterForm.checkValidity())return;const error=newsletterForm.querySelector('.newsletter-error');error.hidden=true;window.setTimeout(()=>{if(document.querySelector('.newsletter-inline .row-success').style.display==='block')return;error.textContent='We could not confirm your request. Please try the hosted signup page below.';error.hidden=false;},15000);});}

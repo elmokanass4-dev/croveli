@@ -65,7 +65,7 @@
       ]
     ],
     "notes": [
-      "US crochet terminology. The source groups repeated rounds into numbered steps; the printed step labels and repeat counts are retained below.",
+      "US crochet terminology. Round numbers below count every worked round, including grouped repeats. A range such as Rounds 4–5 means work the instruction once in each round. Named actions, such as shifting the marker or placing the eyes, do not add a round.",
       "Stuff the pieces gradually where directed. Leave the ears unstuffed.",
       "Keep the eye-placement and sculpting references beside you before fastening off the head."
     ],
@@ -76,35 +76,35 @@
         "intro": "Start at the oval sole and stuff gradually as you work.",
         "rows": [
           [
-            "1",
+            "Round 1",
             "Ch 8. Starting in the second ch: 1 inc, 5 sc, 3 sc in the last stitch; along the other side: 4 sc. Place marker. (16)"
           ],
           [
-            "2",
+            "Round 2",
             "(1 inc, 1 sc) × 3, 1 sc, (1 inc, 1 sc) × 3, 3 sc. (22)"
           ],
           [
-            "3",
+            "Round 3",
             "(1 sc, 1 inc) × 4, 3 sc, (1 sc, 1 inc) × 4, 3 sc. (30)"
           ],
           [
-            "4",
+            "Rounds 4–5",
             "30 sc for 2 rounds. (30)"
           ],
           [
-            "5",
+            "Round 6",
             "1 sc, 5 dec, 3 sc, 1 dec, 10 sc, 1 dec, 2 sc. (23)"
           ],
           [
-            "6",
+            "Round 7",
             "1 sc, 3 dec, 16 sc. (20)"
           ],
           [
-            "7",
+            "Round 8",
             "1 sc, 2 dec, 15 sc. (18)"
           ],
           [
-            "8",
+            "Rounds 9–15",
             "18 sc for 7 rounds. (18)"
           ]
         ],
@@ -125,31 +125,31 @@
         "intro": "Stuff the lower part firmly and the upper part lightly.",
         "rows": [
           [
-            "1",
+            "Round 1",
             "6 sc in MR. (6)"
           ],
           [
-            "2",
+            "Round 2",
             "6 inc. (12)"
           ],
           [
-            "3",
+            "Round 3",
             "(1 sc, 1 inc) × 6. (18)"
           ],
           [
-            "4",
+            "Round 4",
             "18 sc. (18)"
           ],
           [
-            "5",
+            "Round 5",
             "2 sc, 3 dec, 10 sc. (15)"
           ],
           [
-            "6",
+            "Round 6",
             "3 sc, 1 dec, 10 sc. (14)"
           ],
           [
-            "7",
+            "Rounds 7–12",
             "14 sc for 6 rounds. (14)"
           ]
         ],
@@ -162,15 +162,15 @@
         "title": "The little tail",
         "rows": [
           [
-            "1",
+            "Round 1",
             "6 sc in MR. (6)"
           ],
           [
-            "2",
+            "Round 2",
             "6 inc. (12)"
           ],
           [
-            "3",
+            "Round 3",
             "6 dec. (6)"
           ]
         ],
@@ -184,47 +184,47 @@
         "intro": "The legs are attached over two consecutive rounds. Stuff gradually as the body takes shape.",
         "rows": [
           [
-            "1",
+            "Round 1",
             "6 sc in MR. (6)"
           ],
           [
-            "2",
+            "Round 2",
             "6 inc. (12)"
           ],
           [
-            "3",
+            "Round 3",
             "(1 sc, 1 inc) × 6. (18)"
           ],
           [
-            "4",
+            "Round 4",
             "(2 sc, 1 inc) × 6. (24)"
           ],
           [
-            "5",
+            "Round 5",
             "(3 sc, 1 inc) × 6. (30)"
           ],
           [
-            "6",
+            "Round 6",
             "(4 sc, 1 inc) × 6. (36)"
           ],
           [
-            "7",
+            "Round 7",
             "(5 sc, 1 inc) × 6. (42)"
           ],
           [
-            "8",
+            "Round 8",
             "42 sc. (42)"
           ],
           [
-            "9",
+            "Round 9",
             "3 sc, 7 sc with the first leg (inner side), 14 sc, 7 sc with the second leg (inner side), 11 sc. (42)"
           ],
           [
-            "10",
+            "Round 10",
             "3 sc, 7 sc with the first leg (folded edge), 14 sc, 7 sc with the second leg (folded edge), 11 sc. (42)"
           ],
           [
-            "11",
+            "Rounds 11–13",
             "42 sc for 3 rounds. (42)"
           ],
           [
@@ -232,27 +232,27 @@
             "Work 1 shift sc, move the marker, and continue stuffing gradually."
           ],
           [
-            "14",
+            "Round 14",
             "3 sc, 7 sc over the leg, 1 sc, (1 dec, 1 sc) × 4 for the tummy decreases, 1 sc, 7 sc over the leg, 11 sc. (38)"
           ],
           [
-            "15",
+            "Round 15",
             "6 sc, 1 dec, 14 sc, 1 dec, 14 sc. (36)"
           ],
           [
-            "16",
+            "Round 16",
             "(4 sc, 1 dec) × 6. (30)"
           ],
           [
-            "17",
+            "Round 17",
             "(3 sc, 1 dec) × 6. (24)"
           ],
           [
-            "18",
+            "Rounds 18–20",
             "24 sc for 3 rounds. (24)"
           ],
           [
-            "19",
+            "Round 21",
             "Attach arms: 3 sc, 5 sc with the first arm, 7 sc, 5 sc with the second arm, 4 sc. (24)"
           ]
         ],
@@ -273,39 +273,39 @@
         "intro": "Use the main plush color. Do not stuff.",
         "rows": [
           [
-            "1",
+            "Round 1",
             "6 sc in MR. (6)"
           ],
           [
-            "2",
+            "Round 2",
             "6 inc. (12)"
           ],
           [
-            "3",
+            "Rounds 3–6",
             "12 sc for 4 rounds. (12)"
           ],
           [
-            "4",
+            "Round 7",
             "(1 sc, 1 inc) × 6. (18)"
           ],
           [
-            "5",
+            "Rounds 8–9",
             "18 sc for 2 rounds. (18)"
           ],
           [
-            "6",
+            "Round 10",
             "(2 sc, 1 inc) × 6. (24)"
           ],
           [
-            "7",
+            "Rounds 11–13",
             "24 sc for 3 rounds. (24)"
           ],
           [
-            "8",
+            "Round 14",
             "(2 sc, 1 dec) × 6. (18)"
           ],
           [
-            "9",
+            "Rounds 15–16",
             "18 sc for 2 rounds. (18)"
           ]
         ],
@@ -325,47 +325,47 @@
         "title": "Head & eye placement",
         "rows": [
           [
-            "1",
+            "Round 1",
             "6 sc in MR. (6)"
           ],
           [
-            "2",
+            "Round 2",
             "6 inc. (12)"
           ],
           [
-            "3",
+            "Round 3",
             "(1 sc, 1 inc) × 6. (18)"
           ],
           [
-            "4",
+            "Round 4",
             "(2 sc, 1 inc) × 6. (24)"
           ],
           [
-            "5",
+            "Round 5",
             "(3 sc, 1 inc) × 6. (30)"
           ],
           [
-            "6",
+            "Round 6",
             "(4 sc, 1 inc) × 6. (36)"
           ],
           [
-            "7",
+            "Round 7",
             "(5 sc, 1 inc) × 6. (42)"
           ],
           [
-            "8",
+            "Round 8",
             "(6 sc, 1 inc) × 6. (48)"
           ],
           [
-            "9",
+            "Rounds 9–11",
             "48 sc for 3 rounds. (48)"
           ],
           [
-            "10",
+            "Round 12",
             "13 sc, 1 dec, 2 sc, 1 dec, 2 sc, 1 dec, 25 sc. (45)"
           ],
           [
-            "11",
+            "Round 13",
             "12 sc, 1 dec, 2 sc, 1 dec, 2 sc, 1 dec, 23 sc. (42)"
           ],
           [
@@ -373,15 +373,15 @@
             "The 2 sc between decreases in round 13 align directly above the 2 sc in round 12."
           ],
           [
-            "14",
+            "Round 14",
             "42 sc for 1 round. (42)"
           ],
           [
-            "15",
+            "Round 15",
             "(5 sc, 1 dec) × 6. (36)"
           ],
           [
-            "16",
+            "Round 16",
             "(4 sc, 1 dec) × 6. (30)"
           ],
           [
@@ -389,19 +389,19 @@
             "Insert between rounds 13 and 14, above the outer decreases of rounds 12–13, approximately 6 sc apart. Stuff the head."
           ],
           [
-            "17",
+            "Round 17",
             "(3 sc, 1 dec) × 6. (24)"
           ],
           [
-            "18",
+            "Round 18",
             "(2 sc, 1 dec) × 6. (18)"
           ],
           [
-            "19",
+            "Round 19",
             "(1 sc, 1 dec) × 6. (12)"
           ],
           [
-            "20",
+            "Round 20",
             "6 dec. (6)"
           ]
         ],
@@ -460,7 +460,8 @@
       "description": "Make a plush long-eared bunny with this free crochet pattern. Find the materials, component instructions, eye-sculpting references, and assembly details."
     },
     "status": "published",
-    "comparisonDetail": "Plush chenille texture with long, folded ears"
+    "comparisonDetail": "Plush chenille texture with long, folded ears",
+    "introNotice": "The jacket shown in the photograph is styling only. Clothing instructions are not included in this pattern."
   },
   {
     "id": "sitting-calico-kitten",
@@ -559,99 +560,99 @@
         "intro": "Begin in white. The first section forms the internal neck socket before the head expands.",
         "rows": [
           [
-            "R1",
+            "Round 1",
             "W: 8 sc in MR. [8]"
           ],
           [
-            "R2",
+            "Round 2",
             "8 inc. [16]"
           ],
           [
-            "R3–11",
+            "Rounds 3–11",
             "16 sc for 9 rounds. [16]"
           ],
           [
-            "R12",
+            "Round 12",
             "Ch 1, turn, BLO: (sc, inc) × 8. [24]"
           ],
           [
-            "R13",
+            "Round 13",
             "Do not turn; continue in a spiral: (sc, inc) × 12. [36]"
           ],
           [
-            "R14",
+            "Round 14",
             "(5 sc, inc) × 6. [42]"
           ],
           [
-            "R15",
+            "Round 15",
             "(3 sc, inc, 3 sc) × 6. [48]"
           ],
           [
-            "R16",
+            "Round 16",
             "MY: 16 sc, inc; W: sc, inc, 10 sc, inc, sc, inc, 16 sc. [52]"
           ],
           [
-            "R17",
+            "Round 17",
             "MY: 19 sc; W: 32 sc; MY: sc. [52]"
           ],
           [
-            "R18",
+            "Round 18",
             "MY: 20 sc; W: 30 sc; MY: 2 sc. [52]"
           ],
           [
-            "R19",
+            "Round 19",
             "MY: 16 sc, 2 dec; W: dec, 8 sc, 3 dec, 13 sc; MY: 3 sc. [46]"
           ],
           [
-            "R20",
+            "Round 20",
             "MY: 17 sc, inc, sc; W: 9 sc, inc, 13 sc; MY: 4 sc. [48]"
           ],
           [
-            "R21",
+            "Round 21",
             "MY: 21 sc; W: 23 sc; MY: 4 sc. [48]"
           ],
           [
-            "R22",
+            "Round 22",
             "MY: 22 sc; W: 11 sc; BL: 4 sc; W: 7 sc; MY: 4 sc. [48]"
           ],
           [
-            "R23",
+            "Round 23",
             "MY: (3 sc, dec, 3 sc) × 2, 3 sc, dec, 2 sc; W: 4 sc, dec, 3 sc; BL: 3 sc, dec, sc; W: 5 sc, dec; MY: 3 sc. [42]"
           ],
           [
-            "R24",
+            "Round 24",
             "MY: 21 sc; W: 6 sc; BL: 7 sc; W: 6 sc; MY: 2 sc. [42] Stuff as you go."
           ],
           [
-            "R25",
+            "Round 25",
             "MY: 22 sc; W: 4 sc; BL: 9 sc; W: 6 sc; MY: 1 sc. [42]"
           ],
           [
-            "R26",
+            "Round 26",
             "MY: (5 sc, dec) × 3, 2 sc; W: 2 sc; BL: sc, dec, 5 sc, dec, sc; W: 4 sc, dec. [36]"
           ],
           [
-            "R27",
+            "Round 27",
             "MY: 21 sc; W: sc; BL: 10 sc; W: 4 sc. [36]"
           ],
           [
-            "R28",
+            "Round 28",
             "MY: (2 sc, dec, 2 sc) × 3, 2 sc, dec; BL: 4 sc, dec, 4 sc; W: dec, 2 sc. [30]"
           ],
           [
-            "R29",
+            "Round 29",
             "MY: (3 sc, dec) × 3, 3 sc; BL: (dec, 3 sc) × 2; W: dec. [24]"
           ],
           [
-            "R30",
+            "Round 30",
             "MY: (sc, dec, sc) × 3, sc, dec; BL: (2 sc, dec) × 2, sc. [18]"
           ],
           [
-            "R31",
+            "Round 31",
             "MY: (sc, dec) × 4; BL: (sc, dec) × 2. [12]"
           ],
           [
-            "R32",
+            "Round 32",
             "MY: 4 dec; BL: 2 dec. [6]"
           ]
         ],
@@ -762,23 +763,23 @@
         "intro": "Make one mud-yellow ear and one black ear.",
         "rows": [
           [
-            "R1",
+            "Round 1",
             "6 sc in MR. [6]"
           ],
           [
-            "R2",
+            "Round 2",
             "(sc, inc, sc) × 3. [12]"
           ],
           [
-            "R3",
+            "Round 3",
             "(3 sc, inc) × 3. [15]"
           ],
           [
-            "R4",
+            "Round 4",
             "(2 sc, inc, 2 sc) × 3. [18]"
           ],
           [
-            "R5",
+            "Round 5",
             "(5 sc, inc) × 3. [21]"
           ]
         ],
@@ -799,31 +800,31 @@
         "intro": "Use white yarn. Do not stuff these pieces.",
         "rows": [
           [
-            "R1",
+            "Round 1",
             "4 sc in MR. [4]"
           ],
           [
-            "R2",
+            "Round 2",
             "(inc, sc) × 2. [6]"
           ],
           [
-            "R3",
+            "Round 3",
             "(sc, inc, sc) × 2. [8]"
           ],
           [
-            "R4",
+            "Round 4",
             "(3 sc, inc) × 2. [10]"
           ],
           [
-            "R5–6",
+            "Rounds 5–6",
             "10 sc for 2 rounds. [10]"
           ],
           [
-            "R7",
+            "Round 7",
             "(2 sc, inc, 2 sc) × 2. [12]"
           ],
           [
-            "R8–13",
+            "Rounds 8–13",
             "12 sc for 6 rounds. [12]"
           ]
         ],
@@ -837,119 +838,119 @@
         "intro": "Begin in white and stuff as you go. Keep the front legs ready for R18.",
         "rows": [
           [
-            "R1",
+            "Round 1",
             "W: 6 sc in MR. [6]"
           ],
           [
-            "R2",
+            "Round 2",
             "6 inc. [12]"
           ],
           [
-            "R3",
+            "Round 3",
             "(sc, inc) × 6. [18]"
           ],
           [
-            "R4",
+            "Round 4",
             "(sc, inc, sc) × 6. [24]"
           ],
           [
-            "R5",
+            "Round 5",
             "(3 sc, inc) × 6. [30]"
           ],
           [
-            "R6",
+            "Round 6",
             "BLO: sc, (inc, 4 sc) × 5, inc, 3 sc. [36]"
           ],
           [
-            "R7",
+            "Round 7",
             "(inc, 4 sc) × 2, inc, 5 sc, inc, 12 sc, inc, 6 sc. [41]"
           ],
           [
-            "R8",
+            "Round 8",
             "MY: 10 sc; W: 31 sc. [41]"
           ],
           [
-            "R9",
+            "Round 9",
             "MY: inc, 12 sc, inc, 5 sc; W: 3 sc, inc, 8 sc, inc, 2 sc; BL: 7 sc. [45]"
           ],
           [
-            "R10",
+            "Round 10",
             "BL: sc; MY: 21 sc; W: 15 sc; BL: 8 sc. [45]"
           ],
           [
-            "R11",
+            "Round 11",
             "BL: 2 sc; MY: 6 sc, inc, 13 sc; W: 14 sc; BL: 9 sc. [46]"
           ],
           [
-            "R12",
+            "Round 12",
             "BL: 3 sc; MY: 19 sc; W: 15 sc; BL: 9 sc. [46]"
           ],
           [
-            "R13",
+            "Round 13",
             "BL: 2 sc; MY: 18 sc; W: 19 sc; BL: 7 sc. [46]"
           ],
           [
-            "R14",
+            "Round 14",
             "BL: sc; MY: 18 sc; W: 22 sc; BL: 5 sc. [46]"
           ],
           [
-            "R15",
+            "Round 15",
             "MY: 20 sc; W: 2 sc, 2 dec, 2 sc, inc, 4 sc, inc, 2 sc, 2 dec, sc; BL: 5 sc. [44]"
           ],
           [
-            "R16",
+            "Round 16",
             "MY: 19 sc; W: 22 sc; BL: 3 sc. [44]"
           ],
           [
-            "R17",
+            "Round 17",
             "MY: 18 sc; W: 8 sc, dec, sc, 2 inc, sc, dec, 10 sc. [44]"
           ],
           [
-            "R18 · join legs",
+            "Round 18 · join legs",
             "MY: 15 sc; BL: 2 sc; W: 10 sc on the body, 10 sc on the first leg, skip 2 stitches on the first leg and 2 on the body; 3 sc; 10 sc on the second leg, skip 2 stitches on the second leg and 2 on the body; 10 sc on the body."
           ],
           [
-            "R19",
+            "Round 19",
             "W: 2 sc; MY: 12 sc; BL: 3 sc; W: 46 sc. [60]"
           ],
           [
-            "R20",
+            "Round 20",
             "W: 3 sc; MY: 2 dec, 2 sc, 2 dec, sc; BL: 5 sc; W: 41 sc. [56]"
           ],
           [
-            "R21",
+            "Round 21",
             "W: dec, 3 sc; MY: 4 sc, dec; BL: 4 sc; W: 41 sc. [54]"
           ],
           [
-            "R22",
+            "Round 22",
             "W: dec, 7 sc; BL: dec, 5 sc; W: 7 sc, dec, 4 sc, dec, 3 sc, dec, 4 sc, dec, 12 sc. [48]"
           ],
           [
-            "R23",
+            "Round 23",
             "W: 4 sc, dec, 3 sc; BL: sc, dec, 4 sc, dec; W: (4 sc, dec) × 5. [40] Stuff as you go."
           ],
           [
-            "R24",
+            "Round 24",
             "W: 6 sc, dec, 4 sc; BL: 2 sc, dec, 2 sc; W: 4 sc, dec, (6 sc, dec) × 2. [35]"
           ],
           [
-            "R25",
+            "Round 25",
             "W: 2 sc, dec, 5 sc, dec, sc; BL: 4 sc, dec; W: (5 sc, dec) × 2, 3 sc. [30]"
           ],
           [
-            "R26",
+            "Round 26",
             "(3 sc, dec) × 6. [24]"
           ],
           [
-            "R27",
+            "Round 27",
             "24 sc. [24]"
           ],
           [
-            "R28",
+            "Round 28",
             "(sc, dec, sc) × 6. [18]"
           ],
           [
-            "R29",
+            "Round 29",
             "(sc, dec) × 6. [12]"
           ],
           [
@@ -957,11 +958,11 @@
             "Insert folded craft wire or pipe cleaners following the source photos, then wrap with thread or yarn."
           ],
           [
-            "R30–38",
+            "Rounds 30–38",
             "12 sc for 9 rounds. Stuff firmly around the wire. [12]"
           ],
           [
-            "R39",
+            "Round 39",
             "6 dec. [6]"
           ]
         ],
@@ -986,19 +987,19 @@
         "title": "Back legs · make two",
         "rows": [
           [
-            "R1",
+            "Round 1",
             "W: ch 5. Starting in the second ch, sc, 2 inc, 3 sc in the same stitch; along the opposite side: 2 sc, inc. [12]"
           ],
           [
-            "R2",
+            "Round 2",
             "12 sc. [12]"
           ],
           [
-            "R3",
+            "Round 3",
             "2 sc, 2 dec, 6 sc. [10]"
           ],
           [
-            "R4",
+            "Round 4",
             "sc, dec, 7 sc. [9]"
           ]
         ],
@@ -1018,43 +1019,43 @@
         "title": "Patchwork tail",
         "rows": [
           [
-            "R1",
+            "Round 1",
             "BL: 8 sc in MR. [8]"
           ],
           [
-            "R2–4",
+            "Rounds 2–4",
             "8 sc for 3 rounds. [8]"
           ],
           [
-            "R5",
+            "Round 5",
             "BL: 2 sc; MY: 6 sc. [8]"
           ],
           [
-            "R6",
+            "Round 6",
             "BL: sc, dec, sc; MY: 4 sc. [7]"
           ],
           [
-            "R7",
+            "Round 7",
             "BL: 3 sc; MY: 4 sc. [7]"
           ],
           [
-            "R8",
+            "Round 8",
             "BL: sc, dec; MY: 4 sc. [6]"
           ],
           [
-            "R9",
+            "Round 9",
             "W: 4 sc; MY: 2 sc. [6]"
           ],
           [
-            "R10",
+            "Round 10",
             "W: 5 sc; MY: sc. [6]"
           ],
           [
-            "R11–12",
+            "Rounds 11–12",
             "W: 6 sc for 2 rounds. [6]"
           ],
           [
-            "R13–14",
+            "Rounds 13–14",
             "MY: 6 sc for 2 rounds. [6]"
           ]
         ],
@@ -1075,11 +1076,11 @@
             "In blue: ch 25 and join the ends to form a ring. Work (5 sc, picot) × 5. Fasten off and attach the bell to one picot."
           ],
           [
-            "Ruffled collar · R1",
+            "Ruffled collar · Round 1",
             "In red: ch 27 and join to the first chain. 27 sc. [27]"
           ],
           [
-            "Ruffled collar · R2",
+            "Ruffled collar · Round 2",
             "(Ch 3, sl st) × 27 across. Fasten off and attach the bell centrally."
           ]
         ]
@@ -1183,39 +1184,39 @@
         "intro": "Black yarn · 2.00 mm hook.",
         "rows": [
           [
-            "Rnd 1",
+            "Round 1",
             "6 sc in MR. (6)"
           ],
           [
-            "Rnd 2",
+            "Round 2",
             "6 inc. (12)"
           ],
           [
-            "Rnd 3",
+            "Round 3",
             "[sc, inc] × 6. (18)"
           ],
           [
-            "Rnd 4",
+            "Round 4",
             "sc, inc, [2 sc, inc] × 5, sc. (24)"
           ],
           [
-            "Rnd 5",
+            "Round 5",
             "[3 sc, inc] × 6. (30)"
           ],
           [
-            "Rnd 6",
+            "Round 6",
             "2 sc, inc, [4 sc, inc] × 5, 2 sc. (36)"
           ],
           [
-            "Rnds 7–9",
+            "Rounds 7–9",
             "36 sc for 3 rounds. (36)"
           ],
           [
-            "Rnd 10",
+            "Round 10",
             "[5 sc, inc] × 6. (42)"
           ],
           [
-            "Rnds 11–15",
+            "Rounds 11–15",
             "42 sc for 5 rounds. (42)"
           ],
           [
@@ -1223,19 +1224,19 @@
             "Insert between Rnds 12 and 13, with 5 stitches between them."
           ],
           [
-            "Rnd 16",
+            "Round 16",
             "[5 sc, dec] × 6. (36)"
           ],
           [
-            "Rnd 17",
+            "Round 17",
             "2 sc, dec, [4 sc, dec] × 5, 2 sc. (30)"
           ],
           [
-            "Rnd 18",
+            "Round 18",
             "[3 sc, dec] × 6. (24)"
           ],
           [
-            "Rnd 19",
+            "Round 19",
             "sc, dec, [2 sc, dec] × 5, sc. (18)"
           ]
         ],
@@ -1256,15 +1257,15 @@
         "intro": "Black yarn · 2.00 mm hook.",
         "rows": [
           [
-            "Legs · Rnd 1",
+            "Legs · Round 1",
             "Make two: 6 sc in MR. (6)"
           ],
           [
-            "Legs · Rnd 2",
+            "Legs · Round 2",
             "5 sc, inc. (7)"
           ],
           [
-            "Legs · Rnds 3–8",
+            "Legs · Rounds 3–8",
             "7 sc for 6 rounds. (7)"
           ],
           [
@@ -1272,11 +1273,11 @@
             "Join the opening with 3 sc. Sew between Rnds 14 and 15 of the body."
           ],
           [
-            "Tail · Rnd 1",
+            "Tail · Round 1",
             "7 sc in MR. (7)"
           ],
           [
-            "Tail · Rnds 2–14",
+            "Tail · Rounds 2–14",
             "7 sc for 13 rounds. (7)"
           ],
           [
@@ -1291,15 +1292,15 @@
         "intro": "Black yarn · 2.00 mm hook.",
         "rows": [
           [
-            "Ears · Rnd 1",
+            "Ears · Round 1",
             "Make two: 6 sc in MR. (6)"
           ],
           [
-            "Ears · Rnd 2",
+            "Ears · Round 2",
             "6 inc. (12)"
           ],
           [
-            "Ears · Rnd 3",
+            "Ears · Round 3",
             "[sc, inc] × 6. (18)"
           ],
           [
@@ -1355,47 +1356,47 @@
         "intro": "Orange yarn · 2.25 mm hook.",
         "rows": [
           [
-            "Rnd 1",
+            "Round 1",
             "8 sc in MR. (8)"
           ],
           [
-            "Rnd 2",
+            "Round 2",
             "8 inc. (16)"
           ],
           [
-            "Rnd 3",
+            "Round 3",
             "[sc, inc] × 8. (24)"
           ],
           [
-            "Rnd 4",
+            "Round 4",
             "sc, inc, [2 sc, inc] × 7, sc. (32)"
           ],
           [
-            "Rnd 5",
+            "Round 5",
             "[3 sc, inc] × 8. (40)"
           ],
           [
-            "Rnd 6",
+            "Round 6",
             "2 sc, inc, [1 sc BLO, 3 sc, inc] × 7, 1 sc BLO, sc. (48)"
           ],
           [
-            "Rnds 7–16",
+            "Rounds 7–16",
             "4 sc, 1 sc BLO, [5 sc, 1 sc BLO] × 7, sc. Repeat for 10 rounds. (48)"
           ],
           [
-            "Rnd 17",
+            "Round 17",
             "[2 sc, dec] × 12. (36)"
           ],
           [
-            "Rnd 18",
+            "Round 18",
             "18 dec. (18)"
           ],
           [
-            "Rnd 19",
+            "Round 19",
             "[sc, dec] × 6. (12)"
           ],
           [
-            "Rnd 20",
+            "Round 20",
             "6 dec. (6)"
           ]
         ],
@@ -1439,67 +1440,67 @@
         "intro": "Purple yarn · 2.20 mm hook. The two chain openings accommodate the ears.",
         "rows": [
           [
-            "Rnd 1",
+            "Round 1",
             "6 sc in MR. (6)"
           ],
           [
-            "Rnd 2",
+            "Round 2",
             "[sc, inc] × 3. (9)"
           ],
           [
-            "Rnd 3",
+            "Round 3",
             "9 sc. (9)"
           ],
           [
-            "Rnd 4",
+            "Round 4",
             "[sc, inc] × 3, sc. (13)"
           ],
           [
-            "Rnds 5–7",
+            "Rounds 5–7",
             "13 sc for 3 rounds. (13)"
           ],
           [
-            "Rnd 8",
+            "Round 8",
             "sc, inc, [2 sc, inc] × 3, 2 sc. (17)"
           ],
           [
-            "Rnds 9–10",
+            "Rounds 9–10",
             "17 sc for 2 rounds. (17)"
           ],
           [
-            "Rnd 11",
+            "Round 11",
             "5 sc, [2 sc, inc] × 3, 3 sc. (20)"
           ],
           [
-            "Rnd 12",
+            "Round 12",
             "[9 sc, inc] × 2. (22)"
           ],
           [
-            "Rnd 13",
+            "Round 13",
             "[10 sc, inc] × 2. (24)"
           ],
           [
-            "Rnd 14",
+            "Round 14",
             "[3 sc, inc] × 6. (30)"
           ],
           [
-            "Rnd 15",
+            "Round 15",
             "2 sc, inc, 4 sc, inc, ch 10, skip 4 sts, 7 sc, ch 10, skip 4 sts, 7 sc. (44 including chains)"
           ],
           [
-            "Rnd 16",
+            "Round 16",
             "Sc in every stitch and each chain around. (44)"
           ],
           [
-            "Rnd 17",
+            "Round 17",
             "44 sc. (44)"
           ],
           [
-            "Rnd 18",
+            "Round 18",
             "inc, 5 sc, inc, 2 sc, inc, 11 sc, inc, [2 sc, inc] × 2, 10 sc, inc, 5 sc. (52)"
           ],
           [
-            "Rnd 19",
+            "Round 19",
             "52 sc. (52)"
           ]
         ],
@@ -1622,51 +1623,51 @@
         "intro": "Dark grey yarn · continuous rounds.",
         "rows": [
           [
-            "Rnd 1",
+            "Round 1",
             "MR, 6 sc. [6]"
           ],
           [
-            "Rnd 2",
+            "Round 2",
             "6 inc. [12]"
           ],
           [
-            "Rnd 3",
+            "Round 3",
             "(1 sc, inc) × 6. [18]"
           ],
           [
-            "Rnd 4",
+            "Round 4",
             "(1 sc, inc, 1 sc) × 6. [24]"
           ],
           [
-            "Rnd 5",
+            "Round 5",
             "(3 sc, inc) × 6. [30]"
           ],
           [
-            "Rnd 6",
+            "Round 6",
             "(2 sc, inc, 2 sc) × 6. [36]"
           ],
           [
-            "Rnd 7",
+            "Round 7",
             "(5 sc, inc) × 6. [42]"
           ],
           [
-            "Rnds 8–9",
+            "Rounds 8–9",
             "42 sc. [42]"
           ],
           [
-            "Rnd 10",
+            "Round 10",
             "(3 sc, inc, 3 sc) × 6. [48]"
           ],
           [
-            "Rnds 11–12",
+            "Rounds 11–12",
             "48 sc. [48]"
           ],
           [
-            "Rnd 13",
+            "Round 13",
             "(7 sc, inc) × 6. [54]"
           ],
           [
-            "Rnds 14–19",
+            "Rounds 14–19",
             "54 sc. [54]"
           ],
           [
@@ -1674,35 +1675,35 @@
             "Insert between rounds 15 and 16, 5 stitches apart. Start stuffing the head."
           ],
           [
-            "Rnd 20",
+            "Round 20",
             "(7 sc, dec) × 6. [48]"
           ],
           [
-            "Rnd 21",
+            "Round 21",
             "(3 sc, dec, 3 sc) × 6. [42]"
           ],
           [
-            "Rnd 22",
+            "Round 22",
             "(5 sc, dec) × 6. [36]"
           ],
           [
-            "Rnd 23",
+            "Round 23",
             "(2 sc, dec, 2 sc) × 6. [30]"
           ],
           [
-            "Rnd 24",
+            "Round 24",
             "(3 sc, dec) × 6. [24]"
           ],
           [
-            "Rnd 25",
+            "Round 25",
             "(1 sc, dec, 1 sc) × 6. [18]"
           ],
           [
-            "Rnd 26",
+            "Round 26",
             "(1 sc, dec) × 6. [12]"
           ],
           [
-            "Rnd 27",
+            "Round 27",
             "6 dec. [6]"
           ]
         ],
@@ -1723,23 +1724,23 @@
         "intro": "Dark grey yarn · do not stuff.",
         "rows": [
           [
-            "Rnd 1",
+            "Round 1",
             "MR, 6 sc. [6]"
           ],
           [
-            "Rnd 2",
+            "Round 2",
             "(1 sc, inc) × 3. [9]"
           ],
           [
-            "Rnd 3",
+            "Round 3",
             "(2 sc, inc) × 3. [12]"
           ],
           [
-            "Rnd 4",
+            "Round 4",
             "(3 sc, inc) × 3. [15]"
           ],
           [
-            "Rnds 5–6",
+            "Rounds 5–6",
             "15 sc. [15]"
           ]
         ],
@@ -1753,15 +1754,15 @@
         "intro": "Start with dark grey yarn. The cuffs use light purple.",
         "rows": [
           [
-            "Arm · Rnd 1",
+            "Arm · Round 1",
             "MR, 6 sc. [6]"
           ],
           [
-            "Arm · Rnd 2",
+            "Arm · Round 2",
             "(1 sc, inc) × 3. [9]"
           ],
           [
-            "Arm · Rnds 3–6",
+            "Arm · Rounds 3–6",
             "9 sc. [9]"
           ],
           [
@@ -1769,19 +1770,19 @@
             "Change to light purple."
           ],
           [
-            "Arm · Rnd 7",
+            "Arm · Round 7",
             "BLO: 9 sc. [9]"
           ],
           [
-            "Arm · Rnd 8",
+            "Arm · Round 8",
             "9 sc. [9]"
           ],
           [
-            "Arm · Rnd 9",
+            "Arm · Round 9",
             "7 sc, dec. [8]"
           ],
           [
-            "Arm · Rnd 10",
+            "Arm · Round 10",
             "8 sc. [8]"
           ],
           [
@@ -1793,11 +1794,11 @@
             "With the hand facing you, join light purple to a front loop of round 6."
           ],
           [
-            "Cuff · Rnd 1",
+            "Cuff · Round 1",
             "FLO: 9 sc, sl st. [9]"
           ],
           [
-            "Cuff · Rnd 2",
+            "Cuff · Round 2",
             "Ch 1; starting in the second stitch from the hook, 9 sc. Sl st in the first stitch of the round. [9]"
           ]
         ],
@@ -1818,35 +1819,35 @@
         "intro": "Start in dark grey, then change to light purple.",
         "rows": [
           [
-            "Rnd 1",
+            "Round 1",
             "MR, 6 sc. [6]"
           ],
           [
-            "Rnd 2",
+            "Round 2",
             "6 inc. [12]"
           ],
           [
-            "Rnd 3",
+            "Round 3",
             "(1 sc, inc) × 6. [18]"
           ],
           [
-            "Rnd 4",
+            "Round 4",
             "(1 sc, inc, 1 sc) × 6. [24]"
           ],
           [
-            "Rnd 5",
+            "Round 5",
             "(3 sc, inc) × 6. [30]"
           ],
           [
-            "Rnd 6",
+            "Round 6",
             "(2 sc, inc, 2 sc) × 6. [36]"
           ],
           [
-            "Rnd 7",
+            "Round 7",
             "(5 sc, inc) × 6. [42]"
           ],
           [
-            "Rnds 8–12",
+            "Rounds 8–12",
             "42 sc. [42]"
           ],
           [
@@ -1854,31 +1855,31 @@
             "Change to light purple."
           ],
           [
-            "Rnd 13",
+            "Round 13",
             "42 sc. [42]"
           ],
           [
-            "Rnd 14",
+            "Round 14",
             "BLO: 42 sc. [42]"
           ],
           [
-            "Rnds 15–17",
+            "Rounds 15–17",
             "42 sc. [42]"
           ],
           [
-            "Rnd 18",
+            "Round 18",
             "(5 sc, dec) × 6. [36]"
           ],
           [
-            "Rnd 19",
+            "Round 19",
             "36 sc. [36]"
           ],
           [
-            "Rnd 20",
+            "Round 20",
             "(2 sc, dec, 2 sc) × 6. [30]"
           ],
           [
-            "Rnd 21",
+            "Round 21",
             "5 sc, join the first arm with 4 sc through both loops of the arm and body, 11 sc, join the second arm with 4 sc through both loops, 6 sc. [30]"
           ]
         ],
@@ -1899,11 +1900,11 @@
         "intro": "Light purple yarn. With the body base facing away from you, join into a front loop of round 13.",
         "rows": [
           [
-            "Rnd 1",
+            "Round 1",
             "FLO: ch 1, begin in the second stitch from the hook, 42 hdc-inc. Sl st in the first stitch. [84]"
           ],
           [
-            "Rnd 2",
+            "Round 2",
             "Ch 1, begin in the second stitch from the hook, (hdc, hdc-inc) × 42. Sl st in the first stitch. [126]"
           ]
         ],
@@ -1924,31 +1925,31 @@
         "intro": "Dark grey feet with vintage pink pads.",
         "rows": [
           [
-            "Feet · Rnd 1",
+            "Feet · Round 1",
             "MR, 6 sc. [6]"
           ],
           [
-            "Feet · Rnd 2",
+            "Feet · Round 2",
             "6 inc. [12]"
           ],
           [
-            "Feet · Rnd 3",
+            "Feet · Round 3",
             "(2 sc, inc) × 4. [16]"
           ],
           [
-            "Feet · Rnds 4–6",
+            "Feet · Rounds 4–6",
             "16 sc. [16]"
           ],
           [
-            "Feet · Rnd 7",
+            "Feet · Round 7",
             "(2 sc, dec) × 4. [12]"
           ],
           [
-            "Feet · Rnd 8",
+            "Feet · Round 8",
             "12 sc. [12]"
           ],
           [
-            "Feet · Rnd 9",
+            "Feet · Round 9",
             "(2 sc, dec) × 3. [9]"
           ],
           [
@@ -1956,7 +1957,7 @@
             "Stuff lightly. Fasten off and leave a long tail. Weave through the front loops and pull tightly to close; keep the tail for sewing."
           ],
           [
-            "Pad · Rnd 1",
+            "Pad · Round 1",
             "Vintage pink: MR, 6 sc. [6] Close with an invisible sl st and leave a long sewing tail."
           ]
         ]
@@ -2017,11 +2018,11 @@
         "intro": "Dark grey yarn · do not stuff.",
         "rows": [
           [
-            "Rnd 1",
+            "Round 1",
             "MR, 7 sc. [7]"
           ],
           [
-            "Rnds 2–21",
+            "Rounds 2–21",
             "7 sc. [7]"
           ]
         ],
@@ -2035,47 +2036,47 @@
         "intro": "Start in light purple and work in rounds.",
         "rows": [
           [
-            "Rnd 1",
+            "Round 1",
             "MR, 6 sc. [6]"
           ],
           [
-            "Rnd 2",
+            "Round 2",
             "(1 sc, inc) × 3. [9]"
           ],
           [
-            "Rnd 3",
+            "Round 3",
             "(2 sc, inc) × 3. [12]"
           ],
           [
-            "Rnd 4",
+            "Round 4",
             "(3 sc, inc) × 3. [15]"
           ],
           [
-            "Rnd 5",
+            "Round 5",
             "(4 sc, inc) × 3. [18]"
           ],
           [
-            "Rnd 6",
+            "Round 6",
             "(5 sc, inc) × 3. [21]"
           ],
           [
-            "Rnd 7",
+            "Round 7",
             "(6 sc, inc) × 3. [24]"
           ],
           [
-            "Rnd 8",
+            "Round 8",
             "(3 sc, inc) × 6. [30]"
           ],
           [
-            "Rnd 9",
+            "Round 9",
             "30 sc. [30]"
           ],
           [
-            "Rnd 10",
+            "Round 10",
             "(2 sc, inc, 2 sc) × 6. [36]"
           ],
           [
-            "Rnd 11",
+            "Round 11",
             "36 sc. [36]"
           ],
           [
@@ -2083,7 +2084,7 @@
             "Change to dark purple."
           ],
           [
-            "Rnds 12–13",
+            "Rounds 12–13",
             "36 sc. [36]"
           ],
           [
@@ -2091,15 +2092,15 @@
             "Sl st to close. Change to light purple."
           ],
           [
-            "Rnd 14",
+            "Round 14",
             "FLO: ch 1, start in the second stitch from the hook, (2 sc, inc) × 12. Sl st in the first stitch. [48]"
           ],
           [
-            "Rnd 15",
+            "Round 15",
             "Ch 1, start in the second stitch from the hook, (7 sc, inc) × 6. Sl st in the first stitch. [54]"
           ],
           [
-            "Rnd 16",
+            "Round 16",
             "Ch 1, start in the second stitch from the hook, (4 sc, inc, 4 sc) × 6. Sl st in the first stitch. [60]"
           ]
         ],

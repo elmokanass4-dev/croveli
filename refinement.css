@@ -72,3 +72,32 @@ dialog.photo-viewer{position:fixed;inset:auto;top:50%;left:50%;transform:transla
 /* Keep responsive sources out of layout and the story image in one grid cell. */
 picture>source{display:none}
 .story>.responsive-picture{display:block;min-width:0}
+
+/* Homepage discovery is navigation; detailed filtering belongs to the catalog. */
+.featured-patterns>.categories{display:flex;position:static;width:100%;margin:24px 0 32px;padding:5px 4px 10px;gap:8px;background:transparent;border:0;box-shadow:none;align-items:center}
+.featured-patterns .section-heading>.text-link{display:inline-flex;align-items:center;gap:10px;min-height:44px}
+
+/* Compact project cards; four project cards per wide desktop row. */
+.card .card-body{padding:20px}
+.card .card-body>.eyebrow{margin-bottom:8px}
+.card h3{min-height:0;font-size:28px;line-height:1.2;margin-bottom:12px}
+.card .card-meta{min-height:0;margin-bottom:14px;font-size:14px;line-height:1.6}
+.card .card-action{padding-top:12px;min-height:44px}
+.collection>.grid>.card .card-img{aspect-ratio:1}
+@media(min-width:1200px){.collection>.grid:has(>.card:nth-child(4):last-child){grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:600px){.collection>.grid{grid-template-columns:minmax(0,1fr)}.card .card-body{padding:20px}.card h3{font-size:27px}}
+
+.project-scope-note{font-size:15px;line-height:1.7;padding:14px 16px;border-left:3px solid var(--olive);background:var(--cream);margin:0 0 20px}
+
+/* Native MailerLite HTML form, using Croveli's existing typography and colors. */
+.newsletter-inline{min-width:0}.newsletter-inline .ml-form-embedWrapper{width:100%;max-width:none;background:transparent}.newsletter-inline .ml-form-formContent{margin:0 0 12px}.newsletter-inline label{display:block;font-size:14px;margin-bottom:8px}.newsletter-inline input[type=email]{width:100%;min-height:48px;padding:12px 14px;font-size:16px;border:1px solid var(--line);border-radius:4px;background:white;color:var(--ink)}.newsletter-inline .ml-form-embedSubmit button.primary{display:block;width:100%;min-height:48px;background:var(--olive);border:1px solid var(--olive);border-radius:4px;color:white;padding:12px 18px;font-weight:600}.newsletter-inline .ml-form-embedSubmit button.primary:hover{background:var(--olive-hover)}.newsletter-inline .loading{min-height:48px;width:100%;background:var(--cream);border:1px solid var(--line)}.newsletter-inline .ml-error input{border:2px solid #9f3327}.newsletter-inline .row-success{padding:20px;border-left:3px solid var(--olive);background:var(--cream)}.newsletter-inline .row-success h4{font-family:Georgia,serif;font-size:28px;margin:0 0 12px}.newsletter-inline .row-success p{font-size:16px;line-height:1.7;margin:0}.newsletter-inline .fine{font-size:13px!important;line-height:1.75;margin:14px 0 0}.newsletter-inner>div{min-width:0}
+
+/* A compact brand introduction closes the homepage after discovery and learning. */
+.story{grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:40px;padding:32px}
+.story img{aspect-ratio:4/3;object-position:50% 45%}
+.story h2{font-size:36px;margin:8px 0 16px}
+.story p{max-width:55ch;margin-bottom:16px}
+@media(max-width:760px){.story{grid-template-columns:minmax(0,180px) minmax(0,1fr);padding:24px;gap:24px}.story h2{font-size:30px}.story p{font-size:16px}}
+@media(max-width:600px){.story{grid-template-columns:minmax(0,1fr)}.story>.responsive-picture{max-width:240px}.story h2{font-size:32px}}
+
+@media(min-width:761px){.hero,.hero-photo{min-height:480px}.hero-copy{padding:40px}.hero-copy h1{font-size:clamp(44px,4vw,58px)}.hero-copy>p{margin-bottom:24px}}

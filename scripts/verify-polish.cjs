@@ -11,10 +11,10 @@ const base='http://localhost:4174/croveli/';
     const bounds=await page.locator('.hero,#patterns,.story,.learning,.newsletter-inner,.footer-inner').evaluateAll(es=>es.map(e=>({x:e.getBoundingClientRect().x,w:e.getBoundingClientRect().width})));
     assert(bounds.every(b=>Math.abs(b.x-bounds[0].x)<1&&Math.abs(b.w-bounds[0].w)<1),'content boundary '+width);
     const storyImage=await page.locator('.story img').boundingBox(),storyCopy=await page.locator('.story>div').boundingBox();
-    if(width>760){assert(storyImage.x+storyImage.width<=storyCopy.x,'story image beside copy '+width);assert(Math.min(storyImage.y+storyImage.height,storyCopy.y+storyCopy.height)>Math.max(storyImage.y,storyCopy.y),'story columns overlap vertically '+width)}
+    if(width>600){assert(storyImage.x+storyImage.width<=storyCopy.x,'story image beside copy '+width);assert(Math.min(storyImage.y+storyImage.height,storyCopy.y+storyCopy.height)>Math.max(storyImage.y,storyCopy.y),'story columns overlap vertically '+width)}
     else {assert(storyImage.y+storyImage.height<=storyCopy.y,'story image above copy '+width);assert(Math.abs(storyImage.x-storyCopy.x)<1,'story mobile alignment '+width)}
     assert.equal(await page.locator('.story source').evaluate(e=>getComputedStyle(e).display),'none','responsive source stays out of layout');
-    if(width>=1024)assert.equal(await page.locator('#patterns>.grid').evaluate(e=>getComputedStyle(e).gridTemplateColumns.split(' ').length),3);
+    if(width>=1024)assert.equal(await page.locator('#patterns>.grid').evaluate(e=>getComputedStyle(e).gridTemplateColumns.split(' ').length),width>=1200?4:3);
     layout.push({width,cls:await page.evaluate(()=>window.labCLS)});
     if(width===390||width===1440)await page.screenshot({path:path.join(__dirname,'../../croveli-polished-home-'+width+'.png'),fullPage:width===1440});
     await page.goto(base+'patterns/long-eared-bunny/',{waitUntil:'networkidle'});
