@@ -41,3 +41,9 @@ Run `npm run build`, `npm run dev`, then visit `http://localhost:4174/croveli/`.
 - [Layout-shift guidance](https://web.dev/articles/optimize-cls)
 
 Latest pre-publication checks are recorded in LAUNCH-REVIEW.md. The origin-root robots 404 was rechecked read-only during Step 9. No publication was performed.
+
+## AdSense connection — October 20, 2026
+
+AdSense account ca-pub-2746976114421607 was created with owner approval. The static ownership meta tag is included in the shared HTML shell. Advertising remains disabled: no Google advertising script or ad unit has been added.
+
+The separate elmokanass4-dev/elmokanass4-dev.github.io repository now supplies the origin homepage (redirecting to /croveli/), root robots.txt referencing the project sitemap, and root ads.txt for this publisher. This resolves the historical origin-root 404 described above. Site approval and payment-profile completion remain separate steps in AdSense.
