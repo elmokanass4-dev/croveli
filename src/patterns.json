@@ -2141,5 +2141,767 @@
     },
     "status": "published",
     "comparisonDetail": "A grey cat with a ruffled skirt, pointed hat, and separate cloak."
+  },
+  {
+    "id": "acorn-crossbody-bag",
+    "name": "Acorn Crossbody Bag & Charm",
+    "status": "published",
+    "sourceTitle": "Acorn Crossbody Bag & Charm",
+    "category": "Bags",
+    "tags": [
+      "Bags"
+    ],
+    "level": "Not specified",
+    "time": null,
+    "size": "Not specified in source",
+    "hook": "3.0–3.5 mm",
+    "image": "acorn-crossbody-bag.jpg",
+    "alt": "Brown and cream crochet crossbody bag with scalloped trim and a hanging acorn charm",
+    "focal": "45% 85%",
+    "credit": "Source: Acorn Crossbody Bag & Charm Crochet Pattern",
+    "reviewed": false,
+    "description": "Crochet a brown-and-cream crossbody bag with a ribbed lower body, a scalloped border, and a small stuffed acorn charm. The made-to-length strap clips onto D-rings for an everyday carry.",
+    "presentation": [
+      "Two textures give this bag its character: front-post ribbing below and a soft cream upper section with scalloped edging. The detachable strap and miniature acorn finish the woodland look.",
+      "Work the oval bag first, then the strap and the two small charm pieces. The supplied pattern leaves the crossbody strap length to you."
+    ],
+    "highlights": [
+      "Front-post ribbing and scalloped edging",
+      "Clip-on crossbody strap",
+      "Matching stuffed acorn charm"
+    ],
+    "materials": [
+      "5-ply milk cotton yarn in brown and cream/beige",
+      "3.0–3.5 mm crochet hook",
+      "2 D-rings and 2 swivel lobster clasps",
+      "Optional zipper or magnetic clasp",
+      "Wooden beads for the charm cord",
+      "Fiberfill stuffing",
+      "Tapestry needle and stitch markers"
+    ],
+    "abbreviations": [
+      [
+        "ch",
+        "Chain"
+      ],
+      [
+        "sl st",
+        "Slip stitch"
+      ],
+      [
+        "sc",
+        "Single crochet"
+      ],
+      [
+        "dc",
+        "Double crochet"
+      ],
+      [
+        "inc",
+        "Single crochet increase"
+      ],
+      [
+        "dec / sc2tog",
+        "Single crochet decrease"
+      ],
+      [
+        "st(s)",
+        "Stitch(es)"
+      ],
+      [
+        "W",
+        "3 sc in the same stitch"
+      ],
+      [
+        "FPdc",
+        "Front post double crochet"
+      ],
+      [
+        "FLO / BLO",
+        "Front / back loop only"
+      ],
+      [
+        "sk",
+        "Skip"
+      ],
+      [
+        "MR",
+        "Magic ring"
+      ]
+    ],
+    "notes": [
+      "US crochet terminology. Read both round-15 instructions before starting the cream section: the scallop edging and main body use different loops of round 14.",
+      "Strap length and finished bag dimensions are not specified; work the strap to your desired crossbody length."
+    ],
+    "sections": [
+      {
+        "id": "base",
+        "title": "Oval base",
+        "rows": [
+          [
+            "Round 1",
+            "Starting in 2nd chain from hook: 1 inc, 33 sc, 3 sc in last ch (W), turn to work along opposite side of chain: 34 sc. (Total: 72 sts)"
+          ],
+          [
+            "Round 2",
+            "2 inc, 33 sc, 3 inc, 33 sc, 1 inc. (Total: 78 sts)"
+          ],
+          [
+            "Round 3",
+            "[1 sc, 1 inc] × 2, 33 sc, [1 sc, 1 inc] × 3, 34 sc, 1 inc. (Total: 84 sts)"
+          ]
+        ],
+        "intro": "With brown yarn, ch 36."
+      },
+      {
+        "id": "ribbing",
+        "title": "Lower textured section",
+        "rows": [
+          [
+            "Round 4",
+            "84 dc. (84 sts)"
+          ],
+          [
+            "Round 5 (Textured Ribbing)",
+            "1 dc, 1 FPdc, [2 dc, 1 FPdc] × 27 times, 1 dc. (84 sts)"
+          ],
+          [
+            "Rounds 6–13",
+            "Repeat Rnd 5. (84 sts each round)"
+          ]
+        ]
+      },
+      {
+        "id": "upper",
+        "title": "Cream upper section and scallop edging",
+        "rows": [
+          [
+            "Round 14",
+            "84 sc. (84 sts) Note for Rnd 15: Scallop edging works in front loops, while the rest continues in back loops."
+          ],
+          [
+            "Round 15 (Edging - Front Loops Only [FLO])",
+            "[1 sc, sk 1 st, 5 dc in next st (shell), sk 1 st] repeat 21 times around. Creates 21 decorative scalloped shells hanging downward. Fasten off this yarn tail."
+          ],
+          [
+            "Round 15 (Main Body - Back Loops Only [BLO])",
+            "Join cream yarn to remaining back loops (BLO) of Rnd 14: 84 dc. (84 sts)"
+          ],
+          [
+            "Rounds 16–21",
+            "84 dc. (84 sts each round)"
+          ]
+        ],
+        "intro": "Switch to beige/cream. Round 15 has a front-loop edging pass and a separate back-loop body pass."
+      },
+      {
+        "id": "rim",
+        "title": "Brown top rim",
+        "rows": [
+          [
+            "Round 22",
+            "84 sc. (84 sts)"
+          ],
+          [
+            "Round 23",
+            "84 sl st. Fasten off and weave in ends."
+          ]
+        ]
+      },
+      {
+        "id": "strap",
+        "title": "Crossbody strap",
+        "rows": [
+          [
+            "Rows",
+            "Work entirely in rows of single crochet (sc): Ch 5–7, then work rows of sc until reaching your desired crossbody length. Color detail: Work center rows in cream and add an edging round of brown sc along both long edges. Attach lobster clasps to both ends of the strap and sew D-rings to the top inside edges of the bag."
+          ]
+        ]
+      },
+      {
+        "id": "acorn-body",
+        "title": "Mini acorn: nut",
+        "rows": [
+          [
+            "Round 1",
+            "6 sc in a MR. (6)"
+          ],
+          [
+            "Round 2",
+            "6 inc. (12)"
+          ],
+          [
+            "Round 3",
+            "12 sc. (12)"
+          ],
+          [
+            "Round 4",
+            "[1 sc, 1 inc] × 6. (18)"
+          ],
+          [
+            "Round 5",
+            "18 sc. (18)"
+          ],
+          [
+            "Round 6",
+            "[2 sc, 1 inc] × 6. (24)"
+          ],
+          [
+            "Rounds 7–9",
+            "24 sc across (3 rds). (24)"
+          ],
+          [
+            "Round 10",
+            "[2 sc, 1 dec] × 6. (18)"
+          ],
+          [
+            "Round 11",
+            "[1 sc, 1 dec] × 6. (12) Add fiberfill stuffing firmly"
+          ],
+          [
+            "Round 12",
+            "6 dec. (6) Fasten off."
+          ]
+        ],
+        "intro": "Use beige/cream yarn."
+      },
+      {
+        "id": "acorn-cap",
+        "title": "Mini acorn: cap",
+        "rows": [
+          [
+            "Round 1",
+            "7 sc in a MR. (7)"
+          ],
+          [
+            "Round 2",
+            "7 inc. (14)"
+          ],
+          [
+            "Round 3",
+            "[1 sc, 1 inc] × 7. (21)"
+          ],
+          [
+            "Round 4",
+            "[2 sc, 1 inc] × 7. (28)"
+          ],
+          [
+            "Round 5",
+            "[2 sc, 1 dec] × 7. (21) Fasten off, leaving long tail for assembly."
+          ]
+        ],
+        "intro": "Use brown yarn."
+      }
+    ],
+    "assembly": [
+      "Attach the lobster clasps to both ends of the strap.",
+      "Sew the D-rings to the top inside edges of the bag.",
+      "Fasten off the acorn cap with a long tail for assembly."
+    ],
+    "closing": "Weave in the loose ends and check the attachments before using your finished bag.",
+    "sourceFile": "Acorn Crossbody Bag & Charm Crochet Pattern.pdf",
+    "seo": {
+      "focus": "acorn crossbody bag & charm free crochet pattern",
+      "title": "Acorn Crossbody Bag & Charm Crochet Pattern | Croveli",
+      "heading": "Free Acorn Crossbody Bag & Charm Crochet Pattern",
+      "description": "Crochet a brown-and-cream crossbody bag with a ribbed lower body, a scalloped border, and a small stuffed acorn charm. The made-to-length strap clips onto D-rings for an everyday carry."
+    }
+  },
+  {
+    "id": "bow-knot-handbag",
+    "name": "Bow-Knot Handbag",
+    "status": "published",
+    "sourceTitle": "Bow-Knot Handbag",
+    "category": "Bags",
+    "tags": [
+      "Bags"
+    ],
+    "level": "Not specified",
+    "time": null,
+    "size": "Not specified in source",
+    "hook": "3.0 mm",
+    "image": "bow-knot-handbag.jpg",
+    "alt": "Cream mesh crochet handbag with a knotted bow handle, shown with a decorative bunny charm",
+    "focal": "48% 62%",
+    "credit": "Source: Bow-Knot Handbag Crochet Pattern",
+    "reviewed": false,
+    "description": "Make a soft crochet handbag with alternating mesh rounds and a handle shaped into a bow. Start with an oval base, build the openwork body, and taper the straps into flared bow ends.",
+    "presentation": [
+      "A simple mesh body keeps the fabric open and light, while shaped handles create the bow detail at the top. The cream project photograph shows the silhouette and stitch texture.",
+      "The handles are worked in rows from the bag rim. Decreases narrow each handle, and increases widen the bow ends before they taper again."
+    ],
+    "highlights": [
+      "Oval double-crochet base",
+      "Alternating mesh and single-crochet rounds",
+      "Shaped handles with flared bow ends"
+    ],
+    "materials": [
+      "5-ply milk cotton yarn, such as Xuefeier 5-ply, or similar sport/DK cotton-acrylic yarn",
+      "3.0 mm crochet hook",
+      "Tapestry needle, scissors and stitch markers",
+      "Hot glue or needle and thread for securing the bow knot"
+    ],
+    "abbreviations": [
+      [
+        "ch",
+        "Chain"
+      ],
+      [
+        "sl st",
+        "Slip stitch"
+      ],
+      [
+        "sc",
+        "Single crochet"
+      ],
+      [
+        "dc",
+        "Double crochet"
+      ],
+      [
+        "inc",
+        "Single crochet increase"
+      ],
+      [
+        "dec / sc2tog",
+        "Single crochet decrease"
+      ],
+      [
+        "st(s)",
+        "Stitch(es)"
+      ],
+      [
+        "dc-inc",
+        "Double crochet increase: 2 dc in the same stitch"
+      ],
+      [
+        "sk",
+        "Skip"
+      ]
+    ],
+    "notes": [
+      "US crochet terminology. Handle and bow instructions are worked back and forth in rows, even where the source uses an R label.",
+      "Follow the listed repeats and stitch counts; finished bag dimensions are not specified in the supplied pattern."
+    ],
+    "sections": [
+      {
+        "id": "base",
+        "title": "Oval bag base",
+        "rows": [
+          [
+            "Round 1",
+            "Starting in the 3rd chain from the hook: 3 dc in the 3rd ch, 37 dc across, 5 dc in the last chain, turn to work along the opposite side of foundation chain: 37 dc, 2 dc in the very first starting chain (5 dc total at each end). (Total: 84 sts)"
+          ],
+          [
+            "Round 2",
+            "3 dc-inc, 37 dc, 5 dc-inc, 37 dc, 2 dc-inc. (Total: 94 sts)"
+          ],
+          [
+            "Round 3",
+            "[1 dc, 1 dc-inc] × 3, 37 dc, [1 dc, 1 dc-inc] × 5, 37 dc, [1 dc, 1 dc-inc] × 2. (Total: 104 sts)"
+          ],
+          [
+            "Round 4",
+            "[2 dc, 1 dc-inc] × 3, 37 dc, [2 dc, 1 dc-inc] × 5, 37 dc, [2 dc, 1 dc-inc] × 2. (Total: 114 sts)"
+          ]
+        ],
+        "intro": "Ch 41."
+      },
+      {
+        "id": "body",
+        "title": "Mesh bag body",
+        "rows": [
+          [
+            "Round 5",
+            "114 sc."
+          ],
+          [
+            "Round 6",
+            "114 dc."
+          ],
+          [
+            "Round 7",
+            "114 sc."
+          ],
+          [
+            "Round 8",
+            "114 dc."
+          ],
+          [
+            "Round 9",
+            "114 sc."
+          ],
+          [
+            "Round 10 (Mesh round)",
+            "[4 dc, ch 2, sk 2] repeat around to the end (19 repeats total)."
+          ],
+          [
+            "Round 11",
+            "114 sc (1 sc into each dc and 2 sc into each ch-2 space)."
+          ],
+          [
+            "Rounds 12–25",
+            "Repeat Rnds 10–11 for 7 more times (8 sets of mesh + sc rounds in total)."
+          ],
+          [
+            "Round 26",
+            "114 sc. Fasten off."
+          ]
+        ]
+      },
+      {
+        "id": "handles",
+        "title": "Handles and center straps",
+        "rows": [
+          [
+            "Row 1",
+            "28 sc, ch 1, turn."
+          ],
+          [
+            "Row 2",
+            "1 dec, 24 sc, 1 dec, ch 1, turn. (26 sts)"
+          ],
+          [
+            "Row 3",
+            "26 sc, ch 1, turn."
+          ],
+          [
+            "Row 4",
+            "1 dec, 22 sc, 1 dec, ch 1, turn. (24 sts)"
+          ],
+          [
+            "Row 5",
+            "24 sc, ch 1, turn."
+          ],
+          [
+            "Row 6",
+            "1 dec, 20 sc, 1 dec, ch 1, turn. (22 sts)"
+          ],
+          [
+            "Row 7",
+            "22 sc, ch 1, turn."
+          ],
+          [
+            "Rows 8+",
+            "Continue alternating a decrease row and an even row in this manner until only 8 sts remain."
+          ],
+          [
+            "Center Strap",
+            "Work 16 rows evenly of 8 sc (ch 1 and turn each row). Do not cut the yarn."
+          ]
+        ],
+        "intro": "Make two identical handles. Locate the center 28 stitches on the front and back top edges; attach yarn and work across these stitches."
+      },
+      {
+        "id": "bow",
+        "title": "Flared bow ends",
+        "rows": [
+          [
+            "Row 1",
+            "1 inc, 6 sc, 1 inc, ch 1, turn. (10)"
+          ],
+          [
+            "Row 2",
+            "10 sc, ch 1, turn."
+          ],
+          [
+            "Row 3",
+            "1 inc, 8 sc, 1 inc, ch 1, turn. (12)"
+          ],
+          [
+            "Row 4",
+            "12 sc, ch 1, turn."
+          ],
+          [
+            "Row 5",
+            "1 inc, 10 sc, 1 inc, ch 1, turn. (14)"
+          ],
+          [
+            "Row 6",
+            "14 sc, ch 1, turn."
+          ],
+          [
+            "Row 7",
+            "1 inc, 12 sc, 1 inc, ch 1, turn. (16)"
+          ],
+          [
+            "Row 8",
+            "16 sc, ch 1, turn."
+          ],
+          [
+            "Row 9",
+            "1 inc, 14 sc, 1 inc, ch 1, turn. (18)"
+          ],
+          [
+            "Rows 10–12",
+            "18 sc, ch 1, turn. (3 rows)"
+          ],
+          [
+            "Row 13",
+            "1 dec, 14 sc, 1 dec, ch 1, turn. (16)"
+          ],
+          [
+            "Row 14",
+            "16 sc, ch 1, turn."
+          ],
+          [
+            "Row 15",
+            "1 dec, 12 sc, 1 dec, ch 1, turn. (14)"
+          ],
+          [
+            "Row 16",
+            "14 sc, ch 1, turn."
+          ],
+          [
+            "Row 17",
+            "1 dec, 10 sc, 1 dec, ch 1, turn. (12)"
+          ],
+          [
+            "Row 18",
+            "12 sc, ch 1, turn."
+          ],
+          [
+            "Row 19",
+            "1 dec, 8 sc, 1 dec, ch 1, turn. (10)"
+          ],
+          [
+            "Row 20",
+            "10 sc, ch 1, turn. Continue decreasing until tapered to 1 st. Fasten off and weave in ends."
+          ]
+        ],
+        "intro": "Continue from the 8 stitches of each center strap. Work back and forth in rows."
+      }
+    ],
+    "assembly": [
+      "Continue decreasing the bow ends until tapered to 1 stitch, then fasten off and weave in the ends.",
+      "Secure the bow knot with hot glue or needle and thread, as listed in the supplied materials."
+    ],
+    "closing": "Weave in the loose ends and check the attachments before using your finished bag.",
+    "introNotice": "The bunny charm shown in the photograph is decorative. Charm instructions are not included in this handbag pattern.",
+    "sourceFile": "Bow-Knot Handbag Crochet Pattern.pdf",
+    "seo": {
+      "focus": "bow-knot handbag free crochet pattern",
+      "title": "Bow-Knot Handbag Crochet Pattern | Croveli",
+      "heading": "Free Bow-Knot Handbag Crochet Pattern",
+      "description": "Make a soft crochet handbag with alternating mesh rounds and a handle shaped into a bow. Start with an oval base, build the openwork body, and taper the straps into flared bow ends."
+    }
+  },
+  {
+    "id": "granny-breeze-bag",
+    "name": "Granny Breeze Bag",
+    "status": "published",
+    "sourceTitle": "Granny Breeze Bag",
+    "category": "Bags",
+    "tags": [
+      "Bags"
+    ],
+    "level": "Not specified",
+    "time": null,
+    "size": "38 × 30 cm, without straps",
+    "hook": "3.0 mm",
+    "image": "granny-breeze-bag.jpg",
+    "alt": "Close-up of a beige granny-style crochet tote with tan sewn-on handles",
+    "focal": "48% 62%",
+    "credit": "Original design by AnDREAM · Crochet By AnDREAM",
+    "reviewed": false,
+    "description": "Crochet an airy granny-style tote from two matching panels, joined along three sides and finished with sewn-on handles. Choose the cotton-yarn or 2 mm cotton-rope version from the supplied instructions.",
+    "presentation": [
+      "Granny Breeze pairs open stitchwork with a simple tote shape and sewn-on handles. The two-panel construction lets you build the front and back separately before joining the bag.",
+      "The pattern provides separate panel and side-depth instructions for Lion Brand 24/7 Cotton and 2 mm cotton rope. Choose one version and follow that path throughout."
+    ],
+    "highlights": [
+      "Two matching granny-style panels",
+      "Cotton-yarn and cotton-rope versions",
+      "Sewn-on handles"
+    ],
+    "materials": [
+      "Lion Brand 24/7 Cotton: 3 skeins (260 g), or the 2 mm cotton-rope version described in the source",
+      "3.0 mm crochet hook",
+      "Stitch markers, scissors and tapestry needle",
+      "Sew-on leather-style bag handles"
+    ],
+    "abbreviations": [
+      [
+        "ch",
+        "Chain"
+      ],
+      [
+        "st",
+        "Stitch"
+      ],
+      [
+        "sc",
+        "Single crochet"
+      ],
+      [
+        "dc",
+        "Double crochet"
+      ],
+      [
+        "hdc",
+        "Half double crochet"
+      ],
+      [
+        "sp",
+        "Space"
+      ],
+      [
+        "sl st",
+        "Slip stitch / join"
+      ],
+      [
+        "rep",
+        "Repeat"
+      ],
+      [
+        "sk",
+        "Skip"
+      ]
+    ],
+    "notes": [
+      "Choose a yarn version before starting: 24/7 Cotton panels finish at round 13; 2 mm cotton-rope panels finish at round 8.",
+      "The source labels the three-sided edging as rounds, although the work is turned. The labels below identify them as edging passes so they are not confused with complete panel rounds.",
+      "The stated finished size is 38 × 30 cm without straps. Yarn choice and tension can change the result."
+    ],
+    "sections": [
+      {
+        "id": "panels",
+        "title": "Front and back panels",
+        "rows": [
+          [
+            "Round 1",
+            "Make a magic ring, Ch3 (count as like st), Dc, Ch2 (Ch2, 2Dc) x Rep 3times, (Ch1, Hdc join in the 3th st)"
+          ],
+          [
+            "Round 2",
+            "Ch3 (count as a like st), Dc in first corner, [Dc2 (2Dc, Ch2, 2Dc) in Ch2 Sp] x3times, Dc2, 2Dc in Ch2 sp, (Ch1, Hdc join in the 3th st)"
+          ],
+          [
+            "Round 3",
+            "Ch3 (count as a like st), Dc in first corner, (Ch2, skip2, Dc6), (Ch2, 2Dc, Ch2 skip2, Dc6) x 3times, (Ch1, Hdc join in the 3th st)"
+          ],
+          [
+            "Round 4",
+            "Ch3 (count as a like st), Dc in first corner, (Dc4),(Ch2, skip2, Dc6), (Ch2, Dc6,Ch2, skip2, Dc6) x 3 times, (Ch1, Hdc join in the 3th st)"
+          ],
+          [
+            "Round 5",
+            "Ch3 (count as a like st), Dc in first corner, (Ch2 skip2, Dc6) x 2 times, (Ch2, 2Dc, Ch2, skip 2, Dc6, Ch2, skip 2, Dc6) x 3 times, (Ch1, Hdc join in the 3th st)"
+          ],
+          [
+            "Round 6",
+            "Ch3 (count as a like st), Dc in first corner, (Dc4),(Ch2, skip2, Dc6), (Ch2, Dc6,Ch2, skip2, Dc6) x 3 times, (Ch1, Hdc join in the 3th st)"
+          ],
+          [
+            "Rounds 7 onward",
+            "Repeat the pattern of rounds 5 and 6 until the desired size: finish at round 13 for 24/7 Cotton or round 8 for 2 mm cotton rope."
+          ]
+        ],
+        "intro": "Make two matching side panels. The beginning ch 3 counts as a stitch unless stated otherwise.",
+        "figures": [
+          {
+            "image": "granny-breeze-process-1",
+            "alt": "Source photograph showing Granny Breeze panel construction, reference 1",
+            "caption": "Panel construction reference from the supplied Granny Breeze pattern (1 of 5)."
+          },
+          {
+            "image": "granny-breeze-process-2",
+            "alt": "Source photograph showing Granny Breeze panel construction, reference 2",
+            "caption": "Panel construction reference from the supplied Granny Breeze pattern (2 of 5)."
+          },
+          {
+            "image": "granny-breeze-process-3",
+            "alt": "Source photograph showing Granny Breeze panel construction, reference 3",
+            "caption": "Panel construction reference from the supplied Granny Breeze pattern (3 of 5)."
+          },
+          {
+            "image": "granny-breeze-process-4",
+            "alt": "Source photograph showing Granny Breeze panel construction, reference 4",
+            "caption": "Panel construction reference from the supplied Granny Breeze pattern (4 of 5)."
+          },
+          {
+            "image": "granny-breeze-process-5",
+            "alt": "Source photograph showing Granny Breeze panel construction, reference 5",
+            "caption": "Panel construction reference from the supplied Granny Breeze pattern (5 of 5)."
+          }
+        ]
+      },
+      {
+        "id": "rope-sides",
+        "title": "Side depth: 2 mm cotton rope",
+        "rows": [
+          [
+            "Pass 9",
+            "Ch 3, turn. Dc in each stitch along three sides, working 4 dc in every corner and 2 dc in each ch-2 space."
+          ],
+          [
+            "Pass 10",
+            "Ch 3, turn. Dc in every stitch along three sides. This forms the side of the bag, about 4 cm deep."
+          ]
+        ],
+        "intro": "Use this path after an 8-round cotton-rope panel."
+      },
+      {
+        "id": "cotton-sides",
+        "title": "Side depth: 24/7 Cotton",
+        "rows": [
+          [
+            "Pass 14",
+            "Ch 3, turn. Dc in each stitch along three sides, working 4 dc in every corner and 2 dc in each ch-2 space."
+          ],
+          [
+            "Pass 15",
+            "Ch 3, turn. Dc in every stitch along three sides."
+          ],
+          [
+            "Passes 16–19",
+            "Ch 3, turn. Dc in each stitch along three sides. This forms the side of the bag, about 5.5–6 cm deep."
+          ]
+        ],
+        "intro": "Use this path after a 13-round 24/7 Cotton panel."
+      },
+      {
+        "id": "join",
+        "title": "Join the panels",
+        "rows": [
+          [
+            "Join three sides",
+            "When both panels are finished, do not cut the yarn. Connect the three sides with sc through both panels, one sc in each stitch. Do not cut the yarn after joining."
+          ]
+        ]
+      },
+      {
+        "id": "rim",
+        "title": "Top of the bag",
+        "rows": [
+          [
+            "Top edging",
+            "Ch 3 (does not count as a stitch). Dc in each stitch around the top, working 2 dc into each dc row end. Join with sl st. Cut the yarn and fasten off."
+          ]
+        ]
+      },
+      {
+        "id": "handles",
+        "title": "Attach the handles",
+        "rows": [
+          [
+            "Sew on the straps",
+            "Sew the leather-style handles onto the bag as shown in the project photograph."
+          ]
+        ]
+      }
+    ],
+    "assembly": [
+      "Join the front and back panels on three sides before completing the top edging.",
+      "Sew the handles in place and secure the loose ends."
+    ],
+    "closing": "Weave in the loose ends and check the attachments before using your finished bag.",
+    "sourceFile": "Granny_Breeze_Bag.pdf",
+    "seo": {
+      "focus": "granny breeze bag free crochet pattern",
+      "title": "Granny Breeze Bag Crochet Pattern | Croveli",
+      "heading": "Free Granny Breeze Bag Crochet Pattern",
+      "description": "Crochet an airy granny-style tote from two matching panels, joined along three sides and finished with sewn-on handles. Choose the cotton-yarn or 2 mm cotton-rope version from the supplied instructions."
+    }
   }
 ]

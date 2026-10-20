@@ -86,10 +86,10 @@ function applyDiscovery(updateUrl = true) {
 if (filterSection) {
   const pool=patterns.filter(p=>inCollection(p,filterSection.dataset.category));
   filterSection.querySelector('.discovery-group').hidden=![...filterSection.querySelectorAll('[data-tag]')].some(b=>b.dataset.tag!=='All projects'&&pool.some(p=>!p.tags?.includes(b.dataset.tag)));
-  filterSection.querySelector('.difficulty-group').hidden=false;
+  filterSection.querySelector('.difficulty-group').hidden=!pool.some(p=>hasProjectDetail(p.level));
   const params=new URLSearchParams(location.search);
   discoveryState.tag=[...filterSection.querySelectorAll('[data-tag]')].map(b=>b.dataset.tag).find(t=>t.toLowerCase()===params.get('tag')&&pool.some(p=>!p.tags?.includes(t)))||'All projects';
-  discoveryState.level=[...new Set(patterns.map(p=>p.level).filter(hasProjectDetail))].find(l=>l.toLowerCase()===params.get('difficulty'))||'All levels';
+  discoveryState.level=[...new Set(pool.map(p=>p.level).filter(hasProjectDetail))].find(l=>l.toLowerCase()===params.get('difficulty'))||'All levels';
   applyDiscovery(false);
 }
 
@@ -262,3 +262,16 @@ if (/^#(pattern=|category=|home$|patterns$|saved$|about$|privacy$|terms$|contact
 // If a provider response stalls, keep a clear recovery path without claiming signup.
 const newsletterForm=document.querySelector('.newsletter-inline .ml-block-form');
 if(newsletterForm){newsletterForm.addEventListener('submit',()=>{if(!newsletterForm.checkValidity())return;const error=newsletterForm.querySelector('.newsletter-error');error.hidden=true;window.setTimeout(()=>{if(document.querySelector('.newsletter-inline .row-success').style.display==='block')return;error.textContent='We could not confirm your request. Please try the hosted signup page below.';error.hidden=false;},15000);});}
+
+// Connect to the newsletter provider only after an explicit visitor action.
+const enableNewsletter=document.querySelector('[data-enable-newsletter]');
+if(enableNewsletter){enableNewsletter.addEventListener('click',()=>{
+ const wrapper=enableNewsletter.closest('.newsletter-inline'),status=wrapper.querySelector('.newsletter-load-status');
+ enableNewsletter.disabled=true;status.textContent='Loading the email form…';
+ const script=document.createElement('script');script.src='https://groot.mailerlite.com/js/w/webforms.min.js?v83147fa8ce2d95cb73ece7f28b469519';script.async=true;
+ let finished=false;const failure=()=>{if(finished)return;finished=true;status.textContent='The email form could not load. Please use the hosted signup page below.';enableNewsletter.hidden=true;};
+ const timer=setTimeout(failure,15000);
+ script.onerror=()=>{clearTimeout(timer);failure();};
+ script.onload=()=>{clearTimeout(timer);if(finished)return;finished=true;wrapper.querySelector('.ml-form-embedContainer').hidden=false;wrapper.querySelector('.newsletter-gate').hidden=true;wrapper.querySelector('#newsletter-email').focus();};
+ document.head.append(script);
+});}

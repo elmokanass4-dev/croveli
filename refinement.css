@@ -84,7 +84,7 @@ picture>source{display:none}
 .card .card-meta{min-height:0;margin-bottom:14px;font-size:14px;line-height:1.6}
 .card .card-action{padding-top:12px;min-height:44px}
 .collection>.grid>.card .card-img{aspect-ratio:1}
-@media(min-width:1200px){.collection>.grid:has(>.card:nth-child(4):last-child){grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(min-width:1200px){.collection>.grid:has(>.card:nth-child(4)){grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media(max-width:600px){.collection>.grid{grid-template-columns:minmax(0,1fr)}.card .card-body{padding:20px}.card h3{font-size:27px}}
 
 .project-scope-note{font-size:15px;line-height:1.7;padding:14px 16px;border-left:3px solid var(--olive);background:var(--cream);margin:0 0 20px}
@@ -112,3 +112,5 @@ picture>source{display:none}
 .collection>.grid>.card .card-action svg{display:none}
 .collection>.grid>.card .save{top:2px;right:2px;width:44px;height:44px;background:#fffffff0}
 }
+
+.newsletter-gate p{font-size:15px;line-height:1.75;margin:0 0 16px}.newsletter-gate .button{width:100%}.newsletter-inline [hidden]{display:none!important}.newsletter-load-status:empty{display:none}

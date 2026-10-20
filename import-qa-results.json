@@ -1,9 +1,9 @@
 {
   "result": "PASS",
-  "patterns": 4,
-  "componentSections": 32,
-  "instructionRows": 317,
-  "layouts": 16,
+  "patterns": 7,
+  "componentSections": 49,
+  "instructionRows": 400,
+  "layouts": 28,
   "viewports": [
     320,
     390,
@@ -15,7 +15,7 @@
     "all materials rendered",
     "all images decoded",
     "no horizontal overflow",
-    "four current cards",
+    "current featured cards",
     "source attribution",
     "no browser errors"
   ]

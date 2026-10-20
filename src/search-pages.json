@@ -1,9 +1,12 @@
 {
   "home": {
-    "focus": "free crochet patterns and amigurumi guides",
-    "title": "Free Crochet Patterns & Amigurumi Guides | Croveli",
-    "description": "Discover free crochet patterns for a long-eared bunny and characterful cats. Find project photos, materials, amigurumi instructions, and crochet guides.",
+    "focus": "free crochet patterns for bags and amigurumi",
+    "title": "Free Crochet Patterns: Bags & Amigurumi | Croveli",
+    "description": "Explore free crochet patterns for bags, bunnies, and characterful cats. Find photos, materials, clear project instructions, and helpful crochet guides.",
     "featuredPatternIds": [
+      "acorn-crossbody-bag",
+      "bow-knot-handbag",
+      "granny-breeze-bag",
       "long-eared-bunny",
       "sitting-calico-kitten",
       "pumpkin-cat",
@@ -13,10 +16,10 @@
   "collections": {
     "All patterns": {
       "focus": "browse free crochet patterns",
-      "title": "Free Crochet Patterns: Cats & Bunnies | Croveli",
+      "title": "Free Crochet Patterns: Bags, Cats & Bunnies | Croveli",
       "heading": "Browse free crochet patterns.",
-      "description": "Browse Croveli’s free crochet patterns for cats, a long-eared bunny, and Halloween projects. Filter by theme and listed difficulty to choose your next make.",
-      "introduction": "Choose your next project from our free crochet pattern collection. Explore cats, a long-eared bunny, and Halloween companions, with theme filters to help you find a favorite. Each pattern brings together materials, photographs, and component instructions.",
+      "description": "Browse free crochet patterns for bags and amigurumi, including crossbody bags, a bow handbag, granny totes, cats, and a long-eared bunny.",
+      "introduction": "Choose a bag or a small crocheted character for your next project. Compare materials and project details, then use the theme and listed-difficulty filters to explore the collection.",
       "status": "published",
       "minProjects": 1,
       "match": {}
@@ -85,6 +88,27 @@
       "minProjects": 2,
       "match": {
         "tag": "Halloween"
+      }
+    },
+    "Bags": {
+      "focus": "free crochet bag patterns",
+      "title": "Free Crochet Bag Patterns: Totes & Handbags | Croveli",
+      "heading": "Free crochet bag patterns.",
+      "description": "Make an acorn crossbody bag, bow-knot handbag, or granny-style tote with these free crochet bag patterns, materials lists, and component instructions.",
+      "introduction": "Choose a crochet bag by the details you enjoy making: textured ribbing and a clip-on strap, an open mesh body with bow handles, or granny-style panels with sewn-on straps. Read each project’s yarn and construction notes before starting.",
+      "editorialHeading": "Choose your next crochet bag",
+      "editorial": [
+        "The Acorn Crossbody Bag combines front-post texture, scalloped trim, and a miniature acorn. Its strap is worked to your chosen length and attached with clasps.",
+        "The Bow-Knot Handbag uses a mesh body and shaped crochet handles. Granny Breeze uses two panels and offers separate cotton-yarn and cotton-rope construction paths."
+      ],
+      "guides": [
+        "choosing-yarn-for-crochet",
+        "how-to-read-crochet-patterns"
+      ],
+      "status": "published",
+      "minProjects": 2,
+      "match": {
+        "category": "Bags"
       }
     }
   }
