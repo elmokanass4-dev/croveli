@@ -101,3 +101,14 @@ picture>source{display:none}
 @media(max-width:600px){.story{grid-template-columns:minmax(0,1fr)}.story>.responsive-picture{max-width:240px}.story h2{font-size:32px}}
 
 @media(min-width:761px){.hero,.hero-photo{min-height:480px}.hero-copy{padding:40px}.hero-copy h1{font-size:clamp(44px,4vw,58px)}.hero-copy>p{margin-bottom:24px}}
+
+/* Compact phone browsing: three project thumbnails per row. */
+@media(max-width:600px){
+.collection>.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 8px}
+.collection>.grid>.card .card-body{padding:10px 8px}
+.collection>.grid>.card h3{font-size:clamp(16px,3.5vw,20px);line-height:1.25;margin:0 0 10px;overflow-wrap:anywhere}
+.collection>.grid>.card .card-body>.eyebrow,.collection>.grid>.card .card-meta,.collection>.grid>.card .badge{display:none}
+.collection>.grid>.card .card-action{font-size:12px;line-height:1.4;gap:0;padding-top:8px;min-height:44px;overflow-wrap:normal}
+.collection>.grid>.card .card-action svg{display:none}
+.collection>.grid>.card .save{top:2px;right:2px;width:44px;height:44px;background:#fffffff0}
+}
