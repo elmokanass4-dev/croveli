@@ -1,9 +1,9 @@
 {
   "result": "PASS",
-  "patterns": 7,
-  "componentSections": 49,
-  "instructionRows": 400,
-  "layouts": 28,
+  "patterns": 9,
+  "componentSections": 69,
+  "instructionRows": 655,
+  "layouts": 36,
   "viewports": [
     320,
     390,

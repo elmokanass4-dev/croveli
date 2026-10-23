@@ -36,3 +36,11 @@ Original designer permissions and any source corrections remain publication cons
 - `node scripts/verify-import.cjs`: all four patterns at 320, 390, 768, and 1440px; exact rendering of all data rows, materials, image decoding, and overflow checks.
 
 Automated browser checks use Microsoft Edge on Windows. Native iOS Safari and physical crochet outcomes were not tested. Browser QA results are recorded in `qa-results.json` and `import-qa-results.json`.
+
+## Christmas additions — October 23, 2026 (local review)
+
+Imported the supplied Christmas Santa collection and Christmas Green Man as two catalog entries. Santa contains three separately labeled source designs, with duplicate source blocks shown once. Its main photo is extracted from the supplied PDF. The Green Man retains Lazareva Victoria’s credit and includes the supplied construction/face diagrams. Source files remain unchanged and are not publicly bundled as PDFs. No missing stitch instructions or alternate eye-placement round was invented.
+
+Added a curated Christmas collection; homepage features the two new cards within the existing eight-card selection. All nine projects remain in the catalog. Metadata, internal navigation, responsive assets and sitemap rebuilt.
+
+Validation: 39 pages and 1,523 local references passed link checks. Nine patterns, 69 component sections and 655 instruction rows passed rendering checks at 320, 390, 768 and 1440 px; all images decoded without horizontal overflow or browser errors. Catalog validation and collection flows passed. Focused checks confirmed Christmas cards, jump-to-instructions, saved progress after reload, attribution and static no-JavaScript content. These checks do not physically test crochet stitch outcomes. No deployment performed.

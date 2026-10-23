@@ -4,13 +4,14 @@
     "title": "Free Crochet Patterns: Bags & Amigurumi | Croveli",
     "description": "Explore free crochet patterns for bags, bunnies, and characterful cats. Find photos, materials, clear project instructions, and helpful crochet guides.",
     "featuredPatternIds": [
+      "christmas-santa",
+      "christmas-green-man",
       "acorn-crossbody-bag",
       "bow-knot-handbag",
       "granny-breeze-bag",
       "long-eared-bunny",
       "sitting-calico-kitten",
-      "pumpkin-cat",
-      "luna-witchy-cat"
+      "pumpkin-cat"
     ]
   },
   "collections": {
@@ -18,18 +19,18 @@
       "focus": "browse free crochet patterns",
       "title": "Free Crochet Patterns: Bags, Cats & Bunnies | Croveli",
       "heading": "Browse free crochet patterns.",
-      "description": "Browse free crochet patterns for bags and amigurumi, including crossbody bags, a bow handbag, granny totes, cats, and a long-eared bunny.",
-      "introduction": "Choose a bag or a small crocheted character for your next project. Compare materials and project details, then use the theme and listed-difficulty filters to explore the collection.",
+      "description": "Browse free crochet patterns for bags, cats, a long-eared bunny, and Christmas characters, with project photos, materials, and component instructions.",
+      "introduction": "Choose a bag, a crocheted animal, or a festive character for your next project. Compare materials and project details, then use the theme and listed-difficulty filters to explore the collection.",
       "status": "published",
       "minProjects": 1,
       "match": {}
     },
     "Amigurumi": {
       "focus": "free amigurumi crochet patterns",
-      "title": "Free Amigurumi Crochet Patterns: Animals | Croveli",
+      "title": "Free Amigurumi Crochet Patterns: Animals & Christmas | Croveli",
       "heading": "Free amigurumi crochet patterns.",
-      "description": "Explore free amigurumi crochet patterns for bunny and cat projects, with materials, shaping instructions, assembly details, and reference photographs.",
-      "introduction": "Explore amigurumi: small crocheted characters shaped, stuffed, and assembled piece by piece. These free animal patterns include a plush bunny and three cats, with project-specific notes on shaping, joining, and facial details.",
+      "description": "Explore free amigurumi crochet patterns for animals and Christmas characters, with materials, shaping instructions, assembly details, and reference photographs.",
+      "introduction": "Explore amigurumi: crocheted animals and seasonal characters shaped, stuffed, and assembled piece by piece. Compare a plush bunny, cats, small Santa ornaments, and the Christmas Green Man before choosing your next project.",
       "editorialHeading": "Choose an amigurumi project by construction",
       "editorial": [
         "For a plush texture, explore the long-eared bunny: the legs and arms are joined into the body as it is worked, and the face uses sculpting and embroidery. Its styled jacket is shown in the photograph; jacket instructions are not included.",
@@ -109,6 +110,27 @@
       "minProjects": 2,
       "match": {
         "category": "Bags"
+      }
+    },
+    "Christmas": {
+      "focus": "free Christmas crochet patterns",
+      "title": "Free Christmas Crochet Patterns: Santa & Green Man | Croveli",
+      "heading": "Free Christmas crochet patterns.",
+      "description": "Choose a small Santa ornament, a mini Santa keychain, or a plush Christmas Green Man. Browse materials, component instructions, and finishing references.",
+      "introduction": "Bring a little handmade character to the festive season. Choose the Christmas Santa collection for small hanging keepsakes, or explore the larger Christmas Green Man with its textured coat trim and sculpted face.",
+      "editorialHeading": "Choose your festive crochet project",
+      "editorial": [
+        "For a small decoration, explore the Santa collection. Sweet Child is listed at 11 cm with a 2.0 mm hook; the pendant and keychain are separate designs with their own instructions. Choose your version before collecting its materials.",
+        "For a larger plush character, the Green Man uses a 3.75 mm hook and is listed at 29 cm. Its limbs are crocheted into the body, and the face includes sculpting and long-pile yarn details. Review the joining diagrams before starting."
+      ],
+      "guides": [
+        "choosing-yarn-for-crochet",
+        "how-to-read-crochet-patterns"
+      ],
+      "status": "published",
+      "minProjects": 2,
+      "match": {
+        "tag": "Christmas"
       }
     }
   }
