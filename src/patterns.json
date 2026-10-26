@@ -4414,5 +4414,839 @@
       "heading": "Free Christmas Green Man Crochet Pattern",
       "description": "Crochet a plush Christmas Green Man with a red coat, curled boots, textured trim, and a sculpted expression. Follow the separate components through joining and finishing."
     }
+  },
+  {
+    "id": "blue-laptop-case",
+    "name": "Blue Laptop Case",
+    "sourceTitle": "Blue Laptop Case",
+    "category": "Accessories",
+    "level": "Easy",
+    "time": null,
+    "size": "Approx. 14 in wide × 9 in high when buttoned",
+    "hook": "Not specified in source",
+    "image": "blue-laptop-case.jpg",
+    "alt": "Blue crochet laptop sleeve with a button closure",
+    "focal": "50% 45%",
+    "credit": "Created by Croveli with crocheter assistance",
+    "sourceFile": "White Beige Neutral Modern Blog Your Story.pdf",
+    "reviewed": false,
+    "description": "A blue crochet laptop sleeve worked flat with two strands held together, then folded and seamed with a buttoned flap.",
+    "presentation": [
+      "Protect your tech in style! This chunky, textured laptop sleeve is worked holding two strands of worsted yarn together for extra cushion and durability. It’s an easy one-piece project finished with a simple fold-and-seam construction."
+    ],
+    "highlights": [
+      "Original four-page design and images preserved",
+      "US crochet terms; advanced beginner / easy as listed in the source"
+    ],
+    "materials": [
+      "Yarn: Advanced Beginner / Easy",
+      "Hook: Approx. 14\" wide × 9\" high (when buttoned closed)",
+      "Notions: Worked flat in one piece from bottom to top, folded, and seamed with a slip-stitch border.",
+      "Hardware: 1\" (25 mm) button, sewing needle & thread"
+    ],
+    "abbreviations": [
+      [
+        "ch",
+        "chain"
+      ],
+      [
+        "sc",
+        "single crochet"
+      ],
+      [
+        "sl st",
+        "slip stitch"
+      ],
+      [
+        "sk",
+        "skip"
+      ],
+      [
+        "st(s)",
+        "stitch(es)"
+      ],
+      [
+        "ch-1 sp",
+        "chain-1 space"
+      ],
+      [
+        "ch-2 sp",
+        "chain-2 space"
+      ]
+    ],
+    "notes": [
+      "Use the source notes beside the instructions before starting."
+    ],
+    "sections": [
+      {
+        "id": "main-body",
+        "title": "Part 1: The Main Body",
+        "intro": "Work with 2 strands of yarn held together throughout.",
+        "rows": [
+          [
+            "Foundation Chain",
+            "Ch 45."
+          ],
+          [
+            "Row 1",
+            "In the 3rd ch from hook, work 1 sc (the space between the turning chains and your sc forms the first ch-2 sp). *Ch 1, sk next ch, sc in next ch.* Repeat from * to * across to the end, ending with a sc in the very last ch. (Total: 22 sc, 1 ch-2 sp, 21 ch-1 spaces)"
+          ]
+        ]
+      },
+      {
+        "id": "row-two",
+        "title": "Row 2",
+        "intro": "",
+        "rows": [
+          [
+            "Row 2",
+            "Ch 2 and turn. Sc in the first ch-1 sp from the previous row (creates a new ch-2 sp). *Ch 1, sc in the next ch-1 sp.* Repeat from * to * across until you reach the turning ch-2 sp at the end. Ch 1, sc into that final ch-2 sp. (Total: 22 sc, 1 ch-2 sp, 21 ch-1 spaces)"
+          ]
+        ]
+      },
+      {
+        "id": "body-repeats",
+        "title": "Rows 3–62 (or to desired length)",
+        "intro": "",
+        "rows": [
+          [
+            "Rows 3–62",
+            "Repeat Row 2 until piece measures approx. 20\" long (around 62 rows total)."
+          ],
+          [
+            "Check Your Width",
+            "After Row 3, your piece should measure roughly 13\" wide. If it is significantly wider or narrower, consider adjusting your hook size or foundation chain."
+          ]
+        ]
+      },
+      {
+        "id": "buttonhole-flap",
+        "title": "Part 2: The Buttonhole Flap",
+        "intro": "",
+        "rows": [
+          [
+            "Final Row",
+            "Ch 1 and turn. Sc in the first ch-1 sp. *(Ch 1, sc in next ch-1 sp)* repeat a total of 10 times."
+          ],
+          [
+            "Make Buttonhole",
+            "Ch 3 (for a 1\" button; use more/fewer chains if your button differs). Sc in the next ch-1 sp. *(Ch 1, sc in next ch-1 sp)* repeat across until the final ch-2 sp. Ch 1, sc in the last ch-2 sp. (22 sc total)"
+          ],
+          [
+            "Fasten off",
+            "Fasten off and weave in ends."
+          ]
+        ]
+      },
+      {
+        "id": "fold-and-seam",
+        "title": "The Fold, Side Seams & Edging",
+        "intro": "",
+        "rows": [
+          [
+            "The Fold",
+            "Lay piece flat with the foundation chain at the bottom and the buttonhole row at the top. Fold the bottom edge up 8.5\" to form the pocket."
+          ],
+          [
+            "Right seam",
+            "Join 2 strands of yarn with a sl st at the bottom-right folded corner. Ch 1, sc in same space, and work sc evenly up through both layers to close the right seam."
+          ],
+          [
+            "Opening",
+            "At the top of the pocket, work sl st across the front layer only across the opening for a clean finished rim."
+          ],
+          [
+            "Left seam",
+            "Continue down the left side, working sc evenly through both layers to close the left seam. Fasten off at the bottom-left corner and weave in loose ends."
+          ]
+        ]
+      },
+      {
+        "id": "attach-button",
+        "title": "Attach Button",
+        "intro": "",
+        "rows": [
+          [
+            "Placement",
+            "Fold the top flap down to mark button placement."
+          ],
+          [
+            "Attach Button",
+            "Using a needle and matching thread/yarn, securely sew your 1\" button to the center of the front pocket."
+          ]
+        ]
+      }
+    ],
+    "assembly": [
+      "Follow the finishing instructions in the sections above."
+    ],
+    "closing": "Check the source note before starting; missing instructions have not been invented.",
+    "status": "published",
+    "tags": [
+      "Accessories",
+      "Laptop cases"
+    ],
+    "seo": {
+      "focus": "blue laptop case free crochet pattern",
+      "title": "Blue Laptop Case Crochet Pattern | Croveli",
+      "heading": "Blue Laptop Case Crochet Pattern",
+      "description": "A blue crochet laptop sleeve worked flat with two strands held together, then folded and seamed with a buttoned flap."
+    },
+    "editorial": {
+      "notice": "In Materials & Tools, the Yarn, Hook, and Notions fields contain overview text rather than their corresponding material details; a hook size is not specified. Confirm your materials before starting.",
+      "images": {
+        "blue-laptop-case-p1-image0": {
+          "alt": "Blue crochet laptop sleeve on a desk with a notebook, mug, and houseplants"
+        },
+        "blue-laptop-case-p1-image1": {
+          "alt": "Finished blue sleeve beside a cup of coffee"
+        },
+        "blue-laptop-case-p1-image2": {
+          "alt": "Close view of the blue crochet texture and wooden button"
+        },
+        "blue-laptop-case-p1-image3": {
+          "alt": "Blue sleeve beside an open laptop"
+        },
+        "blue-laptop-case-p2-image0": {
+          "alt": "Blue yarn, hook, scissors, tape measure, and button"
+        },
+        "blue-laptop-case-p2-image1": {
+          "alt": "Open blue sleeve showing the buttoned flap"
+        },
+        "blue-laptop-case-p3-image0": {
+          "alt": "Source diagram showing row 2 stitch placement into chain spaces"
+        },
+        "blue-laptop-case-p3-image1": {
+          "alt": "Finished buttoned blue sleeve on a light desk"
+        }
+      },
+      "blocks": [
+        {
+          "type": "image",
+          "image": "blue-laptop-case-p1-image0"
+        },
+        {
+          "type": "heading",
+          "title": "Pattern Details",
+          "id": "overview"
+        },
+        {
+          "type": "paragraphs",
+          "text": [
+            "Protect your tech in style! This chunky, textured laptop sleeve is worked holding two strands of worsted yarn together for extra cushion and durability. It’s an easy one-piece project finished with a simple fold-and-seam construction."
+          ]
+        },
+        {
+          "type": "facts",
+          "title": "Quick Project Overview",
+          "rows": [
+            [
+              "Skill Level",
+              "Advanced Beginner / Easy"
+            ],
+            [
+              "Finished Size",
+              "Approx. 14\" wide × 9\" high (when buttoned closed)"
+            ],
+            [
+              "Construction",
+              "Worked flat in one piece from bottom to top, folded, and seamed with a slip-stitch border."
+            ]
+          ]
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "blue-laptop-case-p1-image1",
+            "blue-laptop-case-p1-image3",
+            "blue-laptop-case-p1-image2"
+          ]
+        },
+        {
+          "type": "heading",
+          "title": "Materials & Tools",
+          "id": "materials"
+        },
+        {
+          "type": "columns",
+          "columns": [
+            [
+              {
+                "type": "image",
+                "image": "blue-laptop-case-p2-image0"
+              }
+            ],
+            [
+              {
+                "type": "materials"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "paragraphs",
+          "text": [
+            "Yarn Tip: You will hold two strands together throughout the entire pattern. You can work from two separate skeins or wind one large skein into two equal balls."
+          ]
+        },
+        {
+          "type": "heading",
+          "title": "Gauge & Measurements",
+          "id": "gauge"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Gauge: 7 sc × 13 rows = 4\" × 4\" (10 × 10 cm) in pattern stitch.",
+            "Gauge Swatch: Ch 27 and follow the stitch pattern. Count only single crochet stitches (not chain spaces)."
+          ]
+        },
+        {
+          "type": "columns",
+          "columns": [
+            [
+              {
+                "type": "abbreviations"
+              }
+            ],
+            [
+              {
+                "type": "heading",
+                "title": "How to Customize the Size",
+                "id": "custom-size"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "Width: Adjust your starting chain in multiples of 2 + 1 (fewer chains for a smaller tablet; more chains for a 15\"+ laptop).",
+                  "Height: Add or subtract repeats of Row 2 before working the final buttonhole row."
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "title": "Step-by-Step Instructions",
+          "id": "instructions"
+        },
+        {
+          "type": "columns",
+          "columns": [
+            [
+              {
+                "type": "instructions",
+                "section": "main-body"
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "image": "blue-laptop-case-p2-image1"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "columns",
+          "columns": [
+            [
+              {
+                "type": "image",
+                "image": "blue-laptop-case-p3-image0"
+              }
+            ],
+            [
+              {
+                "type": "instructions",
+                "section": "row-two"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "instructions",
+          "section": "body-repeats"
+        },
+        {
+          "type": "instructions",
+          "section": "buttonhole-flap"
+        },
+        {
+          "type": "columns",
+          "columns": [
+            [
+              {
+                "type": "instructions",
+                "section": "fold-and-seam"
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "image": "blue-laptop-case-p3-image1"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "instructions",
+          "section": "attach-button"
+        }
+      ]
+    }
+  },
+  {
+    "id": "christmas-santa-dog-bandana",
+    "name": "Christmas Santa Dog Bandana",
+    "sourceTitle": "Christmas Santa Dog Bandana",
+    "category": "Accessories",
+    "level": "Easy",
+    "time": null,
+    "size": "Small: 6.5 × 5.5 in; medium/large: 8 × 8.5 in",
+    "hook": "5.0 mm; 3.75 mm for buckle",
+    "image": "christmas-santa-dog-bandana.jpg",
+    "alt": "Dog wearing a red Santa crochet bandana with a black belt, yellow buckle, and fluffy white trim",
+    "focal": "50% 45%",
+    "credit": "Created by Croveli with crocheter assistance",
+    "sourceFile": "White Beige Neutral Modern Blog Your Story.pdf",
+    "reviewed": false,
+    "description": "A Santa-inspired crochet dog bandana with a tie-on collar, black belt, golden buckle, and fluffy white trim in two sizes.",
+    "presentation": [
+      "Dress up your furry best friend for the holidays! This Santa-inspired pet bandana features an adjustable tie-on collar, a classic black belt with a golden buckle, and fluffy trim. Designed in two sizes to fit everything from cats and small pups to large dogs."
+    ],
+    "highlights": [
+      "Original four-page design and images preserved",
+      "US crochet terms; advanced beginner / easy as listed in the source"
+    ],
+    "materials": [
+      "Bandana Yarn: Medium (Size 4) Worsted Weight Acrylic (e.g., Loops & Threads Impeccable). Red (\"Cherry\"): ~50 yds (Small) / ~70 yds (Med/Lg); Black: ~15–20 yds; Golden Yellow (\"Sunny Day\"): ~5–10 yds.",
+      "Collar & Trim Yarn: Bulky (Size 5) Fluffy / Fleece Yarn (e.g., Bernat Pipsqueak in \"Whitey White\") – approx. 30 yds.",
+      "Crochet Hooks: 5.00 mm (US H/8) for collar, bandana, and border; 3.75 mm (US F/5) for belt buckle only.",
+      "Notions: Yarn needle, scissors, measuring tape."
+    ],
+    "abbreviations": [
+      [
+        "ch",
+        "chain"
+      ],
+      [
+        "st(s)",
+        "stitch(es)"
+      ],
+      [
+        "sl st",
+        "slip stitch"
+      ],
+      [
+        "sc",
+        "single crochet"
+      ],
+      [
+        "hdc",
+        "half double crochet"
+      ],
+      [
+        "RS / WS",
+        "right side / wrong side"
+      ]
+    ],
+    "notes": [
+      "Ch 1 at the beginning of a row does not count as a stitch.",
+      "Always start your first stitch in the very first stitch (the same stitch attached to the turning chain).",
+      "The triangle is worked from the bottom point upward and naturally curves slightly.",
+      "Custom Collar Sizing: Measure your pet’s neck comfortably. Add 10\" (for tying ends). Chain until your foundation chain reaches that total measurement, then add 1 extra turning chain."
+    ],
+    "sections": [
+      {
+        "id": "small-collar",
+        "title": "Small Collar",
+        "intro": "With Bulky (5) fluffy white yarn and a 5.00 mm (H/8) hook:",
+        "rows": [
+          [
+            "Foundation",
+            "Ch 65."
+          ],
+          [
+            "Row 1",
+            "In 2nd ch from hook, sc. Sc in each ch across. (64 sts)"
+          ],
+          [
+            "Row 2",
+            "Ch 1 and turn. Sc in each st across. (64 sts)"
+          ],
+          [
+            "Finish",
+            "Finished collar should measure approx. 21\" long × 1\" wide. Fasten off and weave in ends."
+          ]
+        ]
+      },
+      {
+        "id": "first-triangle",
+        "title": "Bandana Triangle — first version",
+        "intro": "With Worsted (4) Red yarn and a 5.00 mm (H/8) hook:",
+        "rows": [
+          [
+            "Foundation",
+            "Ch 2."
+          ],
+          [
+            "Row 1 (RS)",
+            "In 2nd ch from hook, work 2 hdc in same st. (2 sts)"
+          ],
+          [
+            "Row 2 (WS)",
+            "Ch 1 and turn. 2 hdc in each st across. (4 sts)"
+          ],
+          [
+            "Row 3",
+            "Ch 1 and turn. 2 hdc in 1st st, hdc in next 2 sts, 2 hdc in last st. (6 sts)"
+          ],
+          [
+            "Row 4",
+            "Ch 1 and turn. 2 hdc in 1st st, hdc in next 4 sts, 2 hdc in last st. (8 sts)"
+          ],
+          [
+            "Row 5",
+            "Ch 1 and turn. Hdc in each st across. (8 sts)"
+          ],
+          [
+            "Row 6",
+            "Ch 1 and turn. 2 hdc in 1st st, hdc in next 6 sts, 2 hdc in last st. (10 sts)"
+          ],
+          [
+            "Row 7 (Belt)",
+            "Change to Black yarn with a sl st. Ch 1 and turn. Hdc in each st across. (10 sts)"
+          ],
+          [
+            "Row 8 (Belt)",
+            "Ch 1 and turn. 2 hdc in 1st st, hdc in next 8 sts, 2 hdc in last st. (12 sts)"
+          ],
+          [
+            "Row 9",
+            "Change back to Red yarn with a sl st. Ch 1 and turn. Hdc in each st across. (12 sts)"
+          ],
+          [
+            "Row 10",
+            "Ch 1 and turn. 2 hdc in 1st st, hdc in next 10 sts, 2 hdc in last st. (14 sts)"
+          ],
+          [
+            "Row 11",
+            "Ch 1 and turn. Hdc in each st across. (14 sts)"
+          ],
+          [
+            "Row 12",
+            "Ch 1 and turn. 2 hdc in 1st st, hdc in next 12 sts, 2 hdc in last st. (16 sts)"
+          ],
+          [
+            "Finish",
+            "Fasten off and weave in ends. Proceed to Border."
+          ]
+        ]
+      },
+      {
+        "id": "large-collar",
+        "title": "Med/Lg Collar",
+        "intro": "With Bulky (5) fluffy white yarn and a 5.00 mm (H/8) hook:",
+        "rows": [
+          [
+            "Foundation",
+            "Ch 84."
+          ],
+          [
+            "Row 1",
+            "In 2nd ch from hook, sc. Sc in each ch across. (83 sts)"
+          ],
+          [
+            "Rows 2 & 3",
+            "Ch 1 and turn. Sc in each st across. (83 sts)"
+          ],
+          [
+            "Finish",
+            "Finished collar should measure approx. 34\" long × 1.5\" wide. Fasten off and weave in ends."
+          ]
+        ]
+      },
+      {
+        "id": "large-triangle",
+        "title": "Med/Lg Bandana (Triangle)",
+        "intro": "With Worsted (4) Red yarn and a 5.00 mm (H/8) hook:",
+        "rows": [
+          [
+            "Foundation",
+            "Ch 2."
+          ],
+          [
+            "Row 1 (RS)",
+            "In 2nd ch from hook, 2 hdc in same st. (2 sts)"
+          ],
+          [
+            "Row 2 (WS)",
+            "Ch 1 and turn. 2 hdc in each st across. (4 sts)"
+          ],
+          [
+            "Row 3",
+            "Ch 1 and turn. 2 hdc in each st across. (8 sts)"
+          ],
+          [
+            "Row 4",
+            "Ch 1 and turn. Hdc in each st across. (8 sts)"
+          ],
+          [
+            "Row 5",
+            "Ch 1 and turn. 2 hdc in 1st st, hdc in next 6 sts, 2 hdc in last st. (10 sts)"
+          ],
+          [
+            "Row 6",
+            "Ch 1 and turn. Hdc in each st across. (10 sts)"
+          ],
+          [
+            "Row 7",
+            "Ch 1 and turn. 2 hdc in next 2 sts, hdc in next 6 sts, 2 hdc in next 2 sts. (14 sts)"
+          ],
+          [
+            "Row 8",
+            "Ch 1 and turn. Hdc in each st across. (14 sts)"
+          ],
+          [
+            "Row 10 (Belt)",
+            "Ch 1 and turn. Hdc in each st across. (16 sts)"
+          ],
+          [
+            "Row 11",
+            "Change back to Red yarn with a sl st. Ch 1 and turn. 2 hdc in 1st st, hdc in next 14 sts, 2 hdc in last st. (18 sts)"
+          ],
+          [
+            "Row 12",
+            "Ch 1 and turn. Hdc in each st across. (18 sts)"
+          ],
+          [
+            "Row 13",
+            "Ch 1 and turn. 2 hdc in next 2 sts, hdc in next 14 sts, 2 hdc in next 2 sts. (22 sts)"
+          ],
+          [
+            "Row 14",
+            "Ch 1 and turn. Hdc in each st across. (22 sts)"
+          ],
+          [
+            "Row 15",
+            "Ch 1 and turn. 2 hdc in 1st st, hdc in next 20 sts, 2 hdc in last st. (24 sts)"
+          ],
+          [
+            "Row 16",
+            "Ch 1 and turn. Hdc in each st across. (24 sts)"
+          ],
+          [
+            "Finish",
+            "Fasten off and weave in ends. Proceed to Border."
+          ]
+        ],
+        "splitAfter": 9,
+        "inlineImage": "christmas-santa-dog-bandana-p4-image0"
+      },
+      {
+        "id": "border",
+        "title": "Border (All Sizes)",
+        "intro": "Use Bulky (5) fluffy white yarn and a 5.00 mm (H/8) hook.",
+        "rows": [
+          [
+            "Join",
+            "Join yarn at the top-left corner with the RS of the bandana facing you."
+          ],
+          [
+            "Round 1",
+            "Working down toward the bottom point, sc evenly down the side. In the bottom point st, work 3 sc into the same stitch. Sc evenly up the opposite side. In the top-right corner st, work 3 sc into the corner stitch. Sc in each stitch across the flat top edge. Sl st to the first sc to join."
+          ],
+          [
+            "Finish",
+            "Fasten off, leaving a long tail (~30\") for attaching to the collar."
+          ]
+        ]
+      },
+      {
+        "id": "belt-buckle",
+        "title": "Belt Buckle (All Sizes)",
+        "intro": "With Golden Yellow yarn and a 3.75 mm (F/5) hook:",
+        "rows": [
+          [
+            "Preparation",
+            "Work into the back ridge loops of the chain for a clean edge."
+          ],
+          [
+            "Foundation",
+            "Ch 24."
+          ]
+        ]
+      }
+    ],
+    "assembly": [
+      "Follow the finishing instructions in the sections above."
+    ],
+    "closing": "Check the source note before starting; missing instructions have not been invented.",
+    "status": "published",
+    "tags": [
+      "Christmas",
+      "Accessories",
+      "Pet accessories"
+    ],
+    "seo": {
+      "focus": "christmas santa dog bandana free crochet pattern",
+      "title": "Christmas Santa Dog Bandana Crochet Pattern | Croveli",
+      "heading": "Christmas Santa Dog Bandana Crochet Pattern",
+      "description": "A Santa-inspired crochet dog bandana with a tie-on collar, black belt, golden buckle, and fluffy white trim in two sizes."
+    },
+    "editorial": {
+      "notice": "The medium/large triangle omits row 9, and page 4 ends at the belt buckle’s “Foundation: Ch 24” without subsequent buckle or final attachment instructions. These missing instructions have not been invented. The first triangle block is also labeled medium/large in the PDF before a second medium/large set; that source labeling inconsistency is noted here rather than assigning an unverified size.",
+      "images": {
+        "christmas-santa-dog-bandana-p1-image0": {
+          "alt": "Dog wearing a Santa crochet bandana beside a decorated Christmas tree"
+        },
+        "christmas-santa-dog-bandana-p1-image1": {
+          "alt": "Dog wearing the red and white crochet bandana outdoors in snow"
+        },
+        "christmas-santa-dog-bandana-p2-image0": {
+          "alt": "Blue yarn and crochet tools in the supplied materials photograph"
+        },
+        "christmas-santa-dog-bandana-p4-image0": {
+          "alt": "Red, black, white, and yellow yarn with a crochet belt buckle sample and hook"
+        }
+      },
+      "blocks": [
+        {
+          "type": "image",
+          "image": "christmas-santa-dog-bandana-p1-image0"
+        },
+        {
+          "type": "heading",
+          "title": "Christmas Santa Dog Bandana – Free Crochet Pattern",
+          "id": "overview"
+        },
+        {
+          "type": "paragraphs",
+          "text": [
+            "Dress up your furry best friend for the holidays! This Santa-inspired pet bandana features an adjustable tie-on collar, a classic black belt with a golden buckle, and fluffy trim. Designed in two sizes to fit everything from cats and small pups to large dogs."
+          ]
+        },
+        {
+          "type": "facts",
+          "title": "Quick Project Overview",
+          "rows": [
+            [
+              "Skill Level",
+              "Advanced Beginner / Easy"
+            ],
+            [
+              "Small (Cats & Dogs under 20 lbs)",
+              "Bandana = 6.5\" H × 5.5\" W | Collar = 21\" L × 1\" H"
+            ],
+            [
+              "Medium / Large (Dogs over 20 lbs)",
+              "Bandana = 8\" H × 8.5\" W | Collar = 34\" L × 1.5\" H"
+            ]
+          ]
+        },
+        {
+          "type": "columns",
+          "columns": [
+            [
+              {
+                "type": "paragraphs",
+                "text": [
+                  "Construction: The collar and triangle bandana are worked flat separately, edged with fluffy fleece trim, and sewn together with a surface-stitched belt buckle."
+                ]
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "image": "christmas-santa-dog-bandana-p1-image1"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "title": "Materials & Tools",
+          "id": "materials"
+        },
+        {
+          "type": "materials"
+        },
+        {
+          "type": "heading",
+          "title": "Pattern & Sizing Notes",
+          "id": "sizing-notes"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ch 1 at the beginning of a row does not count as a stitch.",
+            "Always start your first stitch in the very first stitch (the same stitch attached to the turning chain).",
+            "The triangle is worked from the bottom point upward and naturally curves slightly.",
+            "Custom Collar Sizing: Measure your pet’s neck comfortably. Add 10\" (for tying ends). Chain until your foundation chain reaches that total measurement, then add 1 extra turning chain."
+          ]
+        },
+        {
+          "type": "columns",
+          "columns": [
+            [
+              {
+                "type": "abbreviations"
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "image": "christmas-santa-dog-bandana-p2-image0"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "title": "Step-by-Step Instructions",
+          "id": "instructions"
+        },
+        {
+          "type": "heading",
+          "title": "Size: SMALL (Cats & Small Dogs under 20 lbs)",
+          "id": "small-size"
+        },
+        {
+          "type": "instructions",
+          "section": "small-collar"
+        },
+        {
+          "type": "heading",
+          "title": "Size: MEDIUM / LARGE (Dogs over 20 lbs)",
+          "id": "first-triangle-label"
+        },
+        {
+          "type": "instructions",
+          "section": "first-triangle"
+        },
+        {
+          "type": "heading",
+          "title": "Size: MEDIUM / LARGE (Dogs over 20 lbs)",
+          "id": "large-size"
+        },
+        {
+          "type": "instructions",
+          "section": "large-collar"
+        },
+        {
+          "type": "instructions",
+          "section": "large-triangle"
+        },
+        {
+          "type": "instructions",
+          "section": "border"
+        },
+        {
+          "type": "instructions",
+          "section": "belt-buckle"
+        }
+      ]
+    }
   }
 ]

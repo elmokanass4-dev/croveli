@@ -14,6 +14,7 @@ return term;
 }
 function relatedPatterns(p){return patterns.filter(x=>x.id!==p.id).map(x=>({pattern:x,score:(x.category===p.category?1:0)+(x.tags||[]).filter(t=>p.tags.includes(t)).length*3})).sort((a,b)=>b.score-a.score||a.pattern.id.localeCompare(b.pattern.id)).slice(0,3).map(x=>x.pattern)}
 function article(p){
+if(p.editorial)return editorialPattern(p);
 let photoNumber=0;const photoTotal=p.sections.reduce((n,s)=>n+(s.figures||[]).length,0);
 const paragraphs=items=>(items||[]).map(x=>`<p>${x}</p>`).join('');
 const toc=[['love','The project'],['materials','Materials'],['abbreviations','Abbreviations'],['notes','Before you begin'],['instructions','Instructions'],...p.sections.map(s=>['component-'+s.id,s.title]),['finishing','Assembly & finishing']];
@@ -31,3 +32,27 @@ ${p.sections.map(s=>`<section class="pattern-component" aria-labelledby="compone
 <section class="related section"><div class="section-heading"><div><span class="eyebrow">KEEP THE INSPIRATION GOING</span><h2>A few more things to love.</h2></div><a class="text-link" href="#patterns">All projects ↗</a></div><div class="grid">${relatedPatterns(p).map(card).join('')}</div></section>`}
 
 function homeStory(){return `<section class="section story"><img src="assets/sitting-calico-kitten.jpg" alt="A sitting calico crochet kitten with a red collar" loading="lazy"><div><span class="eyebrow">WELCOME TO OUR LITTLE CORNER</span><h2>Good things<br>take a few stitches.</h2><p>Free patterns, helpful guides, and small projects with character. Gather your yarn and enjoy making each detail your own.</p><a class="text-link" href="#about">Get to know Croveli ↗</a></div></section>`}
+
+
+// Reflow the author's section order and individual images as native website content.
+function editorialPattern(p){
+const safe=value=>String(value).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const e=p.editorial;
+let imageIndex=0;
+const photo=key=>`<figure class="editorial-photo"><img src="assets/${key}.jpg" alt="${safe(e.images[key].alt)}" loading="${imageIndex++?'lazy':'eager'}"></figure>`;
+const instruction=s=>`<section class="pattern-component" aria-labelledby="component-${s.id}"><h3 id="component-${s.id}">${safe(s.title)}</h3>${s.intro?'<p>'+safe(s.intro)+'</p>':''}<div class="instruction-list editorial-steps">${s.rows.map(([label,text],i)=>(s.inlineImage&&i===s.splitAfter?photo(s.inlineImage):'')+`<label class="round"><input type="checkbox" data-round="${p.id}-${s.id}-${i}"><span><strong class="round-label">${safe(label)}</strong><span class="round-text">${safe(text)}</span></span></label>`).join('')}</div></section>`;
+function blocks(items){return items.map(b=>{switch(b.type){
+case 'heading':return `<h2 id="${b.id}">${safe(b.title)}</h2>`;
+case 'paragraphs':return b.text.map(text=>'<p>'+safe(text)+'</p>').join('');
+case 'list':return '<ul>'+b.items.map(text=>'<li>'+safe(text)+'</li>').join('')+'</ul>';
+case 'facts':return `<section class="editorial-overview"><h3>${safe(b.title)}</h3><dl>${b.rows.map(([label,text])=>`<div><dt>${safe(label)}</dt><dd>${safe(text)}</dd></div>`).join('')}</dl></section>`;
+case 'image':return photo(b.image);
+case 'gallery':return '<div class="editorial-gallery">'+b.images.map(photo).join('')+'</div>';
+case 'columns':return '<div class="editorial-columns">'+b.columns.map(column=>'<div>'+blocks(column)+'</div>').join('')+'</div>';
+case 'materials':return '<div class="check-list editorial-materials">'+p.materials.map((text,i)=>`<label><input type="checkbox" data-material="${p.id}-${i}"><span>${safe(text)}</span></label>`).join('')+'</div>';
+case 'abbreviations':return '<section aria-labelledby="abbreviations"><h2 id="abbreviations">Abbreviations (US Terms)</h2><dl class="editorial-abbreviations">'+p.abbreviations.map(([term,meaning])=>'<div><dt>'+safe(term)+'</dt><dd>'+safe(meaning)+'</dd></div>').join('')+'</dl></section>';
+case 'instructions':return instruction(p.sections.find(s=>s.id===b.section));
+default:throw Error('Unknown editorial block '+b.type);
+}}).join('');}
+return `<div class="pattern-wrap editorial-pattern"><nav class="crumb" aria-label="Breadcrumb"><a href="#home">Home</a><span aria-hidden="true">/</span><a href="#patterns">Patterns</a><span aria-hidden="true">/</span><span>${safe(p.name)}</span></nav><section class="editorial-heading"><span class="eyebrow">FREE CROCHET PATTERN</span><h1>${safe(p.seo.heading)}</h1><p class="pattern-byline">${safe(p.credit)}</p><div class="article-actions"><a class="button" href="#instructions">↓ Jump to instructions</a><button class="button light" data-action="print">Print</button><button class="button light" data-action="share">Share ↗</button><button class="button light save-project" data-save="${p.id}" aria-label="Save ${safe(p.name)}" aria-pressed="${saved.includes(p.id)}">${saved.includes(p.id)?'♥':'♡'}</button></div></section><aside class="editorial-source-note" aria-labelledby="source-note"><h2 id="source-note">A note before you start</h2><p>${safe(e.notice)}</p></aside><article class="article-main editorial-content" data-content-region="pattern-tutorial">${blocks(e.blocks)}<div id="finishing" tabindex="-1"><p class="source-credit">${safe(p.credit)}</p></div></article></div><section class="related section"><div class="section-heading"><div><span class="eyebrow">KEEP THE INSPIRATION GOING</span><h2>A few more things to love.</h2></div><a class="text-link" href="#patterns">All projects ↗</a></div><div class="grid">${relatedPatterns(p).map(card).join('')}</div></section>`;
+}

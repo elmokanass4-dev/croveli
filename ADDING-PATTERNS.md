@@ -51,3 +51,9 @@ node scripts/verify-collections.cjs
 Validation runs before page generation. It rejects duplicate or reserved IDs, duplicate pattern metadata, missing content/assets, invalid component IDs, and broken learning references. `generated-pages.json` tracks generated routes. Previously public pattern/collection routes that become unavailable receive a generic noindex retirement page so stale instructions do not remain public.
 
 The growth test builds synthetic fixtures only in an isolated temporary directory and removes that directory after success. No fixture is added to the real catalog, and none of these commands deploys the site.
+
+## Follow an authored layout with native HTML
+
+An optional editorial object selects the responsive editorial template. Its blocks keep source section order and image placement using headings, paragraphs, lists, facts, individual images, galleries, two-column groups, materials, abbreviations, and references to ordinary instruction sections. Extract photographs and diagrams individually into JPEG assets; never use whole PDF pages as website content. The images object supplies descriptive alt text. Section inlineImage and splitAfter can place a source photo between specific instruction rows. Columns stack in source order on phones.
+
+Source limitations belong in editorial.notice outside the authored content. Do not invent missing stitches or measurements. Instruction checklists and reading controls use the same stable section IDs as ordinary tutorials. Run node scripts/verify-editorial.cjs alongside the standard import and catalog checks.

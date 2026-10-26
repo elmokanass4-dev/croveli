@@ -44,3 +44,11 @@ Imported the supplied Christmas Santa collection and Christmas Green Man as two 
 Added a curated Christmas collection; homepage features the two new cards within the existing eight-card selection. All nine projects remain in the catalog. Metadata, internal navigation, responsive assets and sitemap rebuilt.
 
 Validation: 39 pages and 1,523 local references passed link checks. Nine patterns, 69 component sections and 655 instruction rows passed rendering checks at 320, 390, 768 and 1440 px; all images decoded without horizontal overflow or browser errors. Catalog validation and collection flows passed. Focused checks confirmed Christmas cards, jump-to-instructions, saved progress after reload, attribution and static no-JavaScript content. These checks do not physically test crochet stitch outcomes. No deployment performed.
+
+## Authored layouts — October 25, 2026 (local review)
+
+Blue Laptop Case and Christmas Santa Dog Bandana use native, selectable HTML following the author’s section order. Twelve individual photos/diagrams were extracted from the supplied PDFs and placed with their corresponding text, including the laptop row-2 diagram and the bandana photo between the second triangle’s rows 8 and 10. Side-by-side layouts stack on phones. Source gaps remain noted separately; missing stitches and material details were not invented. Whole-page PDF images and the PDF reader have been removed. Original supplied files remain untouched outside the public website.
+
+The normal instruction progress, materials checklists, reading-size controls, print/share, saved cards, and related patterns are retained. The two new cards remain featured within the eight-card homepage selection; the full catalog contains eleven patterns. No deployment performed.
+
+Validation passed for the native HTML correction: all eleven pages at four widths, both editorial layouts with twelve extracted images in source order, saved instruction progress, readable text-size changes, responsive columns, no-JavaScript content, catalog growth, and 1,623 local link/asset references. Original embedded JPEGs were extracted directly without recompression; delivery variants are generated normally.

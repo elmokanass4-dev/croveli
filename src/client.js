@@ -126,7 +126,7 @@ document.querySelectorAll('[data-round],[data-material]').forEach(input => {
   input.addEventListener('change', () => { if (!storage.write(key, String(input.checked))) toast('Progress kept for this visit; browser storage is unavailable.'); });
 });
 // Reading controls enhance the static tutorial; progress counts instruction rows, not materials.
-if (currentPattern) {
+if (currentPattern && document.querySelector('.article-main')) {
   const article = document.querySelector('.article-main');
   const steps = [...article.querySelectorAll('[data-round]')];
   const resumeKey = 'croveli-resume-' + currentPattern.id;
@@ -134,7 +134,8 @@ if (currentPattern) {
   toolbar.className = 'reading-controls';
   toolbar.setAttribute('role', 'region'); toolbar.setAttribute('aria-label', 'Pattern reading controls');
   toolbar.innerHTML = `<div class="reading-progress"><label for="pattern-progress" id="pattern-progress-label"></label><progress id="pattern-progress" max="${steps.length}" value="0"></progress></div><div class="reading-actions"><button type="button" class="button" id="continue-pattern">Continue pattern</button><label class="reading-size" for="reading-size">Text size<select id="reading-size"><option value="18">Standard</option><option value="20">Larger</option><option value="22">Largest</option></select></label></div><span class="sr-only" id="reading-status" role="status"></span>`;
-  article.prepend(toolbar);
+  const instructionHeading = article.classList.contains('editorial-content') ? article.querySelector('#instructions') : null;
+  if (instructionHeading) instructionHeading.before(toolbar); else article.prepend(toolbar);
   const size = toolbar.querySelector('#reading-size');
   function setSize(value) {
     const valid = ['18','20','22'].includes(value) ? value : '18';
@@ -173,7 +174,7 @@ if (currentPattern) {
 }
 function comments() { return readList('croveli-comments-' + currentPattern?.id).filter(c => c && typeof c.name === 'string' && typeof c.text === 'string'); }
 function renderComments() { document.querySelector('#comments-list').innerHTML = comments().map(c => `<div class="comment"><strong>${esc(c.name)}</strong><p>${esc(c.text)}</p></div>`).join(''); }
-if (currentPattern) {
+if (currentPattern && document.querySelector('#comment-form')) {
   renderComments(); document.querySelector('#comment-form').addEventListener('submit', event => {
     event.preventDefault(); const name = document.querySelector('#comment-name').value.trim(), text = document.querySelector('#comment-text').value.trim(); if (!name || !text) return;
     const persisted = storage.write('croveli-comments-' + currentPattern.id, JSON.stringify([...comments(), {name,text}]));
