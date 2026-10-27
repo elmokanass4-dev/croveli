@@ -45,6 +45,7 @@ function blocks(items){return items.map(b=>{switch(b.type){
 case 'heading':return `<h2 id="${b.id}">${safe(b.title)}</h2>`;
 case 'paragraphs':return b.text.map(text=>'<p>'+safe(text)+'</p>').join('');
 case 'list':return '<ul>'+b.items.map(text=>'<li>'+safe(text)+'</li>').join('')+'</ul>';
+case 'table':return '<div class="editorial-table"><table><thead><tr>'+b.headings.map(text=>'<th scope="col">'+safe(text)+'</th>').join('')+'</tr></thead><tbody>'+b.rows.map(row=>'<tr>'+row.map((text,i)=>i?'<td>'+safe(text)+'</td>':'<th scope="row">'+safe(text)+'</th>').join('')+'</tr>').join('')+'</tbody></table></div>';
 case 'facts':return `<section class="editorial-overview"><h3>${safe(b.title)}</h3><dl>${b.rows.map(([label,text])=>`<div><dt>${safe(label)}</dt><dd>${safe(text)}</dd></div>`).join('')}</dl></section>`;
 case 'image':return photo(b.image);
 case 'gallery':return '<div class="editorial-gallery">'+b.images.map(photo).join('')+'</div>';

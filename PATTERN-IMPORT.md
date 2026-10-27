@@ -52,3 +52,7 @@ Blue Laptop Case and Christmas Santa Dog Bandana use native, selectable HTML fol
 The normal instruction progress, materials checklists, reading-size controls, print/share, saved cards, and related patterns are retained. The two new cards remain featured within the eight-card homepage selection; the full catalog contains eleven patterns. No deployment performed.
 
 Validation passed for the native HTML correction: all eleven pages at four widths, both editorial layouts with twelve extracted images in source order, saved instruction progress, readable text-size changes, responsive columns, no-JavaScript content, catalog growth, and 1,623 local link/asset references. Original embedded JPEGs were extracted directly without recompression; delivery variants are generated normally.
+
+## Crochet Leaf — October 27, 2026 (local review)
+
+Added one native HTML pattern and a featured/catalog card from the supplied leaf guide. Preserved its order: measurements and materials beside the leaf photograph, gauge, tools photograph, terminology table, construction overview, instructions and finishing. Extracted the two individual embedded images directly; no PDF pages or cream document background are displayed. UK terminology and source gauge are explicit. A source note identifies missing stitch-by-stitch counts; no sequence was invented. Removed the unrelated dog-bandana template header from the presentation. Original files remain unchanged. Metadata, responsive images, discovery tags and sitemap rebuilt. No deployment performed.

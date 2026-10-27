@@ -5248,5 +5248,304 @@
         }
       ]
     }
+  },
+  {
+    "id": "crochet-leaf",
+    "name": "Crochet Leaf",
+    "sourceTitle": "Leaf Crochet Pattern – Step-by-Step Guide",
+    "category": "Home decor",
+    "level": "Not specified",
+    "time": null,
+    "size": "Approx. 6 cm long; approx. 5 g per leaf",
+    "hook": "3 mm",
+    "image": "crochet-leaf.jpg",
+    "alt": "Crocheted leaves in cream and green shades arranged around a leaf stitch diagram",
+    "focal": "50% 45%",
+    "credit": "Created by Croveli with crocheter assistance",
+    "sourceFile": "White Beige Neutral Modern Blog Your Story.pdf",
+    "reviewed": false,
+    "description": "Make a small crochet leaf around a central foundation chain. Explore the supplied materials, UK-to-US terminology guide, construction notes, and finishing tip.",
+    "presentation": [
+      "A small leaf for a touch of handmade autumn color. This guide works around both sides of a foundation chain, leaving the unworked chains at the base as a little stem."
+    ],
+    "highlights": [
+      "Approx. 6 cm long and 5 g per leaf in the supplied materials",
+      "One-piece construction around a central chain",
+      "UK crochet terms with US equivalents"
+    ],
+    "materials": [
+      "DROPS Merino Extra Fine from Garnstudio (Yarn Group B): 50 g in colour 07 (Light Brown), or an autumn shade.",
+      "Alternative colours: 18 Green, 26 Pistachio, 30 Mustard, 31 Forest Green, 37 Misty Forest, 41 Olive, 47 Sage Green, 49 Chocolate.",
+      "Crochet hook: size 3 mm, or size needed to achieve tension."
+    ],
+    "abbreviations": [
+      [
+        "ch (UK / US)",
+        "Chain stitch"
+      ],
+      [
+        "dc (UK)",
+        "Single crochet (US)"
+      ],
+      [
+        "htr (UK)",
+        "Half double crochet (US)"
+      ],
+      [
+        "tr (UK)",
+        "Double crochet (US)"
+      ],
+      [
+        "dtr (UK)",
+        "Treble crochet (US)"
+      ],
+      [
+        "sl st (UK / US)",
+        "Slip stitch"
+      ]
+    ],
+    "notes": [
+      "This guide uses UK crochet terminology; consult the US equivalents before starting.",
+      "Tension / Gauge: 22 treble crochets in width and 11 rows vertically = 10 × 10 cm (UK terms)."
+    ],
+    "sections": [
+      {
+        "id": "foundation",
+        "title": "Foundation",
+        "rows": [
+          [
+            "Foundation",
+            "Using a 3 mm hook and desired colour, ch 13."
+          ]
+        ]
+      },
+      {
+        "id": "first-side",
+        "title": "First Side (Upper edge)",
+        "rows": [
+          [
+            "Start",
+            "Work starts in the 4th chain stitch from hook (the skipped chains act as turning height / height of the stitch)."
+          ],
+          [
+            "Upper edge",
+            "Follow the stitch sequence along the top edge of the chain row toward the end (graduating from shorter stitches to taller stitches to form the curved leaf body)."
+          ]
+        ]
+      },
+      {
+        "id": "leaf-tip",
+        "title": "Leaf Tip",
+        "rows": [
+          [
+            "Turn at the tip",
+            "At the last chain stitch at the tip, work the turning stitches (including double treble crochets and a slip stitch into the end chain to form the pointed tip)."
+          ]
+        ]
+      },
+      {
+        "id": "second-side",
+        "title": "Second Side (Lower edge)",
+        "rows": [
+          [
+            "Lower edge",
+            "Continue around to the opposite side of the foundation chain, working mirrored stitches into the remaining loops of the chain back toward the base."
+          ],
+          [
+            "Finish",
+            "Fasten off and weave in ends."
+          ]
+        ]
+      },
+      {
+        "id": "stiffening",
+        "title": "Finishing & Stiffening Tip",
+        "rows": [
+          [
+            "Optional stiffening",
+            "If desired, you can stiffen the leaf to help keep its shape: dip the leaf into sugar water or colourless soda (lemonade/sprite), blot off excess moisture, and lay flat to dry."
+          ]
+        ]
+      }
+    ],
+    "assembly": [
+      "Fasten off and weave in ends.",
+      "The supplied optional stiffening tip is included in the final section."
+    ],
+    "closing": "Read the source note and terminology guide before starting.",
+    "status": "published",
+    "tags": [
+      "Leaves",
+      "Botanical"
+    ],
+    "seo": {
+      "focus": "leaf crochet pattern",
+      "title": "Leaf Crochet Pattern: Materials & UK Terms | Croveli",
+      "heading": "Leaf Crochet Pattern",
+      "description": "Make a small crochet leaf around a central foundation chain. Explore the supplied materials, UK-to-US terminology guide, construction notes, and finishing tip."
+    },
+    "editorial": {
+      "notice": "This guide uses UK crochet terms. The supplied text describes the shaping but does not give the exact stitch-by-stitch sequence or counts for the sides and tip. No missing stitches have been invented; check the supplied guidance before starting.",
+      "images": {
+        "leaf-pattern-image-1": {
+          "alt": "Cream and green crochet leaves beside the leaf diagram in the supplied guide"
+        },
+        "leaf-pattern-image-2": {
+          "alt": "Blue yarn, a hook, scissors, tape measure, and button in the supplied materials photo"
+        }
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "title": "Leaf Crochet Pattern – Step-by-Step Guide",
+          "id": "overview"
+        },
+        {
+          "type": "columns",
+          "columns": [
+            [
+              {
+                "type": "facts",
+                "title": "Size & Finished Measurements",
+                "rows": [
+                  [
+                    "Length",
+                    "Approx. 6 cm"
+                  ],
+                  [
+                    "Weight",
+                    "1 leaf weighs approx. 5 g"
+                  ]
+                ]
+              },
+              {
+                "type": "heading",
+                "title": "Materials",
+                "id": "materials"
+              },
+              {
+                "type": "materials"
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "image": "leaf-pattern-image-1"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "title": "Tension / Gauge",
+          "id": "gauge"
+        },
+        {
+          "type": "paragraphs",
+          "text": [
+            "22 treble crochets in width and 11 rows vertically = 10 × 10 cm (UK terms)."
+          ]
+        },
+        {
+          "type": "image",
+          "image": "leaf-pattern-image-2"
+        },
+        {
+          "type": "heading",
+          "title": "Crochet Terminology Guide",
+          "id": "terminology"
+        },
+        {
+          "type": "table",
+          "headings": [
+            "Symbol / Term (UK)",
+            "US Equivalent",
+            "Description"
+          ],
+          "rows": [
+            [
+              "Chain stitch (ch)",
+              "Chain stitch (ch)",
+              "Foundation chain / spacing"
+            ],
+            [
+              "Double crochet (dc)",
+              "Single crochet (sc)",
+              "Short stitch"
+            ],
+            [
+              "Half treble crochet (htr)",
+              "Half double crochet (hdc)",
+              "Medium stitch"
+            ],
+            [
+              "Treble crochet (tr)",
+              "Double crochet (dc)",
+              "Standard tall stitch"
+            ],
+            [
+              "Double treble crochet (dtr)",
+              "Treble crochet (tr)",
+              "Tall stitch (2 yarn overs)"
+            ],
+            [
+              "Slip stitch (sl st)",
+              "Slip stitch (sl st)",
+              "Joining / fastening stitch"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "title": "Pattern Instructions",
+          "id": "instructions"
+        },
+        {
+          "type": "heading",
+          "title": "Construction Overview",
+          "id": "construction"
+        },
+        {
+          "type": "paragraphs",
+          "text": [
+            "The leaf is worked in one piece in the round around a central foundation chain:"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "You begin with a foundation chain of 13 chain stitches (the unworked chains at the base form the small stem).",
+            "Work along the top side / upper loops of the chain stitches toward the tip.",
+            "At the leaf tip / end of the chain, rotate the work and continue working down along the underside / bottom loops of the chain back toward the base.",
+            "Fasten off."
+          ]
+        },
+        {
+          "type": "heading",
+          "title": "Step-by-Step Instructions",
+          "id": "step-by-step"
+        },
+        {
+          "type": "instructions",
+          "section": "foundation"
+        },
+        {
+          "type": "instructions",
+          "section": "first-side"
+        },
+        {
+          "type": "instructions",
+          "section": "leaf-tip"
+        },
+        {
+          "type": "instructions",
+          "section": "second-side"
+        },
+        {
+          "type": "instructions",
+          "section": "stiffening"
+        }
+      ]
+    }
   }
 ]
