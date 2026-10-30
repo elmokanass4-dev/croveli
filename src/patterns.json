@@ -5547,5 +5547,958 @@
         }
       ]
     }
+  },
+  {
+    "id": "queen-rhaenyra-targaryen",
+    "name": "Queen Rhaenyra Targaryen",
+    "sourceTitle": "Queen Rhaenyra Targaryen Amigurumi Pattern",
+    "category": "Amigurumi",
+    "level": "Intermediate",
+    "time": null,
+    "size": "Approx. 15 cm",
+    "hook": "2 mm",
+    "image": "queen-rhaenyra-targaryen.jpg",
+    "alt": "Queen Rhaenyra Targaryen crochet doll with pale hair, a gold crown, and black clothing",
+    "focal": "50% 40%",
+    "credit": "Pattern designed by Priscila Santos (@petitgatao.atelie)",
+    "sourceFile": "AMIGURUMI crochet pattern - Queen Rhaenyra Targaryen.pdf",
+    "reviewed": false,
+    "description": "Crochet a 15 cm Queen Rhaenyra amigurumi with pale hair, a black cape, red collar, and metallic crown. Find materials, component instructions, and assembly photos.",
+    "presentation": [
+      "Create a detailed character doll component by component, from the shaped head and flowing hair to the cape and crown."
+    ],
+    "highlights": [
+      "Approx. 15 cm finished size",
+      "Intermediate project using a 2 mm hook",
+      "Individual component and assembly photographs"
+    ],
+    "materials": [
+      "Círculo Amigurumi yarn (100% cotton): Cream (1112), Carmine / Red (3528), Black (8990), Gardenia / Skin tone (3061).",
+      "Fio Encanto Slim metallic yarn: Gold / Ouro (7577) and Silver / Alumínio (8473).",
+      "Embroidery floss: Black and Light Brown.",
+      "2.00 mm crochet hook.",
+      "Tapestry needle; universal glue and fabric glue; scissors.",
+      "Fiberfill stuffing.",
+      "Plastic sheet (e.g., clean margarine lid or acetate sheet) for shoe bases.",
+      "1 pair of 12 mm flat black safety eyes.",
+      "2 gold jump rings (6 mm).",
+      "2 gold half-pearls (3 mm) and 6 gold half-pearls (1 mm).",
+      "1 gold hair ring/cuff (optional)."
+    ],
+    "abbreviations": [
+      [
+        "MR",
+        "Magic Ring"
+      ],
+      [
+        "sc",
+        "Single crochet"
+      ],
+      [
+        "dec",
+        "Decrease (invisible decrease recommended)"
+      ],
+      [
+        "inc",
+        "Increase (2 sc in the same stitch)"
+      ],
+      [
+        "inc3 (aumT)",
+        "3 stitches worked into the same stitch"
+      ],
+      [
+        "BLO",
+        "Back loop only"
+      ],
+      [
+        "FLO",
+        "Front loop only"
+      ],
+      [
+        "ch",
+        "Chain stitch"
+      ],
+      [
+        "sl st",
+        "Slip stitch"
+      ],
+      [
+        "st / sts",
+        "Stitch / stitches"
+      ],
+      [
+        "dc",
+        "Double crochet"
+      ],
+      [
+        "tr",
+        "Treble crochet"
+      ],
+      [
+        "hdc",
+        "Half double crochet"
+      ],
+      [
+        "post sc (pbh)",
+        "Single crochet around the post"
+      ],
+      [
+        "Rnd / Row",
+        "Round / Row"
+      ],
+      [
+        "( )",
+        "Total stitch count at the end of the round/row"
+      ],
+      [
+        "[ ]",
+        "Repeat instructions within brackets the specified number of times"
+      ]
+    ],
+    "notes": [
+      "US crochet terminology.",
+      "The supplied head instructions omit rounds 8–25; no replacement rounds have been invented."
+    ],
+    "sections": [
+      {
+        "id": "head",
+        "title": "Head",
+        "rows": [
+          [
+            "Guidance",
+            "Tip: For a firmer, more structured head, work using the \"X\" single crochet stitch (yarn under). Color: Gardenia (3061)"
+          ],
+          [
+            "Rnd 1",
+            "8 sc into MR (8)"
+          ],
+          [
+            "Rnd 2",
+            "8 inc (16)"
+          ],
+          [
+            "Rnd 3",
+            "[2 inc, 2 sc] 4 times (24)"
+          ],
+          [
+            "Rnd 4",
+            "1 sc, 2 inc, [4 sc, 2 inc] 3 times, 3 sc (32)"
+          ],
+          [
+            "Rnd 5",
+            "2 sc, 2 inc, [6 sc, 2 inc] 3 times, 4 sc (40)"
+          ],
+          [
+            "Rnd 6",
+            "3 sc, 2 inc, [8 sc, 2 inc] 3 times, 5 sc (48)"
+          ],
+          [
+            "Rnd 7",
+            "4 sc, 2 inc, [10 sc, 2 inc] 3 times, 6 sc (56)"
+          ]
+        ]
+      },
+      {
+        "id": "head-shaping",
+        "title": "Head shaping & facial embroidery",
+        "rows": [
+          [
+            "Guidance",
+            "Stuffing tip: Stuff carefully! Place stuffing firmly into the corners first, then fill the center so the head retains its square shape rather than turning round."
+          ],
+          [
+            "Rnd 26",
+            "8 sc, 2 dec, [14 sc, 2 dec] 3 times, 6 sc (64)"
+          ],
+          [
+            "Rnd 27",
+            "7 sc, 2 dec, [12 sc, 2 dec] 3 times, 5 sc (56) Insert Safety Eyes: Insert safety eyes between Rnds 18 and 19, leaving 6 visible stitches between them."
+          ],
+          [
+            "Rnd 28",
+            "6 sc, 2 dec, [10 sc, 2 dec] 3 times, 4 sc (48)"
+          ],
+          [
+            "Rnd 29",
+            "5 sc, 2 dec, [8 sc, 2 dec] 3 times, 3 sc (40)"
+          ],
+          [
+            "Rnd 30",
+            "4 sc, 2 dec, [6 sc, 2 dec] 3 times, 2 sc (32)"
+          ],
+          [
+            "Rnd 31",
+            "3 sc, 2 dec, [4 sc, 2 dec] 3 times, 1 sc (24)"
+          ],
+          [
+            "Rnd 32",
+            "[2 sc, 2 dec] 4 times (16)"
+          ],
+          [
+            "Rnd 33",
+            "BLO 16 sc (16)"
+          ],
+          [
+            "Rnds 34–37 (4 rounds)",
+            "16 sc (16) Fasten off. Using the crochet hook, push the small neck tube inward into the head (this creates the socket for head support). Facial Embroidery: Embroider eyelashes with black embroidery floss. Embroider eyebrows with light brown floss. With Gardenia (3061), embroider the nose horizontally between Rnds 20 and 21, 3 stitches wide."
+          ]
+        ]
+      },
+      {
+        "id": "hair",
+        "title": "Hair",
+        "rows": [
+          [
+            "Guidance",
+            "Color: Cream (1112)"
+          ],
+          [
+            "Rnd 1",
+            "8 sc into MR (8)"
+          ],
+          [
+            "Rnd 2",
+            "8 inc (16)"
+          ],
+          [
+            "Rnd 3",
+            "[2 inc, 2 sc] 4 times (24)"
+          ],
+          [
+            "Rnd 4",
+            "1 sc, 2 inc, [4 sc, 2 inc] 3 times, 3 sc (32)"
+          ],
+          [
+            "Rnd 5",
+            "2 sc, 2 inc, [6 sc, 2 inc] 3 times, 4 sc (40)"
+          ],
+          [
+            "Rnd 6",
+            "3 sc, 2 inc, [8 sc, 2 inc] 3 times, 5 sc (48)"
+          ],
+          [
+            "Rnd 7",
+            "4 sc, 2 inc, [10 sc, 2 inc] 3 times, 6 sc (56)"
+          ],
+          [
+            "Rnd 8",
+            "5 sc, 2 inc, [12 sc, 2 inc] 3 times, 7 sc (64)"
+          ],
+          [
+            "Rnd 9",
+            "6 sc, 2 inc, [14 sc, 2 inc] 3 times, 8 sc (72)"
+          ],
+          [
+            "Rnd 10",
+            "72 sc (72) Join with a sl st in the next st. Begin crocheting the hair strands:"
+          ],
+          [
+            "Strands 1–3 (3 strands)",
+            "Ch 31. Starting in the 2nd ch from hook: 1 sl st, 1 sc, 28 hdc. SKIP 1 st on the cap base, sl st into next st."
+          ],
+          [
+            "Strand 4 (1 strand)",
+            "Ch 51. Starting in the 2nd ch from hook: 1 sl st, 1 sc, 48 hdc. Do not fasten off to cap base yet. Braid section: In BLO across next sts: 7 dc, 1 hdc, 1 sc, 2 sl st, 1 sc, 1 hdc, 7 dc. Do not fasten off to cap base yet."
+          ],
+          [
+            "Strand 5 (1 strand)",
+            "Ch 51. Starting in the 2nd ch from hook: 1 sl st, 1 sc, 48 hdc. Sl st into next st on cap base."
+          ],
+          [
+            "Strands 6–27 (22 strands)",
+            "Ch 31. Starting in the 2nd ch from hook: 1 sl st, 1 sc, 28 hdc. SKIP 1 st on the cap base, sl st into next st. Fasten off. Total of 27 strands."
+          ]
+        ]
+      },
+      {
+        "id": "hair-assembly",
+        "title": "Hair Blocking & Assembly",
+        "rows": [
+          [
+            "Assembly 1",
+            "Pin the hair piece flat on a styrofoam block or cardboard covered with EVA foam to straighten the strands."
+          ],
+          [
+            "Assembly 2",
+            "Spray with water or lightly steam with an iron (do not touch iron directly to yarn). Allow to dry completely."
+          ],
+          [
+            "Assembly 3",
+            "Glue the wig cap to the head, matching the magic ring of the hair to the magic ring of the head."
+          ],
+          [
+            "Assembly 4",
+            "Glue the strands around the sides and back. Place strands 3 and 6 behind the ears."
+          ],
+          [
+            "Assembly 5",
+            "Bring strands 4 and 5 around to the back of the head and secure them together with the gold hair cuff/ring. A flat iron can be used on low heat on the very ends of the strands if needed."
+          ]
+        ]
+      },
+      {
+        "id": "ears",
+        "title": "Ears (Make 2)",
+        "rows": [
+          [
+            "Guidance",
+            "Color: Gardenia (3061) 6 sc into MR (6). Close MR. Fasten off, leaving a long tail for sewing. Sew one ear on each side of the head level with the eyes, leaving 6 stitches between the eyes and each ear. Insert 1 gold jump ring into each ear. (Note: Position and pin the hair first to verify ear placement)."
+          ]
+        ]
+      },
+      {
+        "id": "arms",
+        "title": "Arms (Make 2)",
+        "rows": [
+          [
+            "Guidance",
+            "Do not stuff. Start with Gardenia (3061)"
+          ],
+          [
+            "Rnd 1",
+            "5 sc into MR (5)"
+          ],
+          [
+            "Rnd 2",
+            "5 inc (10)"
+          ],
+          [
+            "Rnd 3",
+            "10 sc (10)"
+          ],
+          [
+            "Rnd 4",
+            "[2 sc, 1 dec] 2 times, 2 sc (8) Change to Black (8990)"
+          ],
+          [
+            "Rnd 5",
+            "BLO 8 sl st (8)"
+          ],
+          [
+            "Rnd 6",
+            "BLO 8 sc (8)"
+          ],
+          [
+            "Rnds 7–12 (6 rounds)",
+            "8 sc (8)"
+          ],
+          [
+            "Rnd 13",
+            "Flatten opening and close by working 4 sc across both layers (4) Fasten off."
+          ]
+        ]
+      },
+      {
+        "id": "feet-legs",
+        "title": "Feet and Legs (Make 2)",
+        "rows": [
+          [
+            "Guidance",
+            "Stuff gradually as you go (do not overstuff the feet). Worked on both sides of a foundation chain (oval base). Start with Black (8990)"
+          ],
+          [
+            "Rnd 1",
+            "Ch 6. Starting in 2nd ch from hook: 4 sc, 3 sc in last ch. Working along other side of chain: 3 sc, 1 inc (12)"
+          ],
+          [
+            "Rnd 2",
+            "1 inc, 3 sc, 3 inc, 3 sc, 2 inc (18)"
+          ],
+          [
+            "Rnd 3",
+            "18 post sc (pbh) (18)"
+          ],
+          [
+            "Rnds 4–5 (2 rounds)",
+            "18 sc (18) Cut an oval piece of plastic (from a margarine lid) to match the sole and glue inside. Change to Gardenia (3061)"
+          ],
+          [
+            "Rnd 6",
+            "4 sc, 5 dec, 4 sc (13)"
+          ],
+          [
+            "Rnds 7–13 (7 rounds)",
+            "13 sc (13) Change to Black (8990)"
+          ],
+          [
+            "Rnd 14",
+            "13 sc (13) Leg 1: Fasten off. Leg 2: Do not cut yarn; continue to join legs."
+          ]
+        ]
+      },
+      {
+        "id": "body",
+        "title": "Body",
+        "rows": [
+          [
+            "Guidance",
+            "Color: Black (8990) Stuff as you go."
+          ],
+          [
+            "Rnd 15",
+            "3 sc on Leg 2, ch 1, insert hook into 12th st of Leg 1; work 13 sc on Leg 1, 1 sc in the chain loop, 13 sc on Leg 2, 1 sc in opposite side of chain loop (28)"
+          ],
+          [
+            "Rnds 16–17 (2 rounds)",
+            "28 sc (28)"
+          ],
+          [
+            "Rnd 18",
+            "[6 sc, 1 dec] 3 times, 4 sc (25)"
+          ],
+          [
+            "Rnd 19",
+            "25 sc (25)"
+          ],
+          [
+            "Rnd 20",
+            "BLO 25 sl st (25)"
+          ],
+          [
+            "Rnd 21",
+            "BLO 25 sc (25)"
+          ],
+          [
+            "Rnd 22",
+            "25 sc (25)"
+          ],
+          [
+            "Rnd 23",
+            "[5 sc, 1 dec] 3 times, 4 sc (22)"
+          ],
+          [
+            "Rnds 24–25 (2 rounds)",
+            "22 sc (22) Leave working yarn on hold (do not cut). Work the skirt next."
+          ]
+        ]
+      },
+      {
+        "id": "skirt",
+        "title": "Skirt",
+        "rows": [
+          [
+            "Guidance",
+            "Color: Black (8990) Attach yarn to the 1st remaining front loop of Rnd 20:"
+          ],
+          [
+            "Rnd 1",
+            "[4 sc, 1 inc] 5 times (30)"
+          ],
+          [
+            "Rnd 2",
+            "[4 sc, 1 inc] 6 times (36)"
+          ],
+          [
+            "Rnds 3–10 (8 rounds)",
+            "[4 sc, BLO 2 sc] 6 times (36)"
+          ],
+          [
+            "Rnd 11",
+            "[4 sc, BLO (1 sc, 1 inc)] 6 times (42)"
+          ],
+          [
+            "Rnds 12–16 (5 rounds)",
+            "[4 sc, BLO 3 sc] 6 times (42)"
+          ],
+          [
+            "Rnd 17",
+            "42 sl st (42) Fasten off and weave in ends. Return to working yarn on the body."
+          ]
+        ]
+      },
+      {
+        "id": "upper-body",
+        "title": "Upper Body & Neck",
+        "rows": [
+          [
+            "Rnd 26 (Joining Arms)",
+            "5 sc on body, 4 sc across arm, 6 sc on body, 4 sc across second arm, 3 sc on body (22)"
+          ],
+          [
+            "Rnd 27",
+            "[3 sc, 1 dec] 4 times, 2 sc (18) Change to Gardenia (3061)"
+          ],
+          [
+            "Rnd 28",
+            "BLO [1 sc, 1 dec] 6 times (12)"
+          ],
+          [
+            "Rnds 29–35 (7 rounds)",
+            "12 sc (12) The neck must be stuffed very firmly to support the head. Close with an inverted magic ring. Fasten off and weave in ends."
+          ]
+        ]
+      },
+      {
+        "id": "collar",
+        "title": "Collar",
+        "rows": [
+          [
+            "Guidance",
+            "Color: Carmine (3528) Worked in rows (turn at the end of each row; do not chain at the start of rows). Holding doll with feet pointing toward you, join yarn in the 9th FLO stitch of Rnd 27:"
+          ],
+          [
+            "Row 1",
+            "18 sc (18)"
+          ],
+          [
+            "Row 2",
+            "18 sc (18)"
+          ],
+          [
+            "Row 3",
+            "[2 sc, 1 inc] 5 times, 4 sc (24)"
+          ],
+          [
+            "Row 4",
+            "[2 sc, 1 inc] 7 times, 2 sc (30) Fasten off and weave in ends."
+          ]
+        ]
+      },
+      {
+        "id": "torso",
+        "title": "Torso Embellishments",
+        "rows": [
+          [
+            "Guidance",
+            "Using Fio Encanto Slim Gold (7577), embroider 3 horizontal lines across the chest, each 3 stitches wide, skipping one round between lines. Glue a 1 mm gold half-pearl to each end of the three horizontal lines (6 pearls total)."
+          ]
+        ]
+      },
+      {
+        "id": "cape-back",
+        "title": "Cape: Back Section",
+        "rows": [
+          [
+            "Guidance",
+            "Color: Black (8990) Worked in back-and-forth rows. Do not chain at the start of rows. Back Section:"
+          ],
+          [
+            "Row 1",
+            "Ch 33. Starting in 2nd ch from hook: 32 sc (32). Fasten off, leaving a long tail to connect the ends later. Join new yarn in the 7th st of Row 1:"
+          ],
+          [
+            "Rows 2–3 (2 rows)",
+            "20 hdc (20)"
+          ],
+          [
+            "Row 4",
+            "9 hdc, 2 hdc-inc, 9 hdc (22)"
+          ],
+          [
+            "Row 5",
+            "22 hdc (22)"
+          ],
+          [
+            "Row 6",
+            "10 hdc, 2 hdc-inc, 10 hdc (24)"
+          ],
+          [
+            "Row 7",
+            "24 hdc (24)"
+          ],
+          [
+            "Row 8",
+            "11 hdc, 2 hdc-inc, 11 hdc (26)"
+          ],
+          [
+            "Row 9",
+            "26 hdc (26)"
+          ],
+          [
+            "Row 10",
+            "12 hdc, 2 hdc-inc, 12 hdc (28)"
+          ],
+          [
+            "Rows 11–14 (4 rows)",
+            "28 hdc (28)"
+          ],
+          [
+            "Row 15",
+            "28 sl st (28) Fasten off."
+          ]
+        ]
+      },
+      {
+        "id": "cape-front",
+        "title": "Cape: Front Panels (Make 2 – Left and Right)",
+        "rows": [
+          [
+            "Guidance",
+            "Join new yarn in the 3rd st of the initial 32 sc row:"
+          ],
+          [
+            "Rows 1–3 (3 rows)",
+            "4 hdc (4)"
+          ],
+          [
+            "Row 4",
+            "1 hdc-inc, 3 hdc (5)"
+          ],
+          [
+            "Row 5",
+            "5 hdc (5)"
+          ],
+          [
+            "Row 6",
+            "1 hdc-inc, 4 hdc (6)"
+          ],
+          [
+            "Row 7",
+            "6 hdc (6)"
+          ],
+          [
+            "Row 8",
+            "1 hdc-inc, 5 hdc (7)"
+          ],
+          [
+            "Row 9",
+            "7 hdc (7)"
+          ],
+          [
+            "Row 10",
+            "1 hdc-inc, 6 hdc (8)"
+          ],
+          [
+            "Row 11",
+            "3 sc, 5 hdc (8)"
+          ],
+          [
+            "Row 12",
+            "5 hdc, 3 sc (8)"
+          ],
+          [
+            "Row 13",
+            "8 sl st (8) Fasten off. Repeat the process on the other side for the second front panel. Join the front straps together at the chest and glue two 3 mm gold half- pearls over the junction."
+          ]
+        ]
+      },
+      {
+        "id": "crown",
+        "title": "Crown",
+        "rows": [
+          [
+            "Guidance",
+            "Color: Fio Encanto Slim Gold (7577)"
+          ],
+          [
+            "Rnd 1",
+            "Ch 74, join with 1 sc into the last ch from hook. Work 74 sc across the chain (74)"
+          ],
+          [
+            "Rnd 2",
+            "74 sc (74)"
+          ],
+          [
+            "Rnd 3",
+            "[12 sc, 4 hdc, 2 dc, (1 dc, ch 2, 1 dc in same st), 2 dc, 4 hdc, 12 sc] 2 times (80) Fasten off. Opposite Side of Foundation Chain: Turn piece upside down. Join yarn in the 1st stitch (using the start of previous rounds as reference): [16 sc, 2 hdc, (1 hdc, ch 2, 1 hdc in same st), 2 hdc, 16 sc] 2 times (80) Fasten off."
+          ]
+        ]
+      },
+      {
+        "id": "crown-triangles",
+        "title": "Crown: Side Triangles",
+        "rows": [
+          [
+            "Triangle guidance 1",
+            "(Begin counting from the ch-2 space of Rnd 3)"
+          ],
+          [
+            "Triangle guidance 2",
+            "1st Triangle (Middle): In the 13th st after the ch-2 space, work in BLO: 1 sl st, 2 sc, 2 hdc, 1 dc, (1 dc, ch 2, 1 dc in same st), 1 dc, 2 hdc, 2 sc, 1 sl st (16) Fasten off."
+          ],
+          [
+            "Triangle guidance 3",
+            "2nd Triangle (Right): In the 8th st after the ch-2 space, work in BLO: 1 sl st, 1 sc, 2 hdc, 2 dc, ch 2, 1 dc, 1 sl st (10) Fasten off."
+          ],
+          [
+            "Triangle guidance 4",
+            "3rd Triangle (Left): In the 24th st after the ch-2 space, work in BLO: 1 sl st, 1 dc, ch 2, 2 dc, 2 hdc, 1 sc, 1 sl st (10) Fasten off. Repeat the three side triangles on the other side."
+          ]
+        ]
+      },
+      {
+        "id": "crown-finishing",
+        "title": "Crown Finishing",
+        "rows": [
+          [
+            "Finishing 1",
+            "1.Gold Edging (Gold 7577): Work sl st in BLO along the entire top and bottom edges of the crown, and along the edges of the side triangles. Fasten off."
+          ],
+          [
+            "Finishing 2",
+            "2.Silver Chain Stitch Accents (Silver 8473): Surface crochet chain stitches directly below the border into the available front loops (FLO) along both the top and bottom bands (do not work into the side triangles yet). Fasten off. Work surface chain stitches into the front loops (FLO) below the edge of each side triangle, finishing each triangle individually before moving to the next."
+          ],
+          [
+            "Finishing 3",
+            "3.Place the crown on the doll's head."
+          ]
+        ]
+      }
+    ],
+    "assembly": [
+      "Follow the hair, face, ear, cape, and crown assembly guidance alongside each component."
+    ],
+    "closing": "Share your finished doll with the original designer using @petitgatao.atelie and #fizpetitgatao.",
+    "status": "published",
+    "tags": [
+      "Character dolls",
+      "Amigurumi"
+    ],
+    "seo": {
+      "focus": "Queen Rhaenyra amigurumi crochet pattern",
+      "title": "Queen Rhaenyra Amigurumi Crochet Pattern | Croveli",
+      "heading": "Queen Rhaenyra Targaryen Amigurumi Crochet Pattern",
+      "description": "Crochet a 15 cm Queen Rhaenyra amigurumi with pale hair, a black cape, red collar, and metallic crown. Find materials, component instructions, and assembly photos."
+    },
+    "editorial": {
+      "notice": "The supplied PDF jumps from head round 7 to round 26: rounds 8–25 are absent. The supplied instructions and stitch counts are preserved without inventing the missing rounds. Read this limitation before starting. Pattern credit: Priscila Santos (@petitgatao.atelie).",
+      "images": {
+        "rhaenyra-source-1-1": {
+          "alt": "Amigurumi character dolls pictured in the supplied guide"
+        },
+        "rhaenyra-source-1-2": {
+          "alt": "Yarn colour swatches for cream, black, red, skin tone, gold, and silver"
+        },
+        "rhaenyra-source-3-1": {
+          "alt": "Head shaping, neck socket, and embroidered face reference photos"
+        },
+        "rhaenyra-source-4-1": {
+          "alt": "Hair cap and strand construction reference photos"
+        },
+        "rhaenyra-source-5-1": {
+          "alt": "Hair positioning and ear placement reference photos"
+        },
+        "rhaenyra-source-5-2": {
+          "alt": "Arm and oval shoe-base construction reference photos"
+        },
+        "rhaenyra-source-6-1": {
+          "alt": "Skin-tone legs above black shoes"
+        },
+        "rhaenyra-source-7-1": {
+          "alt": "Joining the legs and shaping the black body"
+        },
+        "rhaenyra-source-8-1": {
+          "alt": "Skirt, upper body, collar, and chest embellishment reference photos"
+        },
+        "rhaenyra-source-9-1": {
+          "alt": "Black cape back and front-panel construction reference photos"
+        },
+        "rhaenyra-source-10-1": {
+          "alt": "Cape construction and front fastening reference photos"
+        },
+        "rhaenyra-source-11-1": {
+          "alt": "Gold crown band and side-triangle construction reference photos"
+        },
+        "rhaenyra-source-12-1": {
+          "alt": "Crown edging, silver accents, and finished doll reference photos"
+        },
+        "queen-rhaenyra-targaryen": {
+          "alt": "Queen Rhaenyra Targaryen crochet doll with pale hair, a gold crown, and black clothing"
+        }
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "title": "A little queen, rich in detail",
+          "id": "overview"
+        },
+        {
+          "type": "columns",
+          "columns": [
+            [
+              {
+                "type": "image",
+                "image": "queen-rhaenyra-targaryen"
+              }
+            ],
+            [
+              {
+                "type": "paragraphs",
+                "text": [
+                  "Pale flowing hair, a gold-and-silver crown, and a black cape give this Queen Rhaenyra amigurumi her character. The red collar and tiny chest embellishments add the finishing touches to a doll that stands approximately 15 cm tall.",
+                  "This intermediate project combines shaped crochet pieces, hair strands, facial embroidery, and metallic accents. Take it one component at a time, using the reference photos alongside the instructions."
+                ]
+              },
+              {
+                "type": "facts",
+                "title": "Project details",
+                "rows": [
+                  [
+                    "Finished size",
+                    "Approx. 15 cm (using recommended yarn and hook)"
+                  ],
+                  [
+                    "Skill level",
+                    "Intermediate"
+                  ],
+                  [
+                    "Hook",
+                    "2.00 mm"
+                  ],
+                  [
+                    "Terms",
+                    "US crochet terminology"
+                  ]
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "title": "How the project comes together",
+          "id": "project-plan"
+        },
+        {
+          "type": "paragraphs",
+          "text": [
+            "Start with the head and hair, then make the ears, arms, feet, and legs. Continue with the body and skirt before adding the collar, cape, and crown. The complete supplied pattern follows below, with materials, US stitch abbreviations, and progress checkboxes to help you keep your place."
+          ]
+        },
+        {
+          "type": "heading",
+          "title": "Materials",
+          "id": "materials"
+        },
+        {
+          "type": "materials"
+        },
+        {
+          "type": "image",
+          "image": "rhaenyra-source-1-2"
+        },
+        {
+          "type": "abbreviations"
+        },
+        {
+          "type": "heading",
+          "title": "Pattern Instructions",
+          "id": "instructions"
+        },
+        {
+          "type": "instructions",
+          "section": "head"
+        },
+        {
+          "type": "image",
+          "image": "rhaenyra-source-3-1"
+        },
+        {
+          "type": "instructions",
+          "section": "head-shaping"
+        },
+        {
+          "type": "instructions",
+          "section": "hair"
+        },
+        {
+          "type": "image",
+          "image": "rhaenyra-source-4-1"
+        },
+        {
+          "type": "instructions",
+          "section": "hair-assembly"
+        },
+        {
+          "type": "image",
+          "image": "rhaenyra-source-5-1"
+        },
+        {
+          "type": "instructions",
+          "section": "ears"
+        },
+        {
+          "type": "instructions",
+          "section": "arms"
+        },
+        {
+          "type": "image",
+          "image": "rhaenyra-source-5-2"
+        },
+        {
+          "type": "instructions",
+          "section": "feet-legs"
+        },
+        {
+          "type": "image",
+          "image": "rhaenyra-source-6-1"
+        },
+        {
+          "type": "instructions",
+          "section": "body"
+        },
+        {
+          "type": "image",
+          "image": "rhaenyra-source-7-1"
+        },
+        {
+          "type": "instructions",
+          "section": "skirt"
+        },
+        {
+          "type": "instructions",
+          "section": "upper-body"
+        },
+        {
+          "type": "instructions",
+          "section": "collar"
+        },
+        {
+          "type": "instructions",
+          "section": "torso"
+        },
+        {
+          "type": "image",
+          "image": "rhaenyra-source-8-1"
+        },
+        {
+          "type": "instructions",
+          "section": "cape-back"
+        },
+        {
+          "type": "image",
+          "image": "rhaenyra-source-9-1"
+        },
+        {
+          "type": "instructions",
+          "section": "cape-front"
+        },
+        {
+          "type": "image",
+          "image": "rhaenyra-source-10-1"
+        },
+        {
+          "type": "instructions",
+          "section": "crown"
+        },
+        {
+          "type": "image",
+          "image": "rhaenyra-source-11-1"
+        },
+        {
+          "type": "instructions",
+          "section": "crown-triangles"
+        },
+        {
+          "type": "instructions",
+          "section": "crown-finishing"
+        },
+        {
+          "type": "image",
+          "image": "rhaenyra-source-12-1"
+        },
+        {
+          "type": "heading",
+          "title": "Your finished queen",
+          "id": "finished-project"
+        },
+        {
+          "type": "paragraphs",
+          "text": [
+            "The supplied guide invites you to share your finished doll with @petitgatao.atelie and the hashtag #fizpetitgatao."
+          ]
+        }
+      ]
+    }
   }
 ]

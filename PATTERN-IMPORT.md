@@ -56,3 +56,7 @@ Validation passed for the native HTML correction: all eleven pages at four width
 ## Crochet Leaf — October 27, 2026 (local review)
 
 Added one native HTML pattern and a featured/catalog card from the supplied leaf guide. Preserved its order: measurements and materials beside the leaf photograph, gauge, tools photograph, terminology table, construction overview, instructions and finishing. Extracted the two individual embedded images directly; no PDF pages or cream document background are displayed. UK terminology and source gauge are explicit. A source note identifies missing stitch-by-stitch counts; no sequence was invented. Removed the unrelated dog-bandana template header from the presentation. Original files remain unchanged. Metadata, responsive images, discovery tags and sitemap rebuilt. No deployment performed.
+
+## Queen Rhaenyra Targaryen — October 30, 2026 (local review)
+
+Added the supplied amigurumi to the catalog, Amigurumi collection, and eight-card homepage selection. Native HTML follows the supplied component order, with individual source photos, original round labels, materials, progress controls, and designer credit retained. The supplied separate project photograph is used for the card and introduction. The source omits head rounds 8–25; a visible source note identifies the gap without inventing stitches. Original files remain unchanged. No deployment performed.
